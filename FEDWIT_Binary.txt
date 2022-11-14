@@ -1,0 +1,7 @@
+
+[2022/11/14-16:28:16][fedweit][mnist][server] started
+[2022/11/14-16:28:17][fedweit][mnist][server] round:0 train clients (selected_ids: [1, 0, 2])
+[2022/11/14-16:28:17][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/14-16:28:26][fedweit][mnist][client-0] round:0(cnt:0),epoch:1,task:0,lss:185.179,val_lss:170.625 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/14-16:28:38][fedweit][mnist][client-1] round:0(cnt:0),epoch:1,task:0,lss:125.801,val_lss:111.197 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/14-16:28:47][fedweit][mnist][server] all client threads have been destroyed.
