@@ -1,0 +1,1016 @@
+
+[2022/11/25-20:41:12][fedweit][mnist][server] started
+[2022/11/25-20:41:12][fedweit][mnist][server] round:0 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:41:12][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:41:20][fedweit][mnist][client-0] round:0(cnt:0),epoch:1,task:0,lss:224.631,val_lss:213.301 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:41:27][fedweit][mnist][client-1] round:0(cnt:0),epoch:1,task:0,lss:165.829,val_lss:153.777 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:41:35][fedweit][mnist][client-2] round:0(cnt:0),epoch:1,task:0,lss:213.299,val_lss:201.589 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:41:35][fedweit][mnist][server] round:1 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:41:35][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:41:42][fedweit][mnist][client-0] round:1(cnt:1),epoch:1,task:0,lss:185.829,val_lss:175.221 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:41:50][fedweit][mnist][client-1] round:1(cnt:1),epoch:1,task:0,lss:129.888,val_lss:118.615 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:41:58][fedweit][mnist][client-2] round:1(cnt:1),epoch:1,task:0,lss:177.402,val_lss:166.515 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:41:58][fedweit][mnist][server] round:2 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:41:58][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:42:05][fedweit][mnist][client-0] round:2(cnt:2),epoch:1,task:0,lss:167.848,val_lss:157.929 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:42:12][fedweit][mnist][client-1] round:2(cnt:2),epoch:1,task:0,lss:114.111,val_lss:103.589 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:42:20][fedweit][mnist][client-2] round:2(cnt:2),epoch:1,task:0,lss:159.838,val_lss:149.687 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:42:20][fedweit][mnist][server] round:3 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:42:20][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:42:27][fedweit][mnist][client-0] round:3(cnt:3),epoch:1,task:0,lss:156.87,val_lss:147.489 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:42:35][fedweit][mnist][client-1] round:3(cnt:3),epoch:1,task:0,lss:104.798,val_lss:94.85 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:42:42][fedweit][mnist][client-2] round:3(cnt:3),epoch:1,task:0,lss:148.974,val_lss:139.374 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:42:42][fedweit][mnist][server] round:4 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:42:42][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:42:49][fedweit][mnist][client-0] round:4(cnt:4),epoch:1,task:0,lss:149.22,val_lss:140.211 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:42:57][fedweit][mnist][client-1] round:4(cnt:4),epoch:1,task:0,lss:98.525,val_lss:88.955 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:43:05][fedweit][mnist][client-2] round:4(cnt:4),epoch:1,task:0,lss:141.382,val_lss:132.141 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:43:05][fedweit][mnist][server] round:5 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:43:05][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:43:12][fedweit][mnist][client-0] round:5(cnt:5),epoch:1,task:0,lss:143.511,val_lss:134.727 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:43:20][fedweit][mnist][client-1] round:5(cnt:5),epoch:1,task:0,lss:93.983,val_lss:84.628 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:43:27][fedweit][mnist][client-2] round:5(cnt:5),epoch:1,task:0,lss:135.692,val_lss:126.651 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:43:27][fedweit][mnist][server] round:6 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:43:27][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:43:35][fedweit][mnist][client-0] round:6(cnt:6),epoch:1,task:0,lss:139.052,val_lss:130.377 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:43:42][fedweit][mnist][client-1] round:6(cnt:6),epoch:1,task:0,lss:90.527,val_lss:81.265 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:43:50][fedweit][mnist][client-2] round:6(cnt:6),epoch:1,task:0,lss:131.236,val_lss:122.274 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:43:50][fedweit][mnist][server] round:7 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:43:50][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:43:57][fedweit][mnist][client-0] round:7(cnt:7),epoch:1,task:0,lss:135.452,val_lss:126.802 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:44:04][fedweit][mnist][client-1] round:7(cnt:7),epoch:1,task:0,lss:87.797,val_lss:78.544 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:44:12][fedweit][mnist][client-2] round:7(cnt:7),epoch:1,task:0,lss:127.64,val_lss:118.674 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:44:12][fedweit][mnist][server] round:8 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:44:12][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:44:19][fedweit][mnist][client-0] round:8(cnt:8),epoch:1,task:0,lss:132.465,val_lss:123.781 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:44:27][fedweit][mnist][client-1] round:8(cnt:8),epoch:1,task:0,lss:85.556,val_lss:76.275 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:44:34][fedweit][mnist][client-2] round:8(cnt:8),epoch:1,task:0,lss:124.648,val_lss:115.632 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:44:34][fedweit][mnist][server] round:9 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:44:34][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:44:41][fedweit][mnist][client-0] round:9(cnt:9),epoch:1,task:0,lss:129.921,val_lss:121.18 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:44:49][fedweit][mnist][client-1] round:9(cnt:9),epoch:1,task:0,lss:83.649,val_lss:74.341 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:44:56][fedweit][mnist][client-2] round:9(cnt:9),epoch:1,task:0,lss:122.085,val_lss:113.017 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:44:56][fedweit][mnist][server] round:10 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:44:56][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:45:03][fedweit][mnist][client-0] round:10(cnt:10),epoch:1,task:0,lss:127.699,val_lss:118.905 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:45:11][fedweit][mnist][client-1] round:10(cnt:10),epoch:1,task:0,lss:81.993,val_lss:72.664 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:45:18][fedweit][mnist][client-2] round:10(cnt:10),epoch:1,task:0,lss:119.845,val_lss:110.731 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:45:18][fedweit][mnist][server] round:11 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-20:45:18][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:45:25][fedweit][mnist][client-0] round:11(cnt:11),epoch:1,task:0,lss:125.729,val_lss:116.889 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:45:33][fedweit][mnist][client-1] round:11(cnt:11),epoch:1,task:0,lss:80.534,val_lss:71.189 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:45:41][fedweit][mnist][client-2] round:11(cnt:11),epoch:1,task:0,lss:117.865,val_lss:108.712 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:45:41][fedweit][mnist][server] round:12 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:45:41][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:45:48][fedweit][mnist][client-0] round:12(cnt:12),epoch:1,task:0,lss:123.962,val_lss:115.084 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:45:55][fedweit][mnist][client-1] round:12(cnt:12),epoch:1,task:0,lss:79.232,val_lss:69.877 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:46:03][fedweit][mnist][client-2] round:12(cnt:12),epoch:1,task:0,lss:116.093,val_lss:106.909 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:46:03][fedweit][mnist][server] round:13 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:46:03][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:46:10][fedweit][mnist][client-0] round:13(cnt:13),epoch:1,task:0,lss:122.364,val_lss:113.453 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:46:18][fedweit][mnist][client-1] round:13(cnt:13),epoch:1,task:0,lss:78.061,val_lss:68.701 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:46:25][fedweit][mnist][client-2] round:13(cnt:13),epoch:1,task:0,lss:114.493,val_lss:105.285 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:46:25][fedweit][mnist][server] round:14 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-20:46:25][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:46:32][fedweit][mnist][client-0] round:14(cnt:14),epoch:1,task:0,lss:120.906,val_lss:111.969 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:46:40][fedweit][mnist][client-1] round:14(cnt:14),epoch:1,task:0,lss:77.0,val_lss:67.638 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:46:47][fedweit][mnist][client-2] round:14(cnt:14),epoch:1,task:0,lss:113.037,val_lss:103.809 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:46:47][fedweit][mnist][server] round:15 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:46:47][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:46:54][fedweit][mnist][client-0] round:15(cnt:15),epoch:1,task:0,lss:119.57,val_lss:110.611 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:47:02][fedweit][mnist][client-1] round:15(cnt:15),epoch:1,task:0,lss:76.033,val_lss:66.672 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:47:09][fedweit][mnist][client-2] round:15(cnt:15),epoch:1,task:0,lss:111.707,val_lss:102.465 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:47:10][fedweit][mnist][server] round:16 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-20:47:10][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:47:16][fedweit][mnist][client-0] round:16(cnt:16),epoch:1,task:0,lss:118.341,val_lss:109.362 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:47:24][fedweit][mnist][client-1] round:16(cnt:16),epoch:1,task:0,lss:75.146,val_lss:65.788 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:47:32][fedweit][mnist][client-2] round:16(cnt:16),epoch:1,task:0,lss:110.485,val_lss:101.231 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:47:32][fedweit][mnist][server] round:17 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:47:32][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:47:39][fedweit][mnist][client-0] round:17(cnt:17),epoch:1,task:0,lss:117.204,val_lss:108.21 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:47:47][fedweit][mnist][client-1] round:17(cnt:17),epoch:1,task:0,lss:74.33,val_lss:64.977 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:47:54][fedweit][mnist][client-2] round:17(cnt:17),epoch:1,task:0,lss:109.357,val_lss:100.095 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:47:54][fedweit][mnist][server] round:18 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-20:47:54][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:48:01][fedweit][mnist][client-0] round:18(cnt:18),epoch:1,task:0,lss:116.149,val_lss:107.141 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:48:09][fedweit][mnist][client-1] round:18(cnt:18),epoch:1,task:0,lss:73.576,val_lss:64.229 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:48:16][fedweit][mnist][client-2] round:18(cnt:18),epoch:1,task:0,lss:108.312,val_lss:99.044 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:48:16][fedweit][mnist][server] round:19 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:48:16][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:48:23][fedweit][mnist][client-0] round:19(cnt:19),epoch:1,task:0,lss:115.166,val_lss:106.147 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:48:31][fedweit][mnist][client-1] round:19(cnt:19),epoch:1,task:0,lss:72.876,val_lss:63.538 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:48:38][fedweit][mnist][client-2] round:19(cnt:19),epoch:1,task:0,lss:107.336,val_lss:98.065 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:48:38][fedweit][mnist][server] round:20 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:48:38][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:48:46][fedweit][mnist][client-0] round:20(cnt:20),epoch:1,task:0,lss:114.247,val_lss:105.219 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:48:53][fedweit][mnist][client-1] round:20(cnt:20),epoch:1,task:0,lss:72.224,val_lss:62.896 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:49:01][fedweit][mnist][client-2] round:20(cnt:20),epoch:1,task:0,lss:106.43,val_lss:97.157 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:49:01][fedweit][mnist][server] round:21 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:49:01][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:49:08][fedweit][mnist][client-0] round:21(cnt:21),epoch:1,task:0,lss:113.387,val_lss:104.35 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:49:16][fedweit][mnist][client-1] round:21(cnt:21),epoch:1,task:0,lss:71.616,val_lss:62.299 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:49:23][fedweit][mnist][client-2] round:21(cnt:21),epoch:1,task:0,lss:105.578,val_lss:96.306 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:49:23][fedweit][mnist][server] round:22 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:49:23][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:49:30][fedweit][mnist][client-0] round:22(cnt:22),epoch:1,task:0,lss:112.579,val_lss:103.536 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:49:38][fedweit][mnist][client-1] round:22(cnt:22),epoch:1,task:0,lss:71.046,val_lss:61.741 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:49:45][fedweit][mnist][client-2] round:22(cnt:22),epoch:1,task:0,lss:104.782,val_lss:95.511 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:49:45][fedweit][mnist][server] round:23 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-20:49:45][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:49:52][fedweit][mnist][client-0] round:23(cnt:23),epoch:1,task:0,lss:111.818,val_lss:102.77 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:50:00][fedweit][mnist][client-1] round:23(cnt:23),epoch:1,task:0,lss:70.511,val_lss:61.218 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:50:08][fedweit][mnist][client-2] round:23(cnt:23),epoch:1,task:0,lss:104.03,val_lss:94.761 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:50:08][fedweit][mnist][server] round:24 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-20:50:08][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:50:14][fedweit][mnist][client-0] round:24(cnt:24),epoch:1,task:0,lss:111.101,val_lss:102.05 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:50:22][fedweit][mnist][client-1] round:24(cnt:24),epoch:1,task:0,lss:70.006,val_lss:60.728 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:50:30][fedweit][mnist][client-2] round:24(cnt:24),epoch:1,task:0,lss:103.323,val_lss:94.058 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:50:30][fedweit][mnist][server] round:25 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:50:30][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:50:37][fedweit][mnist][client-0] round:25(cnt:25),epoch:1,task:0,lss:110.423,val_lss:101.369 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:50:45][fedweit][mnist][client-1] round:25(cnt:25),epoch:1,task:0,lss:69.53,val_lss:60.267 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:50:52][fedweit][mnist][client-2] round:25(cnt:25),epoch:1,task:0,lss:102.652,val_lss:93.392 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:50:52][fedweit][mnist][server] round:26 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:50:52][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:50:59][fedweit][mnist][client-0] round:26(cnt:26),epoch:1,task:0,lss:109.78,val_lss:100.724 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:51:07][fedweit][mnist][client-1] round:26(cnt:26),epoch:1,task:0,lss:69.08,val_lss:59.833 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:51:14][fedweit][mnist][client-2] round:26(cnt:26),epoch:1,task:0,lss:102.017,val_lss:92.762 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:51:14][fedweit][mnist][server] round:27 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:51:14][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:51:21][fedweit][mnist][client-0] round:27(cnt:27),epoch:1,task:0,lss:109.17,val_lss:100.113 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:51:29][fedweit][mnist][client-1] round:27(cnt:27),epoch:1,task:0,lss:68.654,val_lss:59.423 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:51:36][fedweit][mnist][client-2] round:27(cnt:27),epoch:1,task:0,lss:101.415,val_lss:92.166 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:51:36][fedweit][mnist][server] round:28 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-20:51:36][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:51:43][fedweit][mnist][client-0] round:28(cnt:28),epoch:1,task:0,lss:108.589,val_lss:99.532 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:51:51][fedweit][mnist][client-1] round:28(cnt:28),epoch:1,task:0,lss:68.249,val_lss:59.035 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:51:59][fedweit][mnist][client-2] round:28(cnt:28),epoch:1,task:0,lss:100.84,val_lss:91.598 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:51:59][fedweit][mnist][server] round:29 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:51:59][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:52:06][fedweit][mnist][client-0] round:29(cnt:29),epoch:1,task:0,lss:108.037,val_lss:98.981 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:52:14][fedweit][mnist][client-1] round:29(cnt:29),epoch:1,task:0,lss:67.863,val_lss:58.667 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:52:21][fedweit][mnist][client-2] round:29(cnt:29),epoch:1,task:0,lss:100.295,val_lss:91.061 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:52:21][fedweit][mnist][server] round:30 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-20:52:21][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:52:28][fedweit][mnist][client-0] round:30(cnt:30),epoch:1,task:0,lss:107.51,val_lss:98.456 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:52:36][fedweit][mnist][client-1] round:30(cnt:30),epoch:1,task:0,lss:67.496,val_lss:58.317 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:52:43][fedweit][mnist][client-2] round:30(cnt:30),epoch:1,task:0,lss:99.773,val_lss:90.548 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:52:43][fedweit][mnist][server] round:31 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:52:43][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:52:50][fedweit][mnist][client-0] round:31(cnt:31),epoch:1,task:0,lss:107.008,val_lss:97.956 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:52:58][fedweit][mnist][client-1] round:31(cnt:31),epoch:1,task:0,lss:67.146,val_lss:57.986 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:53:06][fedweit][mnist][client-2] round:31(cnt:31),epoch:1,task:0,lss:99.276,val_lss:90.06 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:53:06][fedweit][mnist][server] round:32 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:53:06][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:53:13][fedweit][mnist][client-0] round:32(cnt:32),epoch:1,task:0,lss:106.528,val_lss:97.479 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:53:20][fedweit][mnist][client-1] round:32(cnt:32),epoch:1,task:0,lss:66.812,val_lss:57.67 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:53:28][fedweit][mnist][client-2] round:32(cnt:32),epoch:1,task:0,lss:98.801,val_lss:89.593 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:53:28][fedweit][mnist][server] round:33 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:53:28][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:53:35][fedweit][mnist][client-0] round:33(cnt:33),epoch:1,task:0,lss:106.069,val_lss:97.024 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:53:43][fedweit][mnist][client-1] round:33(cnt:33),epoch:1,task:0,lss:66.492,val_lss:57.369 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:53:50][fedweit][mnist][client-2] round:33(cnt:33),epoch:1,task:0,lss:98.345,val_lss:89.148 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:53:50][fedweit][mnist][server] round:34 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:53:50][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:53:57][fedweit][mnist][client-0] round:34(cnt:34),epoch:1,task:0,lss:105.63,val_lss:96.589 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:54:05][fedweit][mnist][client-1] round:34(cnt:34),epoch:1,task:0,lss:66.186,val_lss:57.083 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:54:12][fedweit][mnist][client-2] round:34(cnt:34),epoch:1,task:0,lss:97.909,val_lss:88.722 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:54:12][fedweit][mnist][server] round:35 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-20:54:12][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:54:19][fedweit][mnist][client-0] round:35(cnt:35),epoch:1,task:0,lss:105.209,val_lss:96.173 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:54:27][fedweit][mnist][client-1] round:35(cnt:35),epoch:1,task:0,lss:65.892,val_lss:56.808 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:54:34][fedweit][mnist][client-2] round:35(cnt:35),epoch:1,task:0,lss:97.49,val_lss:88.313 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:54:34][fedweit][mnist][server] round:36 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:54:34][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:54:42][fedweit][mnist][client-0] round:36(cnt:36),epoch:1,task:0,lss:104.805,val_lss:95.775 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:54:49][fedweit][mnist][client-1] round:36(cnt:36),epoch:1,task:0,lss:65.61,val_lss:56.546 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:54:57][fedweit][mnist][client-2] round:36(cnt:36),epoch:1,task:0,lss:97.089,val_lss:87.923 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:54:57][fedweit][mnist][server] round:37 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-20:54:57][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:55:04][fedweit][mnist][client-0] round:37(cnt:37),epoch:1,task:0,lss:104.418,val_lss:95.393 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:55:12][fedweit][mnist][client-1] round:37(cnt:37),epoch:1,task:0,lss:65.339,val_lss:56.295 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:55:19][fedweit][mnist][client-2] round:37(cnt:37),epoch:1,task:0,lss:96.703,val_lss:87.549 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:55:19][fedweit][mnist][server] round:38 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:55:19][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:55:26][fedweit][mnist][client-0] round:38(cnt:38),epoch:1,task:0,lss:104.045,val_lss:95.027 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:55:34][fedweit][mnist][client-1] round:38(cnt:38),epoch:1,task:0,lss:65.078,val_lss:56.055 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:55:42][fedweit][mnist][client-2] round:38(cnt:38),epoch:1,task:0,lss:96.331,val_lss:87.188 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:55:42][fedweit][mnist][server] round:39 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:55:42][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:55:49][fedweit][mnist][client-0] round:39(cnt:39),epoch:1,task:0,lss:103.687,val_lss:94.675 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:55:57][fedweit][mnist][client-1] round:39(cnt:39),epoch:1,task:0,lss:64.827,val_lss:55.824 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:56:04][fedweit][mnist][client-2] round:39(cnt:39),epoch:1,task:0,lss:95.972,val_lss:86.842 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:56:04][fedweit][mnist][server] round:40 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-20:56:04][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:56:11][fedweit][mnist][client-0] round:40(cnt:40),epoch:1,task:0,lss:103.342,val_lss:94.337 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:56:19][fedweit][mnist][client-1] round:40(cnt:40),epoch:1,task:0,lss:64.586,val_lss:55.603 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:56:26][fedweit][mnist][client-2] round:40(cnt:40),epoch:1,task:0,lss:95.627,val_lss:86.509 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:56:26][fedweit][mnist][server] round:41 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:56:26][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:56:33][fedweit][mnist][client-0] round:41(cnt:41),epoch:1,task:0,lss:103.009,val_lss:94.012 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:56:41][fedweit][mnist][client-1] round:41(cnt:41),epoch:1,task:0,lss:64.353,val_lss:55.39 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:56:49][fedweit][mnist][client-2] round:41(cnt:41),epoch:1,task:0,lss:95.294,val_lss:86.188 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:56:49][fedweit][mnist][server] round:42 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:56:49][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:56:56][fedweit][mnist][client-0] round:42(cnt:42),epoch:1,task:0,lss:102.688,val_lss:93.699 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:57:03][fedweit][mnist][client-1] round:42(cnt:42),epoch:1,task:0,lss:64.128,val_lss:55.186 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:57:11][fedweit][mnist][client-2] round:42(cnt:42),epoch:1,task:0,lss:94.973,val_lss:85.879 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:57:11][fedweit][mnist][server] round:43 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:57:11][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:57:18][fedweit][mnist][client-0] round:43(cnt:43),epoch:1,task:0,lss:102.378,val_lss:93.397 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:57:25][fedweit][mnist][client-1] round:43(cnt:43),epoch:1,task:0,lss:63.91,val_lss:54.989 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:57:33][fedweit][mnist][client-2] round:43(cnt:43),epoch:1,task:0,lss:94.661,val_lss:85.58 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:57:33][fedweit][mnist][server] round:44 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:57:33][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:57:40][fedweit][mnist][client-0] round:44(cnt:44),epoch:1,task:0,lss:102.078,val_lss:93.106 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:57:48][fedweit][mnist][client-1] round:44(cnt:44),epoch:1,task:0,lss:63.7,val_lss:54.8 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:57:55][fedweit][mnist][client-2] round:44(cnt:44),epoch:1,task:0,lss:94.36,val_lss:85.292 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:57:55][fedweit][mnist][server] round:45 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:57:55][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:58:02][fedweit][mnist][client-0] round:45(cnt:45),epoch:1,task:0,lss:101.788,val_lss:92.826 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:58:10][fedweit][mnist][client-1] round:45(cnt:45),epoch:1,task:0,lss:63.497,val_lss:54.617 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:58:17][fedweit][mnist][client-2] round:45(cnt:45),epoch:1,task:0,lss:94.068,val_lss:85.014 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:58:18][fedweit][mnist][server] round:46 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-20:58:18][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:58:24][fedweit][mnist][client-0] round:46(cnt:46),epoch:1,task:0,lss:101.508,val_lss:92.555 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:58:32][fedweit][mnist][client-1] round:46(cnt:46),epoch:1,task:0,lss:63.3,val_lss:54.441 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:58:40][fedweit][mnist][client-2] round:46(cnt:46),epoch:1,task:0,lss:93.786,val_lss:84.745 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:58:40][fedweit][mnist][server] round:47 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-20:58:40][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:58:47][fedweit][mnist][client-0] round:47(cnt:47),epoch:1,task:0,lss:101.236,val_lss:92.293 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:58:55][fedweit][mnist][client-1] round:47(cnt:47),epoch:1,task:0,lss:63.109,val_lss:54.271 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:59:02][fedweit][mnist][client-2] round:47(cnt:47),epoch:1,task:0,lss:93.511,val_lss:84.484 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:59:02][fedweit][mnist][server] round:48 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-20:59:02][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:59:09][fedweit][mnist][client-0] round:48(cnt:48),epoch:1,task:0,lss:100.973,val_lss:92.04 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:59:17][fedweit][mnist][client-1] round:48(cnt:48),epoch:1,task:0,lss:62.924,val_lss:54.106 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:59:24][fedweit][mnist][client-2] round:48(cnt:48),epoch:1,task:0,lss:93.245,val_lss:84.231 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:59:24][fedweit][mnist][server] round:49 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-20:59:24][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-20:59:31][fedweit][mnist][client-0] round:49(cnt:49),epoch:1,task:0,test_lss:99.467 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:59:31][fedweit][mnist][client-0] round:49(cnt:49),epoch:1,task:0,lss:100.719,val_lss:91.796 (mnist_0_train,#_train:9384,#_valid:1878,#_test:784)
+[2022/11/25-20:59:39][fedweit][mnist][client-1] round:49(cnt:49),epoch:1,task:0,test_lss:64.605 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:59:39][fedweit][mnist][client-1] round:49(cnt:49),epoch:1,task:0,lss:62.745,val_lss:53.948 (mnist_1_train,#_train:10500,#_valid:2101,#_test:784)
+[2022/11/25-20:59:47][fedweit][mnist][client-2] round:49(cnt:49),epoch:1,task:0,test_lss:93.763 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:59:47][fedweit][mnist][client-2] round:49(cnt:49),epoch:1,task:0,lss:92.987,val_lss:83.987 (mnist_2_train,#_train:10012,#_valid:2003,#_test:784)
+[2022/11/25-20:59:48][fedweit][mnist][server] round:50 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-20:59:48][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:00:00][fedweit][mnist][client-0] round:50(cnt:0),epoch:1,task:1,lss:219.097,val_lss:200.261 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:00:13][fedweit][mnist][client-1] round:50(cnt:0),epoch:1,task:1,lss:202.298,val_lss:183.687 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:00:27][fedweit][mnist][client-2] round:50(cnt:0),epoch:1,task:1,lss:170.038,val_lss:150.834 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:00:27][fedweit][mnist][server] round:51 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:00:27][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:00:39][fedweit][mnist][client-0] round:51(cnt:1),epoch:1,task:1,lss:185.036,val_lss:160.721 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:00:53][fedweit][mnist][client-1] round:51(cnt:1),epoch:1,task:1,lss:156.186,val_lss:138.57 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:01:06][fedweit][mnist][client-2] round:51(cnt:1),epoch:1,task:1,lss:138.59,val_lss:113.425 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:01:06][fedweit][mnist][server] round:52 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:01:06][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:01:19][fedweit][mnist][client-0] round:52(cnt:2),epoch:1,task:1,lss:163.395,val_lss:139.581 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:01:32][fedweit][mnist][client-1] round:52(cnt:2),epoch:1,task:1,lss:134.336,val_lss:117.578 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:01:45][fedweit][mnist][client-2] round:52(cnt:2),epoch:1,task:1,lss:121.946,val_lss:97.322 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:01:45][fedweit][mnist][server] round:53 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:01:45][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:01:58][fedweit][mnist][client-0] round:53(cnt:3),epoch:1,task:1,lss:148.438,val_lss:126.778 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:02:11][fedweit][mnist][client-1] round:53(cnt:3),epoch:1,task:1,lss:121.825,val_lss:105.729 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:02:24][fedweit][mnist][client-2] round:53(cnt:3),epoch:1,task:1,lss:110.64,val_lss:88.433 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:02:24][fedweit][mnist][server] round:54 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:02:24][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:02:37][fedweit][mnist][client-0] round:54(cnt:4),epoch:1,task:1,lss:138.415,val_lss:118.444 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:02:50][fedweit][mnist][client-1] round:54(cnt:4),epoch:1,task:1,lss:113.825,val_lss:98.19 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:03:03][fedweit][mnist][client-2] round:54(cnt:4),epoch:1,task:1,lss:103.037,val_lss:82.753 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:03:03][fedweit][mnist][server] round:55 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:03:03][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:03:16][fedweit][mnist][client-0] round:55(cnt:5),epoch:1,task:1,lss:131.386,val_lss:112.635 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:03:29][fedweit][mnist][client-1] round:55(cnt:5),epoch:1,task:1,lss:108.343,val_lss:92.998 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:03:42][fedweit][mnist][client-2] round:55(cnt:5),epoch:1,task:1,lss:97.651,val_lss:78.779 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:03:42][fedweit][mnist][server] round:56 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:03:42][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:03:55][fedweit][mnist][client-0] round:56(cnt:6),epoch:1,task:1,lss:126.26,val_lss:108.369 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:04:08][fedweit][mnist][client-1] round:56(cnt:6),epoch:1,task:1,lss:104.398,val_lss:89.214 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:04:21][fedweit][mnist][client-2] round:56(cnt:6),epoch:1,task:1,lss:93.682,val_lss:75.827 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:04:22][fedweit][mnist][server] round:57 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:04:22][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:04:34][fedweit][mnist][client-0] round:57(cnt:7),epoch:1,task:1,lss:122.385,val_lss:105.097 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:04:47][fedweit][mnist][client-1] round:57(cnt:7),epoch:1,task:1,lss:101.449,val_lss:86.335 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:05:01][fedweit][mnist][client-2] round:57(cnt:7),epoch:1,task:1,lss:90.665,val_lss:73.537 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:05:01][fedweit][mnist][server] round:58 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:05:01][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:05:14][fedweit][mnist][client-0] round:58(cnt:8),epoch:1,task:1,lss:119.366,val_lss:102.501 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:05:27][fedweit][mnist][client-1] round:58(cnt:8),epoch:1,task:1,lss:99.159,val_lss:84.069 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:05:38][fedweit][mnist][client-2] round:58(cnt:8),epoch:1,task:1,lss:88.294,val_lss:71.699 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:05:38][fedweit][mnist][server] round:59 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:05:38][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:05:49][fedweit][mnist][client-0] round:59(cnt:9),epoch:1,task:1,lss:116.936,val_lss:100.388 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:05:59][fedweit][mnist][client-1] round:59(cnt:9),epoch:1,task:1,lss:97.313,val_lss:82.238 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:06:10][fedweit][mnist][client-2] round:59(cnt:9),epoch:1,task:1,lss:86.371,val_lss:70.188 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:06:10][fedweit][mnist][server] round:60 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:06:10][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:06:20][fedweit][mnist][client-0] round:60(cnt:10),epoch:1,task:1,lss:114.938,val_lss:98.629 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:06:30][fedweit][mnist][client-1] round:60(cnt:10),epoch:1,task:1,lss:95.79,val_lss:80.726 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:06:41][fedweit][mnist][client-2] round:60(cnt:10),epoch:1,task:1,lss:84.782,val_lss:68.92 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:06:41][fedweit][mnist][server] round:61 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:06:41][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:06:51][fedweit][mnist][client-0] round:61(cnt:11),epoch:1,task:1,lss:113.263,val_lss:97.138 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:07:01][fedweit][mnist][client-1] round:61(cnt:11),epoch:1,task:1,lss:94.505,val_lss:79.453 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:07:12][fedweit][mnist][client-2] round:61(cnt:11),epoch:1,task:1,lss:83.447,val_lss:67.838 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:07:12][fedweit][mnist][server] round:62 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:07:12][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:07:22][fedweit][mnist][client-0] round:62(cnt:12),epoch:1,task:1,lss:111.832,val_lss:95.852 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:07:32][fedweit][mnist][client-1] round:62(cnt:12),epoch:1,task:1,lss:93.402,val_lss:78.364 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:07:42][fedweit][mnist][client-2] round:62(cnt:12),epoch:1,task:1,lss:82.306,val_lss:66.903 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:07:42][fedweit][mnist][server] round:63 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:07:42][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:07:54][fedweit][mnist][client-0] round:63(cnt:13),epoch:1,task:1,lss:110.599,val_lss:94.732 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:08:05][fedweit][mnist][client-1] round:63(cnt:13),epoch:1,task:1,lss:92.444,val_lss:77.419 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:08:18][fedweit][mnist][client-2] round:63(cnt:13),epoch:1,task:1,lss:81.321,val_lss:66.085 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:08:18][fedweit][mnist][server] round:64 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:08:18][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:08:29][fedweit][mnist][client-0] round:64(cnt:14),epoch:1,task:1,lss:109.524,val_lss:93.746 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:08:41][fedweit][mnist][client-1] round:64(cnt:14),epoch:1,task:1,lss:91.601,val_lss:76.59 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:08:53][fedweit][mnist][client-2] round:64(cnt:14),epoch:1,task:1,lss:80.462,val_lss:65.364 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:08:53][fedweit][mnist][server] round:65 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:08:53][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:09:04][fedweit][mnist][client-0] round:65(cnt:15),epoch:1,task:1,lss:108.576,val_lss:92.867 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:09:15][fedweit][mnist][client-1] round:65(cnt:15),epoch:1,task:1,lss:90.854,val_lss:75.855 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:09:27][fedweit][mnist][client-2] round:65(cnt:15),epoch:1,task:1,lss:79.707,val_lss:64.72 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:09:27][fedweit][mnist][server] round:66 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:09:27][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:09:38][fedweit][mnist][client-0] round:66(cnt:16),epoch:1,task:1,lss:107.735,val_lss:92.079 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:09:49][fedweit][mnist][client-1] round:66(cnt:16),epoch:1,task:1,lss:90.185,val_lss:75.199 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:10:00][fedweit][mnist][client-2] round:66(cnt:16),epoch:1,task:1,lss:79.037,val_lss:64.142 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:10:00][fedweit][mnist][server] round:67 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:10:00][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:10:12][fedweit][mnist][client-0] round:67(cnt:17),epoch:1,task:1,lss:106.983,val_lss:91.369 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:10:23][fedweit][mnist][client-1] round:67(cnt:17),epoch:1,task:1,lss:89.579,val_lss:74.607 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:10:34][fedweit][mnist][client-2] round:67(cnt:17),epoch:1,task:1,lss:78.439,val_lss:63.619 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:10:34][fedweit][mnist][server] round:68 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:10:34][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:10:45][fedweit][mnist][client-0] round:68(cnt:18),epoch:1,task:1,lss:106.302,val_lss:90.723 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:10:57][fedweit][mnist][client-1] round:68(cnt:18),epoch:1,task:1,lss:89.03,val_lss:74.071 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:11:09][fedweit][mnist][client-2] round:68(cnt:18),epoch:1,task:1,lss:77.899,val_lss:63.144 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:11:09][fedweit][mnist][server] round:69 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:11:09][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:11:21][fedweit][mnist][client-0] round:69(cnt:19),epoch:1,task:1,lss:105.685,val_lss:90.135 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:11:33][fedweit][mnist][client-1] round:69(cnt:19),epoch:1,task:1,lss:88.526,val_lss:73.581 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:11:44][fedweit][mnist][client-2] round:69(cnt:19),epoch:1,task:1,lss:77.409,val_lss:62.711 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:11:44][fedweit][mnist][server] round:70 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:11:44][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:11:54][fedweit][mnist][client-0] round:70(cnt:20),epoch:1,task:1,lss:105.121,val_lss:89.595 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:12:06][fedweit][mnist][client-1] round:70(cnt:20),epoch:1,task:1,lss:88.063,val_lss:73.132 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:12:17][fedweit][mnist][client-2] round:70(cnt:20),epoch:1,task:1,lss:76.964,val_lss:62.314 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:12:17][fedweit][mnist][server] round:71 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:12:17][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:12:29][fedweit][mnist][client-0] round:71(cnt:21),epoch:1,task:1,lss:104.604,val_lss:89.098 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:12:40][fedweit][mnist][client-1] round:71(cnt:21),epoch:1,task:1,lss:87.635,val_lss:72.717 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:12:52][fedweit][mnist][client-2] round:71(cnt:21),epoch:1,task:1,lss:76.556,val_lss:61.948 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:12:52][fedweit][mnist][server] round:72 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:12:52][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:13:03][fedweit][mnist][client-0] round:72(cnt:22),epoch:1,task:1,lss:104.128,val_lss:88.637 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:13:15][fedweit][mnist][client-1] round:72(cnt:22),epoch:1,task:1,lss:87.238,val_lss:72.334 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:13:26][fedweit][mnist][client-2] round:72(cnt:22),epoch:1,task:1,lss:76.18,val_lss:61.609 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:13:27][fedweit][mnist][server] round:73 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:13:27][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:13:38][fedweit][mnist][client-0] round:73(cnt:23),epoch:1,task:1,lss:103.686,val_lss:88.209 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:13:50][fedweit][mnist][client-1] round:73(cnt:23),epoch:1,task:1,lss:86.868,val_lss:71.977 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:14:02][fedweit][mnist][client-2] round:73(cnt:23),epoch:1,task:1,lss:75.832,val_lss:61.295 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:14:02][fedweit][mnist][server] round:74 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:14:02][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:14:13][fedweit][mnist][client-0] round:74(cnt:24),epoch:1,task:1,lss:103.277,val_lss:87.811 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:14:25][fedweit][mnist][client-1] round:74(cnt:24),epoch:1,task:1,lss:86.522,val_lss:71.644 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:14:38][fedweit][mnist][client-2] round:74(cnt:24),epoch:1,task:1,lss:75.511,val_lss:61.002 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:14:38][fedweit][mnist][server] round:75 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:14:38][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:14:48][fedweit][mnist][client-0] round:75(cnt:25),epoch:1,task:1,lss:102.894,val_lss:87.44 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:15:00][fedweit][mnist][client-1] round:75(cnt:25),epoch:1,task:1,lss:86.198,val_lss:71.333 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:15:11][fedweit][mnist][client-2] round:75(cnt:25),epoch:1,task:1,lss:75.21,val_lss:60.729 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:15:12][fedweit][mnist][server] round:76 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:15:12][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:15:23][fedweit][mnist][client-0] round:76(cnt:26),epoch:1,task:1,lss:102.536,val_lss:87.092 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:15:35][fedweit][mnist][client-1] round:76(cnt:26),epoch:1,task:1,lss:85.895,val_lss:71.041 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:15:47][fedweit][mnist][client-2] round:76(cnt:26),epoch:1,task:1,lss:74.929,val_lss:60.472 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:15:47][fedweit][mnist][server] round:77 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:15:47][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:15:58][fedweit][mnist][client-0] round:77(cnt:27),epoch:1,task:1,lss:102.203,val_lss:86.766 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:16:11][fedweit][mnist][client-1] round:77(cnt:27),epoch:1,task:1,lss:85.609,val_lss:70.766 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:16:22][fedweit][mnist][client-2] round:77(cnt:27),epoch:1,task:1,lss:74.666,val_lss:60.232 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:16:22][fedweit][mnist][server] round:78 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:16:22][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:16:32][fedweit][mnist][client-0] round:78(cnt:28),epoch:1,task:1,lss:101.887,val_lss:86.459 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:16:43][fedweit][mnist][client-1] round:78(cnt:28),epoch:1,task:1,lss:85.338,val_lss:70.506 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:16:54][fedweit][mnist][client-2] round:78(cnt:28),epoch:1,task:1,lss:74.417,val_lss:60.005 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:16:54][fedweit][mnist][server] round:79 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:16:54][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:17:06][fedweit][mnist][client-0] round:79(cnt:29),epoch:1,task:1,lss:101.59,val_lss:86.169 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:17:16][fedweit][mnist][client-1] round:79(cnt:29),epoch:1,task:1,lss:85.08,val_lss:70.261 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:17:29][fedweit][mnist][client-2] round:79(cnt:29),epoch:1,task:1,lss:74.182,val_lss:59.791 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:17:29][fedweit][mnist][server] round:80 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:17:29][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:17:40][fedweit][mnist][client-0] round:80(cnt:30),epoch:1,task:1,lss:101.308,val_lss:85.895 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:17:52][fedweit][mnist][client-1] round:80(cnt:30),epoch:1,task:1,lss:84.836,val_lss:70.029 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:18:03][fedweit][mnist][client-2] round:80(cnt:30),epoch:1,task:1,lss:73.96,val_lss:59.588 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:18:03][fedweit][mnist][server] round:81 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:18:03][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:18:14][fedweit][mnist][client-0] round:81(cnt:31),epoch:1,task:1,lss:101.044,val_lss:85.636 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:18:24][fedweit][mnist][client-1] round:81(cnt:31),epoch:1,task:1,lss:84.603,val_lss:69.808 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:18:36][fedweit][mnist][client-2] round:81(cnt:31),epoch:1,task:1,lss:73.749,val_lss:59.397 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:18:36][fedweit][mnist][server] round:82 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:18:36][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:18:47][fedweit][mnist][client-0] round:82(cnt:32),epoch:1,task:1,lss:100.79,val_lss:85.389 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:18:58][fedweit][mnist][client-1] round:82(cnt:32),epoch:1,task:1,lss:84.381,val_lss:69.598 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:19:10][fedweit][mnist][client-2] round:82(cnt:32),epoch:1,task:1,lss:73.549,val_lss:59.215 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:19:10][fedweit][mnist][server] round:83 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:19:10][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:19:21][fedweit][mnist][client-0] round:83(cnt:33),epoch:1,task:1,lss:100.55,val_lss:85.155 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:19:32][fedweit][mnist][client-1] round:83(cnt:33),epoch:1,task:1,lss:84.171,val_lss:69.398 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:19:42][fedweit][mnist][client-2] round:83(cnt:33),epoch:1,task:1,lss:73.36,val_lss:59.042 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:19:42][fedweit][mnist][server] round:84 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:19:42][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:19:53][fedweit][mnist][client-0] round:84(cnt:34),epoch:1,task:1,lss:100.32,val_lss:84.93 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:20:03][fedweit][mnist][client-1] round:84(cnt:34),epoch:1,task:1,lss:83.969,val_lss:69.206 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:20:14][fedweit][mnist][client-2] round:84(cnt:34),epoch:1,task:1,lss:73.18,val_lss:58.878 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:20:14][fedweit][mnist][server] round:85 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:20:14][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:20:25][fedweit][mnist][client-0] round:85(cnt:35),epoch:1,task:1,lss:100.1,val_lss:84.717 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:20:35][fedweit][mnist][client-1] round:85(cnt:35),epoch:1,task:1,lss:83.774,val_lss:69.023 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:20:46][fedweit][mnist][client-2] round:85(cnt:35),epoch:1,task:1,lss:73.007,val_lss:58.721 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:20:46][fedweit][mnist][server] round:86 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:20:46][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:20:57][fedweit][mnist][client-0] round:86(cnt:36),epoch:1,task:1,lss:99.891,val_lss:84.513 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:21:07][fedweit][mnist][client-1] round:86(cnt:36),epoch:1,task:1,lss:83.587,val_lss:68.847 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:21:19][fedweit][mnist][client-2] round:86(cnt:36),epoch:1,task:1,lss:72.842,val_lss:58.571 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:21:19][fedweit][mnist][server] round:87 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:21:19][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:21:29][fedweit][mnist][client-0] round:87(cnt:37),epoch:1,task:1,lss:99.69,val_lss:84.318 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:21:40][fedweit][mnist][client-1] round:87(cnt:37),epoch:1,task:1,lss:83.407,val_lss:68.678 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:21:51][fedweit][mnist][client-2] round:87(cnt:37),epoch:1,task:1,lss:72.682,val_lss:58.427 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:21:51][fedweit][mnist][server] round:88 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:21:51][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:22:01][fedweit][mnist][client-0] round:88(cnt:38),epoch:1,task:1,lss:99.497,val_lss:84.131 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:22:12][fedweit][mnist][client-1] round:88(cnt:38),epoch:1,task:1,lss:83.233,val_lss:68.517 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:22:23][fedweit][mnist][client-2] round:88(cnt:38),epoch:1,task:1,lss:72.529,val_lss:58.289 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:22:23][fedweit][mnist][server] round:89 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:22:23][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:22:33][fedweit][mnist][client-0] round:89(cnt:39),epoch:1,task:1,lss:99.312,val_lss:83.952 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:22:44][fedweit][mnist][client-1] round:89(cnt:39),epoch:1,task:1,lss:83.067,val_lss:68.362 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:22:54][fedweit][mnist][client-2] round:89(cnt:39),epoch:1,task:1,lss:72.383,val_lss:58.157 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:22:54][fedweit][mnist][server] round:90 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:22:54][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:23:04][fedweit][mnist][client-0] round:90(cnt:40),epoch:1,task:1,lss:99.134,val_lss:83.78 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:23:15][fedweit][mnist][client-1] round:90(cnt:40),epoch:1,task:1,lss:82.906,val_lss:68.212 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:23:26][fedweit][mnist][client-2] round:90(cnt:40),epoch:1,task:1,lss:72.243,val_lss:58.03 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:23:26][fedweit][mnist][server] round:91 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:23:26][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:23:36][fedweit][mnist][client-0] round:91(cnt:41),epoch:1,task:1,lss:98.964,val_lss:83.615 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:23:47][fedweit][mnist][client-1] round:91(cnt:41),epoch:1,task:1,lss:82.751,val_lss:68.068 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:23:57][fedweit][mnist][client-2] round:91(cnt:41),epoch:1,task:1,lss:72.107,val_lss:57.908 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:23:57][fedweit][mnist][server] round:92 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:23:57][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:24:07][fedweit][mnist][client-0] round:92(cnt:42),epoch:1,task:1,lss:98.8,val_lss:83.457 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:24:18][fedweit][mnist][client-1] round:92(cnt:42),epoch:1,task:1,lss:82.602,val_lss:67.929 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:24:28][fedweit][mnist][client-2] round:92(cnt:42),epoch:1,task:1,lss:71.976,val_lss:57.791 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:24:28][fedweit][mnist][server] round:93 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:24:28][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:24:39][fedweit][mnist][client-0] round:93(cnt:43),epoch:1,task:1,lss:98.641,val_lss:83.305 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:24:50][fedweit][mnist][client-1] round:93(cnt:43),epoch:1,task:1,lss:82.457,val_lss:67.796 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:25:00][fedweit][mnist][client-2] round:93(cnt:43),epoch:1,task:1,lss:71.85,val_lss:57.678 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:25:00][fedweit][mnist][server] round:94 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:25:00][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:25:10][fedweit][mnist][client-0] round:94(cnt:44),epoch:1,task:1,lss:98.49,val_lss:83.157 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:25:21][fedweit][mnist][client-1] round:94(cnt:44),epoch:1,task:1,lss:82.318,val_lss:67.666 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:25:31][fedweit][mnist][client-2] round:94(cnt:44),epoch:1,task:1,lss:71.729,val_lss:57.57 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:25:31][fedweit][mnist][server] round:95 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:25:31][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:25:42][fedweit][mnist][client-0] round:95(cnt:45),epoch:1,task:1,lss:98.343,val_lss:83.016 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:25:52][fedweit][mnist][client-1] round:95(cnt:45),epoch:1,task:1,lss:82.182,val_lss:67.541 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:26:03][fedweit][mnist][client-2] round:95(cnt:45),epoch:1,task:1,lss:71.611,val_lss:57.465 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:26:03][fedweit][mnist][server] round:96 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:26:03][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:26:13][fedweit][mnist][client-0] round:96(cnt:46),epoch:1,task:1,lss:98.2,val_lss:82.879 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:26:24][fedweit][mnist][client-1] round:96(cnt:46),epoch:1,task:1,lss:82.05,val_lss:67.42 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:26:34][fedweit][mnist][client-2] round:96(cnt:46),epoch:1,task:1,lss:71.496,val_lss:57.363 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:26:34][fedweit][mnist][server] round:97 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:26:34][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:26:45][fedweit][mnist][client-0] round:97(cnt:47),epoch:1,task:1,lss:98.062,val_lss:82.747 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:26:55][fedweit][mnist][client-1] round:97(cnt:47),epoch:1,task:1,lss:81.922,val_lss:67.303 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:27:06][fedweit][mnist][client-2] round:97(cnt:47),epoch:1,task:1,lss:71.386,val_lss:57.265 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:27:06][fedweit][mnist][server] round:98 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:27:06][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:27:16][fedweit][mnist][client-0] round:98(cnt:48),epoch:1,task:1,lss:97.928,val_lss:82.619 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:27:26][fedweit][mnist][client-1] round:98(cnt:48),epoch:1,task:1,lss:81.797,val_lss:67.189 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:27:37][fedweit][mnist][client-2] round:98(cnt:48),epoch:1,task:1,lss:71.278,val_lss:57.171 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:27:37][fedweit][mnist][server] round:99 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:27:37][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:27:47][fedweit][mnist][client-0] round:99(cnt:49),epoch:1,task:1,test_lss:98.302 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:27:47][fedweit][mnist][client-0] round:99(cnt:49),epoch:1,task:1,lss:97.798,val_lss:82.495 (mnist_3_train,#_train:9923,#_valid:1986,#_test:784)
+[2022/11/25-21:27:58][fedweit][mnist][client-1] round:99(cnt:49),epoch:1,task:1,test_lss:81.057 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:27:58][fedweit][mnist][client-1] round:99(cnt:49),epoch:1,task:1,lss:81.677,val_lss:67.079 (mnist_4_train,#_train:10179,#_valid:2037,#_test:784)
+[2022/11/25-21:28:09][fedweit][mnist][client-2] round:99(cnt:49),epoch:1,task:1,test_lss:71.473 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:28:09][fedweit][mnist][client-2] round:99(cnt:49),epoch:1,task:1,lss:71.174,val_lss:57.079 (mnist_5_train,#_train:10135,#_valid:2028,#_test:784)
+[2022/11/25-21:28:09][fedweit][mnist][server] round:100 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:28:09][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:28:25][fedweit][mnist][client-0] round:100(cnt:0),epoch:1,task:2,lss:167.211,val_lss:142.002 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:28:40][fedweit][mnist][client-1] round:100(cnt:0),epoch:1,task:2,lss:213.888,val_lss:189.792 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:28:55][fedweit][mnist][client-2] round:100(cnt:0),epoch:1,task:2,lss:222.892,val_lss:199.312 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:28:56][fedweit][mnist][server] round:101 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:28:56][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:29:12][fedweit][mnist][client-0] round:101(cnt:1),epoch:1,task:2,lss:131.957,val_lss:107.495 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:29:26][fedweit][mnist][client-1] round:101(cnt:1),epoch:1,task:2,lss:166.643,val_lss:143.029 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:29:42][fedweit][mnist][client-2] round:101(cnt:1),epoch:1,task:2,lss:165.99,val_lss:143.02 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:29:42][fedweit][mnist][server] round:102 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:29:42][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:29:58][fedweit][mnist][client-0] round:102(cnt:2),epoch:1,task:2,lss:168.83,val_lss:90.399 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:30:12][fedweit][mnist][client-1] round:102(cnt:2),epoch:1,task:2,lss:219.073,val_lss:120.915 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:30:28][fedweit][mnist][client-2] round:102(cnt:2),epoch:1,task:2,lss:233.752,val_lss:118.899 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:30:28][fedweit][mnist][server] round:103 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:30:28][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:30:43][fedweit][mnist][client-0] round:103(cnt:3),epoch:1,task:2,lss:160.171,val_lss:80.787 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:30:58][fedweit][mnist][client-1] round:103(cnt:3),epoch:1,task:2,lss:214.193,val_lss:109.261 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:31:13][fedweit][mnist][client-2] round:103(cnt:3),epoch:1,task:2,lss:228.729,val_lss:106.841 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:31:13][fedweit][mnist][server] round:104 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:31:13][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:31:29][fedweit][mnist][client-0] round:104(cnt:4),epoch:1,task:2,lss:146.214,val_lss:74.75 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:31:44][fedweit][mnist][client-1] round:104(cnt:4),epoch:1,task:2,lss:201.07,val_lss:102.273 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:31:59][fedweit][mnist][client-2] round:104(cnt:4),epoch:1,task:2,lss:212.599,val_lss:99.821 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:31:59][fedweit][mnist][server] round:105 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:31:59][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:32:15][fedweit][mnist][client-0] round:105(cnt:5),epoch:1,task:2,lss:135.155,val_lss:70.624 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:32:30][fedweit][mnist][client-1] round:105(cnt:5),epoch:1,task:2,lss:190.187,val_lss:97.636 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:32:45][fedweit][mnist][client-2] round:105(cnt:5),epoch:1,task:2,lss:199.264,val_lss:95.275 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:32:45][fedweit][mnist][server] round:106 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:32:45][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:33:01][fedweit][mnist][client-0] round:106(cnt:6),epoch:1,task:2,lss:126.437,val_lss:67.629 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:33:15][fedweit][mnist][client-1] round:106(cnt:6),epoch:1,task:2,lss:182.482,val_lss:94.332 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:33:31][fedweit][mnist][client-2] round:106(cnt:6),epoch:1,task:2,lss:188.368,val_lss:92.062 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:33:31][fedweit][mnist][server] round:107 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:33:31][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:33:47][fedweit][mnist][client-0] round:107(cnt:7),epoch:1,task:2,lss:119.413,val_lss:65.352 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:34:02][fedweit][mnist][client-1] round:107(cnt:7),epoch:1,task:2,lss:175.07,val_lss:91.851 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:34:17][fedweit][mnist][client-2] round:107(cnt:7),epoch:1,task:2,lss:179.356,val_lss:89.685 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:34:18][fedweit][mnist][server] round:108 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:34:18][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:34:33][fedweit][mnist][client-0] round:108(cnt:8),epoch:1,task:2,lss:113.636,val_lss:63.563 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:34:48][fedweit][mnist][client-1] round:108(cnt:8),epoch:1,task:2,lss:168.191,val_lss:89.919 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:35:04][fedweit][mnist][client-2] round:108(cnt:8),epoch:1,task:2,lss:171.713,val_lss:87.832 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:35:04][fedweit][mnist][server] round:109 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:35:04][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:35:20][fedweit][mnist][client-0] round:109(cnt:9),epoch:1,task:2,lss:108.801,val_lss:62.115 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:35:36][fedweit][mnist][client-1] round:109(cnt:9),epoch:1,task:2,lss:162.34,val_lss:88.367 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:35:52][fedweit][mnist][client-2] round:109(cnt:9),epoch:1,task:2,lss:165.138,val_lss:86.33 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:35:52][fedweit][mnist][server] round:110 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:35:52][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:36:09][fedweit][mnist][client-0] round:110(cnt:10),epoch:1,task:2,lss:104.697,val_lss:60.922 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:36:24][fedweit][mnist][client-1] round:110(cnt:10),epoch:1,task:2,lss:157.269,val_lss:87.09 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:36:41][fedweit][mnist][client-2] round:110(cnt:10),epoch:1,task:2,lss:159.397,val_lss:85.105 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:36:41][fedweit][mnist][server] round:111 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:36:41][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:36:58][fedweit][mnist][client-0] round:111(cnt:11),epoch:1,task:2,lss:101.177,val_lss:59.921 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:37:13][fedweit][mnist][client-1] round:111(cnt:11),epoch:1,task:2,lss:152.837,val_lss:86.022 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:37:29][fedweit][mnist][client-2] round:111(cnt:11),epoch:1,task:2,lss:154.344,val_lss:84.065 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:37:29][fedweit][mnist][server] round:112 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:37:29][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:37:45][fedweit][mnist][client-0] round:112(cnt:12),epoch:1,task:2,lss:98.135,val_lss:59.067 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:38:01][fedweit][mnist][client-1] round:112(cnt:12),epoch:1,task:2,lss:148.885,val_lss:85.112 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:38:17][fedweit][mnist][client-2] round:112(cnt:12),epoch:1,task:2,lss:149.837,val_lss:83.174 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:38:17][fedweit][mnist][server] round:113 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:38:17][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:38:32][fedweit][mnist][client-0] round:113(cnt:13),epoch:1,task:2,lss:95.483,val_lss:58.331 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:38:47][fedweit][mnist][client-1] round:113(cnt:13),epoch:1,task:2,lss:145.35,val_lss:84.326 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:39:03][fedweit][mnist][client-2] round:113(cnt:13),epoch:1,task:2,lss:145.811,val_lss:82.395 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:39:03][fedweit][mnist][server] round:114 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:39:03][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:39:19][fedweit][mnist][client-0] round:114(cnt:14),epoch:1,task:2,lss:93.153,val_lss:57.69 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:39:34][fedweit][mnist][client-1] round:114(cnt:14),epoch:1,task:2,lss:142.132,val_lss:83.641 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:39:50][fedweit][mnist][client-2] round:114(cnt:14),epoch:1,task:2,lss:142.162,val_lss:81.711 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:39:50][fedweit][mnist][server] round:115 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:39:50][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:40:06][fedweit][mnist][client-0] round:115(cnt:15),epoch:1,task:2,lss:91.097,val_lss:57.126 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:40:20][fedweit][mnist][client-1] round:115(cnt:15),epoch:1,task:2,lss:139.214,val_lss:83.037 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:40:36][fedweit][mnist][client-2] round:115(cnt:15),epoch:1,task:2,lss:138.871,val_lss:81.106 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:40:36][fedweit][mnist][server] round:116 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:40:36][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:40:52][fedweit][mnist][client-0] round:116(cnt:16),epoch:1,task:2,lss:89.276,val_lss:56.626 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:41:07][fedweit][mnist][client-1] round:116(cnt:16),epoch:1,task:2,lss:136.53,val_lss:82.501 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:41:23][fedweit][mnist][client-2] round:116(cnt:16),epoch:1,task:2,lss:135.859,val_lss:80.563 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:41:23][fedweit][mnist][server] round:117 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:41:23][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:41:39][fedweit][mnist][client-0] round:117(cnt:17),epoch:1,task:2,lss:87.655,val_lss:56.179 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:41:54][fedweit][mnist][client-1] round:117(cnt:17),epoch:1,task:2,lss:134.078,val_lss:82.021 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:42:10][fedweit][mnist][client-2] round:117(cnt:17),epoch:1,task:2,lss:133.112,val_lss:80.065 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:42:10][fedweit][mnist][server] round:118 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-21:42:10][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:42:26][fedweit][mnist][client-0] round:118(cnt:18),epoch:1,task:2,lss:86.2,val_lss:55.778 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:42:41][fedweit][mnist][client-1] round:118(cnt:18),epoch:1,task:2,lss:131.794,val_lss:81.588 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:42:58][fedweit][mnist][client-2] round:118(cnt:18),epoch:1,task:2,lss:130.576,val_lss:79.616 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:42:58][fedweit][mnist][server] round:119 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:42:58][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:43:14][fedweit][mnist][client-0] round:119(cnt:19),epoch:1,task:2,lss:84.898,val_lss:55.414 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:43:29][fedweit][mnist][client-1] round:119(cnt:19),epoch:1,task:2,lss:129.696,val_lss:81.195 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:43:45][fedweit][mnist][client-2] round:119(cnt:19),epoch:1,task:2,lss:128.259,val_lss:79.206 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:43:45][fedweit][mnist][server] round:120 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:43:45][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:44:01][fedweit][mnist][client-0] round:120(cnt:20),epoch:1,task:2,lss:83.722,val_lss:55.084 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:44:16][fedweit][mnist][client-1] round:120(cnt:20),epoch:1,task:2,lss:127.731,val_lss:80.837 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:44:32][fedweit][mnist][client-2] round:120(cnt:20),epoch:1,task:2,lss:126.1,val_lss:78.828 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:44:32][fedweit][mnist][server] round:121 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:44:32][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:44:48][fedweit][mnist][client-0] round:121(cnt:21),epoch:1,task:2,lss:82.66,val_lss:54.784 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:45:03][fedweit][mnist][client-1] round:121(cnt:21),epoch:1,task:2,lss:125.918,val_lss:80.51 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:45:19][fedweit][mnist][client-2] round:121(cnt:21),epoch:1,task:2,lss:124.115,val_lss:78.477 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:45:19][fedweit][mnist][server] round:122 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:45:19][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:45:35][fedweit][mnist][client-0] round:122(cnt:22),epoch:1,task:2,lss:80.882,val_lss:54.508 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:45:50][fedweit][mnist][client-1] round:122(cnt:22),epoch:1,task:2,lss:122.358,val_lss:80.208 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:46:06][fedweit][mnist][client-2] round:122(cnt:22),epoch:1,task:2,lss:120.259,val_lss:78.157 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:46:06][fedweit][mnist][server] round:123 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:46:06][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:46:22][fedweit][mnist][client-0] round:123(cnt:23),epoch:1,task:2,lss:80.865,val_lss:54.254 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:46:37][fedweit][mnist][client-1] round:123(cnt:23),epoch:1,task:2,lss:122.685,val_lss:79.93 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:46:53][fedweit][mnist][client-2] round:123(cnt:23),epoch:1,task:2,lss:120.604,val_lss:77.851 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:46:53][fedweit][mnist][server] round:124 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:46:53][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:47:09][fedweit][mnist][client-0] round:124(cnt:24),epoch:1,task:2,lss:79.374,val_lss:54.018 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:47:24][fedweit][mnist][client-1] round:124(cnt:24),epoch:1,task:2,lss:119.554,val_lss:79.671 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:47:40][fedweit][mnist][client-2] round:124(cnt:24),epoch:1,task:2,lss:117.239,val_lss:77.57 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:47:40][fedweit][mnist][server] round:125 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:47:40][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:47:56][fedweit][mnist][client-0] round:125(cnt:25),epoch:1,task:2,lss:78.145,val_lss:53.799 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:48:11][fedweit][mnist][client-1] round:125(cnt:25),epoch:1,task:2,lss:116.834,val_lss:79.43 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:48:27][fedweit][mnist][client-2] round:125(cnt:25),epoch:1,task:2,lss:114.346,val_lss:77.304 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:48:27][fedweit][mnist][server] round:126 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:48:27][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:48:44][fedweit][mnist][client-0] round:126(cnt:26),epoch:1,task:2,lss:77.126,val_lss:53.596 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:48:59][fedweit][mnist][client-1] round:126(cnt:26),epoch:1,task:2,lss:114.438,val_lss:79.206 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:49:15][fedweit][mnist][client-2] round:126(cnt:26),epoch:1,task:2,lss:111.824,val_lss:77.053 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:49:15][fedweit][mnist][server] round:127 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:49:15][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:49:31][fedweit][mnist][client-0] round:127(cnt:27),epoch:1,task:2,lss:76.275,val_lss:53.406 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:49:46][fedweit][mnist][client-1] round:127(cnt:27),epoch:1,task:2,lss:112.345,val_lss:78.996 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:50:02][fedweit][mnist][client-2] round:127(cnt:27),epoch:1,task:2,lss:109.641,val_lss:76.818 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:50:02][fedweit][mnist][server] round:128 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:50:02][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:50:18][fedweit][mnist][client-0] round:128(cnt:28),epoch:1,task:2,lss:75.565,val_lss:53.229 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:50:33][fedweit][mnist][client-1] round:128(cnt:28),epoch:1,task:2,lss:110.497,val_lss:78.799 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:50:49][fedweit][mnist][client-2] round:128(cnt:28),epoch:1,task:2,lss:107.723,val_lss:76.596 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:50:50][fedweit][mnist][server] round:129 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:50:50][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:51:05][fedweit][mnist][client-0] round:129(cnt:29),epoch:1,task:2,lss:74.965,val_lss:53.062 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:51:20][fedweit][mnist][client-1] round:129(cnt:29),epoch:1,task:2,lss:108.874,val_lss:78.614 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:51:36][fedweit][mnist][client-2] round:129(cnt:29),epoch:1,task:2,lss:106.052,val_lss:76.385 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:51:36][fedweit][mnist][server] round:130 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-21:51:36][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:51:52][fedweit][mnist][client-0] round:130(cnt:30),epoch:1,task:2,lss:74.456,val_lss:52.905 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:52:07][fedweit][mnist][client-1] round:130(cnt:30),epoch:1,task:2,lss:107.424,val_lss:78.44 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:52:23][fedweit][mnist][client-2] round:130(cnt:30),epoch:1,task:2,lss:104.569,val_lss:76.184 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:52:24][fedweit][mnist][server] round:131 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:52:24][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:52:39][fedweit][mnist][client-0] round:131(cnt:31),epoch:1,task:2,lss:74.025,val_lss:52.758 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:52:55][fedweit][mnist][client-1] round:131(cnt:31),epoch:1,task:2,lss:106.153,val_lss:78.275 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:53:11][fedweit][mnist][client-2] round:131(cnt:31),epoch:1,task:2,lss:103.276,val_lss:75.996 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:53:11][fedweit][mnist][server] round:132 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:53:11][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:53:27][fedweit][mnist][client-0] round:132(cnt:32),epoch:1,task:2,lss:73.662,val_lss:52.618 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:53:42][fedweit][mnist][client-1] round:132(cnt:32),epoch:1,task:2,lss:105.021,val_lss:78.119 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:53:58][fedweit][mnist][client-2] round:132(cnt:32),epoch:1,task:2,lss:102.124,val_lss:75.814 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:53:58][fedweit][mnist][server] round:133 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-21:53:58][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:54:15][fedweit][mnist][client-0] round:133(cnt:33),epoch:1,task:2,lss:73.343,val_lss:52.485 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:54:30][fedweit][mnist][client-1] round:133(cnt:33),epoch:1,task:2,lss:104.018,val_lss:77.972 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:54:46][fedweit][mnist][client-2] round:133(cnt:33),epoch:1,task:2,lss:101.105,val_lss:75.64 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:54:46][fedweit][mnist][server] round:134 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:54:46][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:55:02][fedweit][mnist][client-0] round:134(cnt:34),epoch:1,task:2,lss:73.065,val_lss:52.36 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:55:17][fedweit][mnist][client-1] round:134(cnt:34),epoch:1,task:2,lss:103.113,val_lss:77.832 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:55:33][fedweit][mnist][client-2] round:134(cnt:34),epoch:1,task:2,lss:100.188,val_lss:75.474 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:55:33][fedweit][mnist][server] round:135 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:55:33][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:55:49][fedweit][mnist][client-0] round:135(cnt:35),epoch:1,task:2,lss:72.822,val_lss:52.241 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:56:04][fedweit][mnist][client-1] round:135(cnt:35),epoch:1,task:2,lss:102.314,val_lss:77.698 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:56:19][fedweit][mnist][client-2] round:135(cnt:35),epoch:1,task:2,lss:99.376,val_lss:75.314 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:56:20][fedweit][mnist][server] round:136 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:56:20][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:56:35][fedweit][mnist][client-0] round:136(cnt:36),epoch:1,task:2,lss:72.611,val_lss:52.128 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:56:50][fedweit][mnist][client-1] round:136(cnt:36),epoch:1,task:2,lss:101.591,val_lss:77.572 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:57:06][fedweit][mnist][client-2] round:136(cnt:36),epoch:1,task:2,lss:98.644,val_lss:75.162 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:57:06][fedweit][mnist][server] round:137 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-21:57:06][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:57:22][fedweit][mnist][client-0] round:137(cnt:37),epoch:1,task:2,lss:72.422,val_lss:52.02 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:57:37][fedweit][mnist][client-1] round:137(cnt:37),epoch:1,task:2,lss:100.952,val_lss:77.451 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:57:53][fedweit][mnist][client-2] round:137(cnt:37),epoch:1,task:2,lss:97.996,val_lss:75.016 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:57:53][fedweit][mnist][server] round:138 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-21:57:53][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:58:09][fedweit][mnist][client-0] round:138(cnt:38),epoch:1,task:2,lss:72.251,val_lss:51.917 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:58:24][fedweit][mnist][client-1] round:138(cnt:38),epoch:1,task:2,lss:100.369,val_lss:77.336 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:58:40][fedweit][mnist][client-2] round:138(cnt:38),epoch:1,task:2,lss:97.398,val_lss:74.874 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:58:41][fedweit][mnist][server] round:139 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:58:41][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:58:57][fedweit][mnist][client-0] round:139(cnt:39),epoch:1,task:2,lss:72.098,val_lss:51.818 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:59:12][fedweit][mnist][client-1] round:139(cnt:39),epoch:1,task:2,lss:99.855,val_lss:77.226 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-21:59:27][fedweit][mnist][client-2] round:139(cnt:39),epoch:1,task:2,lss:96.872,val_lss:74.74 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-21:59:28][fedweit][mnist][server] round:140 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-21:59:28][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-21:59:44][fedweit][mnist][client-0] round:140(cnt:40),epoch:1,task:2,lss:71.958,val_lss:51.724 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-21:59:58][fedweit][mnist][client-1] round:140(cnt:40),epoch:1,task:2,lss:99.382,val_lss:77.121 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:00:15][fedweit][mnist][client-2] round:140(cnt:40),epoch:1,task:2,lss:96.385,val_lss:74.609 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:00:15][fedweit][mnist][server] round:141 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:00:15][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:00:30][fedweit][mnist][client-0] round:141(cnt:41),epoch:1,task:2,lss:71.829,val_lss:51.634 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:00:46][fedweit][mnist][client-1] round:141(cnt:41),epoch:1,task:2,lss:98.964,val_lss:77.019 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:01:02][fedweit][mnist][client-2] round:141(cnt:41),epoch:1,task:2,lss:95.953,val_lss:74.484 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:01:02][fedweit][mnist][server] round:142 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-22:01:02][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:01:17][fedweit][mnist][client-0] round:142(cnt:42),epoch:1,task:2,lss:71.711,val_lss:51.548 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:01:32][fedweit][mnist][client-1] round:142(cnt:42),epoch:1,task:2,lss:98.577,val_lss:76.923 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:01:49][fedweit][mnist][client-2] round:142(cnt:42),epoch:1,task:2,lss:95.55,val_lss:74.362 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:01:49][fedweit][mnist][server] round:143 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-22:01:49][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:02:05][fedweit][mnist][client-0] round:143(cnt:43),epoch:1,task:2,lss:71.601,val_lss:51.465 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:02:20][fedweit][mnist][client-1] round:143(cnt:43),epoch:1,task:2,lss:98.235,val_lss:76.829 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:02:36][fedweit][mnist][client-2] round:143(cnt:43),epoch:1,task:2,lss:95.193,val_lss:74.245 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:02:36][fedweit][mnist][server] round:144 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:02:36][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:02:52][fedweit][mnist][client-0] round:144(cnt:44),epoch:1,task:2,lss:71.493,val_lss:51.386 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:03:07][fedweit][mnist][client-1] round:144(cnt:44),epoch:1,task:2,lss:97.983,val_lss:76.74 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:03:23][fedweit][mnist][client-2] round:144(cnt:44),epoch:1,task:2,lss:94.915,val_lss:74.132 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:03:23][fedweit][mnist][server] round:145 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-22:03:23][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:03:39][fedweit][mnist][client-0] round:145(cnt:45),epoch:1,task:2,lss:71.39,val_lss:51.309 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:03:54][fedweit][mnist][client-1] round:145(cnt:45),epoch:1,task:2,lss:97.756,val_lss:76.654 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:04:09][fedweit][mnist][client-2] round:145(cnt:45),epoch:1,task:2,lss:94.661,val_lss:74.021 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:04:09][fedweit][mnist][server] round:146 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-22:04:09][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:04:25][fedweit][mnist][client-0] round:146(cnt:46),epoch:1,task:2,lss:71.294,val_lss:51.235 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:04:40][fedweit][mnist][client-1] round:146(cnt:46),epoch:1,task:2,lss:97.534,val_lss:76.57 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:04:56][fedweit][mnist][client-2] round:146(cnt:46),epoch:1,task:2,lss:94.416,val_lss:73.917 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:04:56][fedweit][mnist][server] round:147 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:04:56][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:05:11][fedweit][mnist][client-0] round:147(cnt:47),epoch:1,task:2,lss:71.2,val_lss:51.165 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:05:26][fedweit][mnist][client-1] round:147(cnt:47),epoch:1,task:2,lss:97.335,val_lss:76.491 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:05:41][fedweit][mnist][client-2] round:147(cnt:47),epoch:1,task:2,lss:94.191,val_lss:73.813 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:05:41][fedweit][mnist][server] round:148 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-22:05:41][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:05:57][fedweit][mnist][client-0] round:148(cnt:48),epoch:1,task:2,lss:71.111,val_lss:51.096 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:06:12][fedweit][mnist][client-1] round:148(cnt:48),epoch:1,task:2,lss:97.138,val_lss:76.413 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:06:27][fedweit][mnist][client-2] round:148(cnt:48),epoch:1,task:2,lss:93.972,val_lss:73.714 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:06:27][fedweit][mnist][server] round:149 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:06:27][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:06:47][fedweit][mnist][client-0] round:149(cnt:49),epoch:1,task:2,test_lss:72.059 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:06:47][fedweit][mnist][client-0] round:149(cnt:49),epoch:1,task:2,lss:71.025,val_lss:51.03 (mnist_6_train,#_train:10537,#_valid:2109,#_test:784)
+[2022/11/25-22:07:03][fedweit][mnist][client-1] round:149(cnt:49),epoch:1,task:2,test_lss:97.115 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:07:03][fedweit][mnist][client-1] round:149(cnt:49),epoch:1,task:2,lss:96.962,val_lss:76.338 (mnist_7_train,#_train:9440,#_valid:1888,#_test:784)
+[2022/11/25-22:07:19][fedweit][mnist][client-2] round:149(cnt:49),epoch:1,task:2,test_lss:95.013 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:07:19][fedweit][mnist][client-2] round:149(cnt:49),epoch:1,task:2,lss:93.774,val_lss:73.617 (mnist_8_train,#_train:10202,#_valid:2041,#_test:784)
+[2022/11/25-22:07:19][fedweit][mnist][server] round:150 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:07:19][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:07:40][fedweit][mnist][client-0] round:150(cnt:0),epoch:1,task:3,lss:213.359,val_lss:184.408 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:08:02][fedweit][mnist][client-1] round:150(cnt:0),epoch:1,task:3,lss:212.346,val_lss:183.716 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:08:24][fedweit][mnist][client-2] round:150(cnt:0),epoch:1,task:3,lss:206.393,val_lss:178.198 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:08:24][fedweit][mnist][server] round:151 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:08:24][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:08:45][fedweit][mnist][client-0] round:151(cnt:1),epoch:1,task:3,lss:206.994,val_lss:130.528 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:09:05][fedweit][mnist][client-1] round:151(cnt:1),epoch:1,task:3,lss:230.218,val_lss:144.915 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:09:25][fedweit][mnist][client-2] round:151(cnt:1),epoch:1,task:3,lss:205.561,val_lss:131.764 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:09:25][fedweit][mnist][server] round:152 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-22:09:25][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:09:48][fedweit][mnist][client-0] round:152(cnt:2),epoch:1,task:3,lss:205.108,val_lss:108.469 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:10:10][fedweit][mnist][client-1] round:152(cnt:2),epoch:1,task:3,lss:231.942,val_lss:123.33 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:10:32][fedweit][mnist][client-2] round:152(cnt:2),epoch:1,task:3,lss:203.523,val_lss:113.429 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:10:32][fedweit][mnist][server] round:153 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:10:32][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:10:56][fedweit][mnist][client-0] round:153(cnt:3),epoch:1,task:3,lss:179.983,val_lss:98.058 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:11:20][fedweit][mnist][client-1] round:153(cnt:3),epoch:1,task:3,lss:205.014,val_lss:111.081 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:11:42][fedweit][mnist][client-2] round:153(cnt:3),epoch:1,task:3,lss:181.236,val_lss:104.58 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:11:42][fedweit][mnist][server] round:154 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:11:42][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:12:08][fedweit][mnist][client-0] round:154(cnt:4),epoch:1,task:3,lss:157.826,val_lss:92.176 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:12:31][fedweit][mnist][client-1] round:154(cnt:4),epoch:1,task:3,lss:180.611,val_lss:103.731 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:12:52][fedweit][mnist][client-2] round:154(cnt:4),epoch:1,task:3,lss:161.913,val_lss:99.466 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:12:52][fedweit][mnist][server] round:155 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-22:12:52][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:13:17][fedweit][mnist][client-0] round:155(cnt:5),epoch:1,task:3,lss:142.807,val_lss:88.411 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:13:40][fedweit][mnist][client-1] round:155(cnt:5),epoch:1,task:3,lss:163.507,val_lss:98.978 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:14:01][fedweit][mnist][client-2] round:155(cnt:5),epoch:1,task:3,lss:148.697,val_lss:96.119 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:14:01][fedweit][mnist][server] round:156 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:14:01][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:14:23][fedweit][mnist][client-0] round:156(cnt:6),epoch:1,task:3,lss:132.461,val_lss:85.784 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:14:46][fedweit][mnist][client-1] round:156(cnt:6),epoch:1,task:3,lss:151.342,val_lss:95.677 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:15:08][fedweit][mnist][client-2] round:156(cnt:6),epoch:1,task:3,lss:139.479,val_lss:93.741 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:15:08][fedweit][mnist][server] round:157 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:15:08][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:15:31][fedweit][mnist][client-0] round:157(cnt:7),epoch:1,task:3,lss:125.123,val_lss:83.83 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:15:54][fedweit][mnist][client-1] round:157(cnt:7),epoch:1,task:3,lss:142.447,val_lss:93.258 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:16:17][fedweit][mnist][client-2] round:157(cnt:7),epoch:1,task:3,lss:132.867,val_lss:91.954 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:16:17][fedweit][mnist][server] round:158 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-22:16:17][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:16:39][fedweit][mnist][client-0] round:158(cnt:8),epoch:1,task:3,lss:119.753,val_lss:82.313 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:17:03][fedweit][mnist][client-1] round:158(cnt:8),epoch:1,task:3,lss:135.751,val_lss:91.398 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:17:26][fedweit][mnist][client-2] round:158(cnt:8),epoch:1,task:3,lss:127.983,val_lss:90.554 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:17:26][fedweit][mnist][server] round:159 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:17:26][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:17:49][fedweit][mnist][client-0] round:159(cnt:9),epoch:1,task:3,lss:115.724,val_lss:81.097 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:18:13][fedweit][mnist][client-1] round:159(cnt:9),epoch:1,task:3,lss:130.602,val_lss:89.931 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:18:36][fedweit][mnist][client-2] round:159(cnt:9),epoch:1,task:3,lss:124.285,val_lss:89.419 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:18:36][fedweit][mnist][server] round:160 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:18:36][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:18:58][fedweit][mnist][client-0] round:160(cnt:10),epoch:1,task:3,lss:112.611,val_lss:80.081 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:19:19][fedweit][mnist][client-1] round:160(cnt:10),epoch:1,task:3,lss:126.532,val_lss:88.724 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:19:41][fedweit][mnist][client-2] round:160(cnt:10),epoch:1,task:3,lss:121.411,val_lss:88.478 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:19:41][fedweit][mnist][server] round:161 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:19:41][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:20:04][fedweit][mnist][client-0] round:161(cnt:11),epoch:1,task:3,lss:110.183,val_lss:79.233 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:20:25][fedweit][mnist][client-1] round:161(cnt:11),epoch:1,task:3,lss:123.27,val_lss:87.716 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:20:44][fedweit][mnist][client-2] round:161(cnt:11),epoch:1,task:3,lss:119.141,val_lss:87.683 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:20:45][fedweit][mnist][server] round:162 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:20:45][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:21:06][fedweit][mnist][client-0] round:162(cnt:12),epoch:1,task:3,lss:108.24,val_lss:78.502 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:21:26][fedweit][mnist][client-1] round:162(cnt:12),epoch:1,task:3,lss:120.62,val_lss:86.861 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:21:46][fedweit][mnist][client-2] round:162(cnt:12),epoch:1,task:3,lss:117.318,val_lss:87.001 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:21:46][fedweit][mnist][server] round:163 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-22:21:46][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:22:07][fedweit][mnist][client-0] round:163(cnt:13),epoch:1,task:3,lss:106.659,val_lss:77.864 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:22:28][fedweit][mnist][client-1] round:163(cnt:13),epoch:1,task:3,lss:118.432,val_lss:86.126 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:22:48][fedweit][mnist][client-2] round:163(cnt:13),epoch:1,task:3,lss:115.824,val_lss:86.408 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:22:48][fedweit][mnist][server] round:164 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-22:22:48][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:23:09][fedweit][mnist][client-0] round:164(cnt:14),epoch:1,task:3,lss:105.36,val_lss:77.301 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:23:29][fedweit][mnist][client-1] round:164(cnt:14),epoch:1,task:3,lss:116.606,val_lss:85.477 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:23:48][fedweit][mnist][client-2] round:164(cnt:14),epoch:1,task:3,lss:114.59,val_lss:85.886 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:23:49][fedweit][mnist][server] round:165 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:23:49][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:24:09][fedweit][mnist][client-0] round:165(cnt:15),epoch:1,task:3,lss:104.282,val_lss:76.8 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:24:29][fedweit][mnist][client-1] round:165(cnt:15),epoch:1,task:3,lss:115.107,val_lss:84.908 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:24:48][fedweit][mnist][client-2] round:165(cnt:15),epoch:1,task:3,lss:113.574,val_lss:85.422 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:24:48][fedweit][mnist][server] round:166 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-22:24:48][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:25:09][fedweit][mnist][client-0] round:166(cnt:16),epoch:1,task:3,lss:103.359,val_lss:76.349 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:25:28][fedweit][mnist][client-1] round:166(cnt:16),epoch:1,task:3,lss:113.781,val_lss:84.398 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:25:48][fedweit][mnist][client-2] round:166(cnt:16),epoch:1,task:3,lss:112.684,val_lss:85.006 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:25:48][fedweit][mnist][server] round:167 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-22:25:48][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:26:08][fedweit][mnist][client-0] round:167(cnt:17),epoch:1,task:3,lss:102.569,val_lss:75.939 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:26:28][fedweit][mnist][client-1] round:167(cnt:17),epoch:1,task:3,lss:112.647,val_lss:83.942 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:26:48][fedweit][mnist][client-2] round:167(cnt:17),epoch:1,task:3,lss:111.923,val_lss:84.632 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:26:48][fedweit][mnist][server] round:168 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-22:26:48][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:27:08][fedweit][mnist][client-0] round:168(cnt:18),epoch:1,task:3,lss:101.889,val_lss:75.572 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:27:28][fedweit][mnist][client-1] round:168(cnt:18),epoch:1,task:3,lss:111.669,val_lss:83.529 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:27:47][fedweit][mnist][client-2] round:168(cnt:18),epoch:1,task:3,lss:111.261,val_lss:84.293 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:27:48][fedweit][mnist][server] round:169 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-22:27:48][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:28:08][fedweit][mnist][client-0] round:169(cnt:19),epoch:1,task:3,lss:101.288,val_lss:75.23 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:28:28][fedweit][mnist][client-1] round:169(cnt:19),epoch:1,task:3,lss:110.82,val_lss:83.156 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:28:47][fedweit][mnist][client-2] round:169(cnt:19),epoch:1,task:3,lss:110.679,val_lss:83.984 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:28:47][fedweit][mnist][server] round:170 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:28:47][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:29:07][fedweit][mnist][client-0] round:170(cnt:20),epoch:1,task:3,lss:100.764,val_lss:74.919 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:29:27][fedweit][mnist][client-1] round:170(cnt:20),epoch:1,task:3,lss:110.074,val_lss:82.813 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:29:46][fedweit][mnist][client-2] round:170(cnt:20),epoch:1,task:3,lss:110.165,val_lss:83.7 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:29:46][fedweit][mnist][server] round:171 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:29:46][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:30:07][fedweit][mnist][client-0] round:171(cnt:21),epoch:1,task:3,lss:100.293,val_lss:74.629 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:30:27][fedweit][mnist][client-1] round:171(cnt:21),epoch:1,task:3,lss:109.416,val_lss:82.502 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:30:46][fedweit][mnist][client-2] round:171(cnt:21),epoch:1,task:3,lss:109.702,val_lss:83.438 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:30:46][fedweit][mnist][server] round:172 train clients (selected_ids: [1, 2, 0])
+[2022/11/25-22:30:46][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:31:06][fedweit][mnist][client-0] round:172(cnt:22),epoch:1,task:3,lss:99.869,val_lss:74.358 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:31:26][fedweit][mnist][client-1] round:172(cnt:22),epoch:1,task:3,lss:108.826,val_lss:82.211 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:31:46][fedweit][mnist][client-2] round:172(cnt:22),epoch:1,task:3,lss:109.284,val_lss:83.197 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:31:46][fedweit][mnist][server] round:173 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-22:31:46][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:32:06][fedweit][mnist][client-0] round:173(cnt:23),epoch:1,task:3,lss:99.496,val_lss:74.11 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:32:27][fedweit][mnist][client-1] round:173(cnt:23),epoch:1,task:3,lss:108.306,val_lss:81.947 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:32:47][fedweit][mnist][client-2] round:173(cnt:23),epoch:1,task:3,lss:108.908,val_lss:82.972 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:32:47][fedweit][mnist][server] round:174 train clients (selected_ids: [2, 1, 0])
+[2022/11/25-22:32:47][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:33:07][fedweit][mnist][client-0] round:174(cnt:24),epoch:1,task:3,lss:99.149,val_lss:73.876 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:33:27][fedweit][mnist][client-1] round:174(cnt:24),epoch:1,task:3,lss:107.83,val_lss:81.696 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:33:47][fedweit][mnist][client-2] round:174(cnt:24),epoch:1,task:3,lss:108.561,val_lss:82.762 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:33:47][fedweit][mnist][server] round:175 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-22:33:47][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:34:08][fedweit][mnist][client-0] round:175(cnt:25),epoch:1,task:3,lss:98.831,val_lss:73.656 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:34:28][fedweit][mnist][client-1] round:175(cnt:25),epoch:1,task:3,lss:107.403,val_lss:81.467 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:34:48][fedweit][mnist][client-2] round:175(cnt:25),epoch:1,task:3,lss:108.242,val_lss:82.568 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:34:48][fedweit][mnist][server] round:176 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-22:34:48][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:35:09][fedweit][mnist][client-0] round:176(cnt:26),epoch:1,task:3,lss:98.538,val_lss:73.449 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:35:29][fedweit][mnist][client-1] round:176(cnt:26),epoch:1,task:3,lss:107.015,val_lss:81.252 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:35:49][fedweit][mnist][client-2] round:176(cnt:26),epoch:1,task:3,lss:107.947,val_lss:82.384 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:35:49][fedweit][mnist][server] round:177 train clients (selected_ids: [1, 0, 2])
+[2022/11/25-22:35:49][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:36:10][fedweit][mnist][client-0] round:177(cnt:27),epoch:1,task:3,lss:98.269,val_lss:73.253 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:36:31][fedweit][mnist][client-1] round:177(cnt:27),epoch:1,task:3,lss:106.664,val_lss:81.048 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:36:50][fedweit][mnist][client-2] round:177(cnt:27),epoch:1,task:3,lss:107.678,val_lss:82.212 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:36:50][fedweit][mnist][server] round:178 train clients (selected_ids: [2, 0, 1])
+[2022/11/25-22:36:50][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:37:11][fedweit][mnist][client-0] round:178(cnt:28),epoch:1,task:3,lss:98.02,val_lss:73.069 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:37:31][fedweit][mnist][client-1] round:178(cnt:28),epoch:1,task:3,lss:106.338,val_lss:80.856 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:37:51][fedweit][mnist][client-2] round:178(cnt:28),epoch:1,task:3,lss:107.425,val_lss:82.05 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:37:51][fedweit][mnist][server] round:179 train clients (selected_ids: [0, 1, 2])
+[2022/11/25-22:37:51][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:38:12][fedweit][mnist][client-0] round:179(cnt:29),epoch:1,task:3,lss:97.788,val_lss:72.896 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/25-22:38:32][fedweit][mnist][client-1] round:179(cnt:29),epoch:1,task:3,lss:106.038,val_lss:80.678 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/25-22:38:52][fedweit][mnist][client-2] round:179(cnt:29),epoch:1,task:3,lss:107.187,val_lss:81.897 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/25-22:38:52][fedweit][mnist][server] round:180 train clients (selected_ids: [0, 2, 1])
+[2022/11/25-22:38:52][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/25-22:39:13][fedweit][mnist][client-0] round:180(cnt:30),epoch:1,task:3,lss:97.57,val_lss:72.73 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:44:28][fedweit][mnist][client-1] round:180(cnt:30),epoch:1,task:3,lss:105.76,val_lss:80.508 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:44:51][fedweit][mnist][client-2] round:180(cnt:30),epoch:1,task:3,lss:106.963,val_lss:81.752 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:44:51][fedweit][mnist][server] round:181 train clients (selected_ids: [0, 2, 1])
+[2022/11/26-20:44:51][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:45:14][fedweit][mnist][client-0] round:181(cnt:31),epoch:1,task:3,lss:97.368,val_lss:72.572 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:45:41][fedweit][mnist][client-1] round:181(cnt:31),epoch:1,task:3,lss:105.502,val_lss:80.347 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:46:06][fedweit][mnist][client-2] round:181(cnt:31),epoch:1,task:3,lss:106.756,val_lss:81.615 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:46:06][fedweit][mnist][server] round:182 train clients (selected_ids: [0, 2, 1])
+[2022/11/26-20:46:06][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:46:33][fedweit][mnist][client-0] round:182(cnt:32),epoch:1,task:3,lss:97.179,val_lss:72.424 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:46:59][fedweit][mnist][client-1] round:182(cnt:32),epoch:1,task:3,lss:105.263,val_lss:80.197 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:47:25][fedweit][mnist][client-2] round:182(cnt:32),epoch:1,task:3,lss:106.558,val_lss:81.484 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:47:25][fedweit][mnist][server] round:183 train clients (selected_ids: [2, 1, 0])
+[2022/11/26-20:47:25][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:47:52][fedweit][mnist][client-0] round:183(cnt:33),epoch:1,task:3,lss:96.993,val_lss:72.279 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:48:18][fedweit][mnist][client-1] round:183(cnt:33),epoch:1,task:3,lss:105.034,val_lss:80.052 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:48:44][fedweit][mnist][client-2] round:183(cnt:33),epoch:1,task:3,lss:106.367,val_lss:81.36 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:48:44][fedweit][mnist][server] round:184 train clients (selected_ids: [2, 1, 0])
+[2022/11/26-20:48:44][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:49:10][fedweit][mnist][client-0] round:184(cnt:34),epoch:1,task:3,lss:96.822,val_lss:72.145 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:49:36][fedweit][mnist][client-1] round:184(cnt:34),epoch:1,task:3,lss:104.823,val_lss:79.915 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:50:02][fedweit][mnist][client-2] round:184(cnt:34),epoch:1,task:3,lss:106.188,val_lss:81.242 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:50:02][fedweit][mnist][server] round:185 train clients (selected_ids: [0, 2, 1])
+[2022/11/26-20:50:02][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:50:29][fedweit][mnist][client-0] round:185(cnt:35),epoch:1,task:3,lss:96.659,val_lss:72.012 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:50:55][fedweit][mnist][client-1] round:185(cnt:35),epoch:1,task:3,lss:107.573,val_lss:79.786 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:51:20][fedweit][mnist][client-2] round:185(cnt:35),epoch:1,task:3,lss:106.669,val_lss:81.129 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:51:20][fedweit][mnist][server] round:186 train clients (selected_ids: [0, 2, 1])
+[2022/11/26-20:51:20][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:51:47][fedweit][mnist][client-0] round:186(cnt:36),epoch:1,task:3,lss:96.503,val_lss:71.889 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:52:13][fedweit][mnist][client-1] round:186(cnt:36),epoch:1,task:3,lss:107.294,val_lss:79.661 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:52:38][fedweit][mnist][client-2] round:186(cnt:36),epoch:1,task:3,lss:106.311,val_lss:81.021 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:52:39][fedweit][mnist][server] round:187 train clients (selected_ids: [0, 2, 1])
+[2022/11/26-20:52:39][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:53:05][fedweit][mnist][client-0] round:187(cnt:37),epoch:1,task:3,lss:96.354,val_lss:71.768 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:53:31][fedweit][mnist][client-1] round:187(cnt:37),epoch:1,task:3,lss:106.109,val_lss:79.543 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:53:57][fedweit][mnist][client-2] round:187(cnt:37),epoch:1,task:3,lss:105.907,val_lss:80.918 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:53:57][fedweit][mnist][server] round:188 train clients (selected_ids: [1, 0, 2])
+[2022/11/26-20:53:57][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:54:24][fedweit][mnist][client-0] round:188(cnt:38),epoch:1,task:3,lss:96.211,val_lss:71.654 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:54:50][fedweit][mnist][client-1] round:188(cnt:38),epoch:1,task:3,lss:105.255,val_lss:79.429 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:55:15][fedweit][mnist][client-2] round:188(cnt:38),epoch:1,task:3,lss:105.646,val_lss:80.82 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:55:15][fedweit][mnist][server] round:189 train clients (selected_ids: [1, 2, 0])
+[2022/11/26-20:55:15][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:55:43][fedweit][mnist][client-0] round:189(cnt:39),epoch:1,task:3,lss:96.071,val_lss:71.542 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:56:09][fedweit][mnist][client-1] round:189(cnt:39),epoch:1,task:3,lss:104.665,val_lss:79.319 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:56:35][fedweit][mnist][client-2] round:189(cnt:39),epoch:1,task:3,lss:105.456,val_lss:80.725 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:56:35][fedweit][mnist][server] round:190 train clients (selected_ids: [0, 1, 2])
+[2022/11/26-20:56:35][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:57:02][fedweit][mnist][client-0] round:190(cnt:40),epoch:1,task:3,lss:95.94,val_lss:71.436 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:57:28][fedweit][mnist][client-1] round:190(cnt:40),epoch:1,task:3,lss:104.248,val_lss:79.217 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:57:54][fedweit][mnist][client-2] round:190(cnt:40),epoch:1,task:3,lss:105.299,val_lss:80.635 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:57:54][fedweit][mnist][server] round:191 train clients (selected_ids: [2, 1, 0])
+[2022/11/26-20:57:54][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:58:21][fedweit][mnist][client-0] round:191(cnt:41),epoch:1,task:3,lss:95.814,val_lss:71.332 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-20:58:47][fedweit][mnist][client-1] round:191(cnt:41),epoch:1,task:3,lss:103.939,val_lss:79.115 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-20:59:13][fedweit][mnist][client-2] round:191(cnt:41),epoch:1,task:3,lss:105.163,val_lss:80.549 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-20:59:13][fedweit][mnist][server] round:192 train clients (selected_ids: [2, 1, 0])
+[2022/11/26-20:59:13][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-20:59:40][fedweit][mnist][client-0] round:192(cnt:42),epoch:1,task:3,lss:95.697,val_lss:71.234 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:00:06][fedweit][mnist][client-1] round:192(cnt:42),epoch:1,task:3,lss:103.702,val_lss:79.02 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:00:31][fedweit][mnist][client-2] round:192(cnt:42),epoch:1,task:3,lss:105.038,val_lss:80.465 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:00:31][fedweit][mnist][server] round:193 train clients (selected_ids: [2, 0, 1])
+[2022/11/26-21:00:31][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-21:00:58][fedweit][mnist][client-0] round:193(cnt:43),epoch:1,task:3,lss:95.578,val_lss:71.137 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:01:24][fedweit][mnist][client-1] round:193(cnt:43),epoch:1,task:3,lss:103.504,val_lss:78.928 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:01:50][fedweit][mnist][client-2] round:193(cnt:43),epoch:1,task:3,lss:104.916,val_lss:80.384 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:01:50][fedweit][mnist][server] round:194 train clients (selected_ids: [1, 2, 0])
+[2022/11/26-21:01:50][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-21:02:17][fedweit][mnist][client-0] round:194(cnt:44),epoch:1,task:3,lss:95.466,val_lss:71.046 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:02:42][fedweit][mnist][client-1] round:194(cnt:44),epoch:1,task:3,lss:103.333,val_lss:78.837 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:03:08][fedweit][mnist][client-2] round:194(cnt:44),epoch:1,task:3,lss:104.799,val_lss:80.306 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:03:08][fedweit][mnist][server] round:195 train clients (selected_ids: [0, 1, 2])
+[2022/11/26-21:03:08][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-21:03:35][fedweit][mnist][client-0] round:195(cnt:45),epoch:1,task:3,lss:95.357,val_lss:70.955 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:04:01][fedweit][mnist][client-1] round:195(cnt:45),epoch:1,task:3,lss:103.188,val_lss:78.754 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:04:26][fedweit][mnist][client-2] round:195(cnt:45),epoch:1,task:3,lss:104.689,val_lss:80.231 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:04:26][fedweit][mnist][server] round:196 train clients (selected_ids: [2, 0, 1])
+[2022/11/26-21:04:26][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-21:04:53][fedweit][mnist][client-0] round:196(cnt:46),epoch:1,task:3,lss:95.253,val_lss:70.87 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:05:19][fedweit][mnist][client-1] round:196(cnt:46),epoch:1,task:3,lss:103.053,val_lss:78.67 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:05:45][fedweit][mnist][client-2] round:196(cnt:46),epoch:1,task:3,lss:104.582,val_lss:80.158 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:05:45][fedweit][mnist][server] round:197 train clients (selected_ids: [2, 1, 0])
+[2022/11/26-21:05:45][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-21:06:11][fedweit][mnist][client-0] round:197(cnt:47),epoch:1,task:3,lss:95.149,val_lss:70.784 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:06:37][fedweit][mnist][client-1] round:197(cnt:47),epoch:1,task:3,lss:102.929,val_lss:78.591 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:07:03][fedweit][mnist][client-2] round:197(cnt:47),epoch:1,task:3,lss:104.477,val_lss:80.088 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:07:03][fedweit][mnist][server] round:198 train clients (selected_ids: [2, 1, 0])
+[2022/11/26-21:07:03][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-21:07:30][fedweit][mnist][client-0] round:198(cnt:48),epoch:1,task:3,lss:95.058,val_lss:70.703 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:07:56][fedweit][mnist][client-1] round:198(cnt:48),epoch:1,task:3,lss:102.82,val_lss:78.514 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:08:22][fedweit][mnist][client-2] round:198(cnt:48),epoch:1,task:3,lss:104.383,val_lss:80.02 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:08:22][fedweit][mnist][server] round:199 train clients (selected_ids: [1, 2, 0])
+[2022/11/26-21:08:22][fedweit][mnist][server] Length of parallel_clients = 3
+[2022/11/26-21:08:50][fedweit][mnist][client-0] round:199(cnt:49),epoch:1,task:3,test_lss:96.346 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:08:50][fedweit][mnist][client-0] round:199(cnt:49),epoch:1,task:3,lss:94.966,val_lss:70.625 (mnist_9_train,#_train:10310,#_valid:2062,#_test:784)
+[2022/11/26-21:09:17][fedweit][mnist][client-1] round:199(cnt:49),epoch:1,task:3,test_lss:102.237 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:09:17][fedweit][mnist][client-1] round:199(cnt:49),epoch:1,task:3,lss:102.717,val_lss:78.44 (mnist_10_train,#_train:9904,#_valid:1982,#_test:784)
+[2022/11/26-21:09:43][fedweit][mnist][client-2] round:199(cnt:49),epoch:1,task:3,test_lss:104.579 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:09:43][fedweit][mnist][client-2] round:199(cnt:49),epoch:1,task:3,lss:104.315,val_lss:79.955 (mnist_11_train,#_train:9749,#_valid:1951,#_test:784)
+[2022/11/26-21:09:44][fedweit][mnist][server] done. (88112.05866408348s)
+[2022/11/26-21:09:44][fedweit][mnist][server] all client threads have been destroyed.
