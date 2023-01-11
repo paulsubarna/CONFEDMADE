@@ -83,7 +83,7 @@ class ServerModule:
                 with tf.device('/device:GPU:{}'.format(gpu_id)):
                     self.clients[gpu_id] =self.ClientObj(gpu_id, opt_copied, initial_weights, cid_per_gpu[i])
         else:
-            num_parallel = 1
+            num_parallel = 2
             self.clients = {i:self.ClientObj(i, opt_copied, initial_weights, cid_per_gpu[i]) for i in range(num_parallel)}
 
     def get_weights(self):

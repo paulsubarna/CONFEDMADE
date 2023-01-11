@@ -1,8 +1,8 @@
 def set_config(args):
 
-    args.output_path = '/home/subarna/Pictures/LARS/FedWeIT-MADE/output'
+    args.output_path = '/app/src/FedWit/output'
 
-    args.sparse_comm = True
+    args.sparse_comm = True   #true
     args.client_sparsity = 0.3
     args.server_sparsity = 0.3
 
@@ -85,15 +85,15 @@ def set_data_config(args):
     elif args.task == 'binary':
         args.only_federated = False
         args.same_masks = True #Should clients use the same masks?
-        args.same_input_order = True #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
+        args.same_input_order = False #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
         args.datasets = [5]
-        args.t_name=  ['accidents', 'mushrooms', 'adult', 'connect4', 'ocr_letters']   #['cwebkb','c20ng','cr52','moviereview','bbc']#['tmovie', 'nips', 'book'] #['rcv1', 'tretail', 'pumsb_star', 'dna', 'kosarek']#
+        args.t_name=  ['kdd', 'plants', 'baudio','jester','bnetflix','accidents', 'mushrooms', 'adult', 'connect4']   #['cwebkb','c20ng','cr52','moviereview','bbc']#['tmovie', 'nips', 'book'] #['rcv1', 'tretail', 'pumsb_star', 'dna', 'kosarek']#
         args.input_size = args.ip_shape[args.t_name[len(args.t_name)-1]]
         args.hidden_layers = [args.input_size//2] #hidden layer shapes
         args.mnist_path = '/content/drive/MyDrive/binarized_mnist.npz'
         args.natural_input_order = False
-        args.num_clients = 5
-        args.num_tasks   = 6
+        args.num_clients = 10
+        args.num_tasks   = 9
         args.num_classes = 1
         args.frac_clients = 1.0
         args.num_masks = 1
@@ -105,20 +105,20 @@ def set_data_config(args):
         args.apply_madeloss= True
         args.apply_mademask= True
         args.direct_input = True
-        args.experiment =    "continual"#"label permutation ácross clients" #no_overlap_distinct_domain_task" #"No_Overlap_with_Mixed_label_task"#"else"    #"other"  
+        args.experiment =  "label_specific" # "continual"#"label permutation ácross clients" #no_overlap_distinct_domain_task" #"No_Overlap_with_Mixed_label_task"#"else"    #"other"  
 
 
     elif args.task == 'mnist':
         args.only_federated = False
         args.same_masks = True #Should clients use the same masks?
-        args.same_input_order = True #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
+        args.same_input_order = False #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
         args.datasets = [2]
         args.hidden_layers = [500] #hidden layer shapes
         args.mnist_path = '/content/drive/MyDrive/binarized_mnist.npz'
-        args.natural_input_order = True
-        args.num_clients = 3
-        args.num_tasks   = 4
-        args.num_classes = 2
+        args.natural_input_order = False
+        args.num_clients =  2
+        args.num_tasks   = 8 
+        args.num_classes = 1
         args.frac_clients = 1.0
         args.num_masks = 1
         args.order_agn = True
@@ -126,22 +126,22 @@ def set_data_config(args):
         args.conn_agn_step_size = 1
         args.connectivity_weights = False
         args.direct_input = True
-        args.experiment = "hyperparam"
+        args.experiment = "attention"
 
     elif args.task == 'non_miid':
         args.only_federated = False
         args.same_masks = True #Should clients use the same masks?
-        args.same_input_order = True #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
+        args.same_input_order = False #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
         args.datasets = [6]
         args.hidden_layers = [500] #hidden layer shapes
         args.mnist_path = '/content/drive/MyDrive/binarized_mnist.npz'
         args.natural_input_order = True
         args.num_clients = 3
-        args.num_tasks   = 4
-        args.num_classes = 3
+        args.num_tasks   = 8
+        args.num_classes = 1
         args.frac_clients = 1.0
         args.num_masks = 1
-        args.order_agn = False
+        args.order_agn = True
         args.order_agn_step_size = 1
         args.conn_agn_step_size = 1
         args.connectivity_weights = False

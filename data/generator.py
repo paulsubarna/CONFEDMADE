@@ -1,11 +1,11 @@
 import os
 import pdb
-import cv2
+#import cv2
 import argparse
 import random
 import torch
-import torchvision
-import easydict
+#import torchvision
+#import easydict
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
@@ -16,7 +16,7 @@ from data.dedb import *
 # import sys
 # sys.path.insert(0,'..')
 from misc.utils import *
-from third_party.mixture_loader.mixture import *
+#from third_party.mixture_loader.mixture import *
 
 class DataGenerator:
     """ Data Generator
@@ -182,9 +182,9 @@ class DataGenerator:
         len_fmnist= int(len(x_fmnist)* 0.35)
         len_emnist= int(len(x_emnist)* 0.35)
 
-        labels_per_task= [[0],[1],[2], [1], [2],[0],[1],
-                          [1],[2],[0], [2],[0],[1],[2],
-                          [2],[0],[1],[0],[1],[2],[1]
+        labels_per_task= [[0],[1],[2], [1],[2],[0],   [2],[0],[1], 
+                          [1],[2],[0], [2],[0],[1],   [0],[1],[2], 
+                          [2],[0],[1], [0],[1],[2],   
                           
                           ]
 
@@ -262,7 +262,7 @@ class DataGenerator:
             labels_per_task = [[8, 5, 9], [3, 0, 1], [8, 7, 6], [4, 0, 1]]
         if self.args.experiment == "attention": # Assuming 4 clients and num_tasks == 4
             #labels_per_task = [[1,7], [8,6], [9,0], [2,3], [1,7], [8,6], [9,0], [2,3]]
-            labels_per_task = [ [6,8,9], [4,5,6], [3,5,9], [1,4,7], [5,8,9], [0,1,3], [6,7,8], [0,1,4]]
+            labels_per_task =[[0],[1],  [0,2],[1,3],  [0,2,4],[1,3,5],  [0,2,4,6],[1,3,5,7], [0,2,4,6,8],[1,3,5,7,9], [0,2,4,6,8,1],[1,3,5,7,9,2], [0,2,4,6,8,1,3],[1,3,5,7,9,2,4], [0,2,4,6,8,1,3,5],[1,3,5,7,9,2,4,6] ] 
         elif self.args.experiment == "hyperparam":
             labels_per_task = [[5, 8], [1, 4], [3, 6],
                   [0, 2], [9, 7], [5, 1],
@@ -337,7 +337,7 @@ class DataGenerator:
         print(labels)
         if self.args.experiment == 'other':
             for i in range(tasks_to_build):
-                labels_per_task.append(random_sample(self.args.seed+i, labels, self.args.num_classes))
+                labels_per_task.append(random_sample(self.args.seed+i*10, labels, self.args.num_classes))
         elif self.args.experiment == "continual":
             labels_per_task= ['jester',      'bnetflix',   'baudio',    'accidents', 'mushrooms', 
                                 'mushrooms', 'baudio',     'accidents', 'bnetflix',  'jester',

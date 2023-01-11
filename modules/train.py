@@ -156,8 +156,8 @@ class TrainModule:
             #print(base_path)
             if self.state['curr_task'] >0:
                 for j in range(self.state['curr_task'] ):
-                    print(os.path.join(base_path, f'mnist_{j*3+client_id}_valid.npy'))
-                    temporary_data= np.load(os.path.join(base_path, f'mnist_{j*3+client_id}_valid.npy'), allow_pickle=True).item()
+                    print(os.path.join(base_path, f'mnist_{j*2+client_id}_valid.npy'))
+                    temporary_data= np.load(os.path.join(base_path, f'mnist_{j*2+client_id}_valid.npy'), allow_pickle=True).item()
                     valid= temporary_data['x_valid']
                     batches = 0
                     t_loss = 0
@@ -200,7 +200,7 @@ class TrainModule:
                     self.logger.print(self.state['client_id'], 'round:{}(cnt:{}),epoch:{},task:{},test_lss:{} ({},#_train:{},#_valid:{},#_test:{})'
                         .format(self.state['curr_round'], self.state['round_cnt'], self.state['curr_epoch'], self.state['curr_task'], round(test_loss,3),
                         self.task['task_names'][self.state['curr_task']], len(self.task['x_train']), len(self.task['x_valid']),len(self.task['x_test_list'][self.state['curr_task']])))
-                    if self.state['curr_task'] > 0:
+                    if self.state['curr_task'] > 0 and self.state['round_cnt']==249:
                         atten = self.curr_model.get_weights("atten")["W_atten"][0].numpy()
                         atten += self.curr_model.get_weights("atten")["W_atten"][1].numpy()
                         atten += self.curr_model.get_weights("atten")["D_atten"][0].numpy()

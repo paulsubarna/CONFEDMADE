@@ -137,9 +137,9 @@ class Client(ClientModule):
                         # catastrophic forgetting loss
                         adapt_delta = prev_aw - adapts_last_task[f"{weight}_adapts_last_task"][lid][tid]
                         if weight == "D":
-                            a_l2 = tf.nn.l2_loss(sw_delta * prev_mask + adapt_delta)
+                            a_l2 = tf.nn.l2_loss(sw_delta  * prev_mask + adapt_delta)
                         else:
-                            a_l2 = tf.nn.l2_loss(sw_delta * made_mask_layer * prev_mask + adapt_delta)
+                            a_l2 = tf.nn.l2_loss(sw_delta  * prev_mask  + adapt_delta )
                     
                         #a_l2 = tf.nn.l2_loss(sw_delta * prev_mask + adapt_delta)
                         approx_loss += self.args.lambda_l2 * a_l2
@@ -151,7 +151,7 @@ class Client(ClientModule):
                         if weight == "D":
                             sparseness += self.args.lambda_l1 * tf.reduce_sum(tf.abs(prev_aw))
                         else:    
-                            sparseness += self.args.lambda_l1 * tf.reduce_sum(tf.abs(prev_aw)* made_mask[str(self.client)][lid])
+                            sparseness += self.args.lambda_l1 * tf.reduce_sum(tf.abs(prev_aw)* made_mask_layer)
                     
                         sparseness_log += tf.reduce_sum(tf.abs(prev_aw))
 
@@ -162,7 +162,7 @@ class Client(ClientModule):
         #    print(f"sparseness_log: {sparseness_log}")
         #    print(f"approx_loss: {approx_loss}")
         #    print(f"loss_prev: {loss}")
-        loss += weight_decay + sparseness + approx_loss
+        loss += weight_decay+ sparseness + approx_loss
         return loss
 
     def loss(self, y_true, y_pred):
