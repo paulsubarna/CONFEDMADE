@@ -1,17 +1,5 @@
 
-[2023/01/03-21:26:54][fedweit][mnist][server] started
-[2023/01/03-21:26:55][fedweit][mnist][server] round:0 train clients (selected_ids: [1, 0])
-[2023/01/03-21:26:55][fedweit][mnist][server] Length of parallel_clients = 2
-[2023/01/03-21:26:58][fedweit][mnist][client-0] round:0(cnt:0),epoch:1,task:0,lss:195.52,val_lss:182.907 (mnist_0_train,#_train:4930,#_valid:987,#_test:784)
-[2023/01/03-21:27:02][fedweit][mnist][client-1] round:0(cnt:0),epoch:1,task:0,lss:214.285,val_lss:201.801 (mnist_1_train,#_train:4992,#_valid:1000,#_test:784)
-[2023/01/03-21:27:02][fedweit][mnist][server] round:1 train clients (selected_ids: [0, 1])
-[2023/01/03-21:27:02][fedweit][mnist][server] Length of parallel_clients = 2
-[2023/01/03-21:27:05][fedweit][mnist][client-0] round:1(cnt:1),epoch:1,task:0,lss:161.37,val_lss:148.542 (mnist_0_train,#_train:4930,#_valid:987,#_test:784)
-[2023/01/03-21:27:08][fedweit][mnist][client-1] round:1(cnt:1),epoch:1,task:0,lss:189.179,val_lss:176.515 (mnist_1_train,#_train:4992,#_valid:1000,#_test:784)
-[2023/01/03-21:27:08][fedweit][mnist][server] round:2 train clients (selected_ids: [1, 0])
-[2023/01/03-21:27:08][fedweit][mnist][server] Length of parallel_clients = 2
-[2023/01/03-21:27:11][fedweit][mnist][client-0] round:2(cnt:2),epoch:1,task:0,lss:152.048,val_lss:139.379 (mnist_0_train,#_train:4930,#_valid:987,#_test:784)
-[2023/01/03-21:27:14][fedweit][mnist][client-1] round:2(cnt:2),epoch:1,task:0,lss:170.773,val_lss:158.175 (mnist_1_train,#_train:4992,#_valid:1000,#_test:784)
+
 [2023/01/03-21:27:14][fedweit][mnist][server] all client threads have been destroyed.
 [2023/01/03-21:29:25][fedweit][mnist][server] started
 [2023/01/03-21:29:26][fedweit][mnist][server] round:0 train clients (selected_ids: [0, 1])
