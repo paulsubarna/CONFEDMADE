@@ -19,7 +19,7 @@ class Logger:
                 f'[{name}] '+
                 f'{message}')
         #f = open("/home/subarna/Pictures/LARS/FedWeIT-MADE/Exp_order_agn_true_wo.txt", "a")
-        f= open('/app/src/Fedwit/output/l2_wo_mask', "a")
+        f= open('/app/src/FedWit/test_ilup.txt', "a")
         f.write('\n'+f'[{datetime.now().strftime("%Y/%m/%d-%H:%M:%S")}]'+
                 f'[{self.args.model}]'+
                 f'[{self.args.task}]'+
