@@ -259,10 +259,10 @@ class DataGenerator:
 
         labels_per_task = []
         if self.args.experiment == "atten_loss":
-            labels_per_task = [[8, 5, 9], [3, 0, 1], [8, 7, 6], [4, 0, 1]]
+            labels_per_task = [[1], [2], [3] ] #[[8, 5, 9], [3, 0, 1], [8, 7, 6], [4, 0, 1]]
         if self.args.experiment == "attention": # Assuming 4 clients and num_tasks == 4
             #labels_per_task = [[1,7], [8,6], [9,0], [2,3], [1,7], [8,6], [9,0], [2,3]]
-            labels_per_task =[[0],[1],  [0,2],[1,3],  [0,2,4],[1,3,5],  [0,2,4,6],[1,3,5,7], [0,2,4,6,8],[1,3,5,7,9], [0,2,4,6,8,1],[1,3,5,7,9,2], [0,2,4,6,8,1,3],[1,3,5,7,9,2,4], [0,2,4,6,8,1,3,5],[1,3,5,7,9,2,4,6] ] 
+            labels_per_task = [[0],[1],  [2],[3], [4],[5], [6],[7], [8],[9], [1],[4],  [3],[0], [7],[8]     ] 
         elif self.args.experiment == "hyperparam":
             labels_per_task = [[5, 8], [1, 4], [3, 6],
                   [0, 2], [9, 7], [5, 1],
@@ -279,7 +279,7 @@ class DataGenerator:
                     labels_per_task.append(random_sample(self.args.seed+i, labels.tolist(), self.args.num_classes))
 
         for task_id, _labels in enumerate(labels_per_task): #counter, value
-            idx = np.concatenate([np.where(y[:]==c)[0] for c in _labels], axis=0)
+            idx =  np.concatenate([np.where(y[:]==c)[0] for c in _labels], axis=0)
             #shuffle so samples are not sampled by class cause of previous concat operation
             random.seed(self.args.seed)
             random.shuffle(idx) # shuffle order of training samples derived for current task

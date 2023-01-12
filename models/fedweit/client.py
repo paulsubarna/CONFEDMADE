@@ -139,7 +139,7 @@ class Client(ClientModule):
                         if weight == "D":
                             a_l2 = tf.nn.l2_loss(sw_delta  * prev_mask + adapt_delta)
                         else:
-                            a_l2 = tf.nn.l2_loss(sw_delta  * prev_mask  + adapt_delta )
+                            a_l2 = tf.nn.l2_loss(sw_delta  * made_mask_layer * prev_mask  + adapt_delta * made_mask_layer )
                     
                         #a_l2 = tf.nn.l2_loss(sw_delta * prev_mask + adapt_delta)
                         approx_loss += self.args.lambda_l2 * a_l2
