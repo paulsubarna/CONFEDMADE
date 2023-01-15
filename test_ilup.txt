@@ -62,10 +62,6 @@
 [2023/01/11-10:04:32][fedweit][mnist][client-1] round:7(cnt:7),epoch:1,task:0,lss:64.473,val_lss:54.384 (mnist_1_train,#_train:5626,#_valid:1126,#_test:784)
 [2023/01/11-10:04:32][fedweit][mnist][server] round:8 train clients (selected_ids: [0, 1])
 [2023/01/11-10:04:32][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:04:34][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 88.99984165879546 and val_loss: 55.35782823406282 
-[2023/01/11-10:04:34][fedweit][mnist][client-1] round:318(cnt:18),epoch:1,task:6,lss:89.793,val_lss:56.151 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:04:34][fedweit][mnist][server] round:319 train clients (selected_ids: [1, 0])
-[2023/01/11-10:04:34][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:04:34][fedweit][mnist][client-0] round:8(cnt:8),epoch:1,task:0,lss:128.155,val_lss:116.706 (mnist_0_train,#_train:4930,#_valid:987,#_test:784)
 [2023/01/11-10:04:35][fedweit][mnist][client-1] round:8(cnt:8),epoch:1,task:0,lss:63.011,val_lss:53.148 (mnist_1_train,#_train:5626,#_valid:1126,#_test:784)
 [2023/01/11-10:04:35][fedweit][mnist][server] round:9 train clients (selected_ids: [0, 1])
@@ -194,9 +190,6 @@
 [2023/01/11-10:05:58][fedweit][mnist][client-1] round:36(cnt:36),epoch:1,task:0,lss:50.744,val_lss:42.013 (mnist_1_train,#_train:5626,#_valid:1126,#_test:784)
 [2023/01/11-10:05:58][fedweit][mnist][server] round:37 train clients (selected_ids: [0, 1])
 [2023/01/11-10:05:58][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:05:59][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 88.60371611548251 and val_loss: 55.027200917728614 
-[2023/01/11-10:05:59][fedweit][mnist][client-1] round:319(cnt:19),epoch:1,task:6,lss:89.647,val_lss:56.071 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:06:00][fedweit][mnist][server] round:320 train clients (selected_ids: [0, 1])
 [2023/01/11-10:06:00][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:06:01][fedweit][mnist][client-0] round:37(cnt:37),epoch:1,task:0,lss:95.346,val_lss:84.086 (mnist_0_train,#_train:4930,#_valid:987,#_test:784)
 [2023/01/11-10:06:01][fedweit][mnist][client-1] round:37(cnt:37),epoch:1,task:0,lss:43.356,val_lss:34.642 (mnist_1_train,#_train:5626,#_valid:1126,#_test:784)
@@ -255,10 +248,6 @@
 [2023/01/11-10:06:37][fedweit][mnist][client-1] round:49(cnt:49),epoch:1,task:0,lss:45.734,val_lss:37.287 (mnist_1_train,#_train:5626,#_valid:1126,#_test:784)
 [2023/01/11-10:06:38][fedweit][mnist][server] round:50 train clients (selected_ids: [0, 1])
 [2023/01/11-10:06:38][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:06:38][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 101.11812248229981 and val_loss: 64.1748664855957 
-[2023/01/11-10:06:40][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 102.02002380371094 and val_loss: 65.0767668914795 
-[2023/01/11-10:06:43][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 95.7467622600618 and val_loss: 58.803506006960006 
-[2023/01/11-10:06:43][fedweit][mnist][client-0] round:320(cnt:20),epoch:1,task:6,lss:96.572,val_lss:59.629 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:06:44][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 173.79937896728515 and val_loss: 151.54271087646484 
 [2023/01/11-10:06:44][fedweit][mnist][client-0] round:50(cnt:0),epoch:1,task:1,lss:188.533,val_lss:166.277 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:06:46][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 110.26012547810872 and val_loss: 90.86555735270183 
@@ -282,21 +271,14 @@
 [2023/01/11-10:07:13][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 87.61067454020183 and val_loss: 69.09614817301433 
 [2023/01/11-10:07:13][fedweit][mnist][client-1] round:53(cnt:3),epoch:1,task:1,lss:116.257,val_lss:97.743 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:07:14][fedweit][mnist][server] round:54 train clients (selected_ids: [0, 1])
-[2023/01/11-10:07:14][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:07:17][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 62.45024840037028 and val_loss: 28.94770383834839 
-[2023/01/11-10:07:18][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 80.29008414528586 and val_loss: 46.78753939541903 
-[2023/01/11-10:07:19][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 85.2475088796308 and val_loss: 51.74496447655462 
+ 
 [2023/01/11-10:07:20][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 123.2605812072754 and val_loss: 101.94617385864258 
 [2023/01/11-10:07:20][fedweit][mnist][client-0] round:54(cnt:4),epoch:1,task:1,lss:135.92,val_lss:114.605 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:07:21][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 85.51104215296303 and val_loss: 52.008497749886864 
 [2023/01/11-10:07:23][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 67.9369691212972 and val_loss: 49.68160533905029 
 [2023/01/11-10:07:23][fedweit][mnist][client-1] round:54(cnt:4),epoch:1,task:1,lss:102.732,val_lss:84.477 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:07:23][fedweit][mnist][server] round:55 train clients (selected_ids: [1, 0])
-[2023/01/11-10:07:23][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:07:23][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 86.35701078527114 and val_loss: 52.85446653179094 
-[2023/01/11-10:07:26][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 89.76497650146484 and val_loss: 56.26243209838867 
-[2023/01/11-10:07:26][fedweit][mnist][client-1] round:320(cnt:20),epoch:1,task:6,lss:90.555,val_lss:57.052 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:07:26][fedweit][mnist][server] round:321 train clients (selected_ids: [0, 1])
+
 [2023/01/11-10:07:26][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:07:29][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 119.1434555053711 and val_loss: 98.03703308105469 
 [2023/01/11-10:07:29][fedweit][mnist][client-0] round:55(cnt:5),epoch:1,task:1,lss:130.945,val_lss:109.839 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
@@ -321,11 +303,7 @@
 [2023/01/11-10:07:59][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 61.22289180755615 and val_loss: 43.44946575164795 
 [2023/01/11-10:07:59][fedweit][mnist][client-1] round:58(cnt:8),epoch:1,task:1,lss:92.299,val_lss:74.526 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:07:59][fedweit][mnist][server] round:59 train clients (selected_ids: [1, 0])
-[2023/01/11-10:07:59][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:08:00][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 97.93112411499024 and val_loss: 61.04469871520996 
-[2023/01/11-10:08:01][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 99.95741806030273 and val_loss: 63.07099323272705 
-[2023/01/11-10:08:02][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 99.6698501586914 and val_loss: 62.78342475891113 
-[2023/01/11-10:08:04][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 99.11007709503174 and val_loss: 62.22365217208862 
+
 [2023/01/11-10:08:06][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 111.96409912109375 and val_loss: 91.28991241455078 
 [2023/01/11-10:08:06][fedweit][mnist][client-0] round:59(cnt:9),epoch:1,task:1,lss:121.101,val_lss:100.426 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:08:06][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 100.47941314697266 and val_loss: 63.59298851013184 
@@ -333,7 +311,6 @@
 [2023/01/11-10:08:08][fedweit][mnist][client-1] round:59(cnt:9),epoch:1,task:1,lss:90.682,val_lss:72.977 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:08:08][fedweit][mnist][server] round:60 train clients (selected_ids: [1, 0])
 [2023/01/11-10:08:08][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:08:08][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 94.46541145199635 and val_loss: 57.57898543310947 
 [2023/01/11-10:08:08][fedweit][mnist][client-0] round:321(cnt:21),epoch:1,task:6,lss:95.248,val_lss:58.362 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:08:14][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 103.70892868041992 and val_loss: 83.10951766967773 
 [2023/01/11-10:08:14][fedweit][mnist][client-0] round:60(cnt:10),epoch:1,task:1,lss:114.375,val_lss:93.775 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
@@ -355,21 +332,13 @@
 [2023/01/11-10:08:35][fedweit][mnist][server] Length of parallel_clients = 1
 [2023/01/11-10:08:41][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 105.56462936401367 and val_loss: 85.15046768188476 
 [2023/01/11-10:08:41][fedweit][mnist][client-0] round:63(cnt:13),epoch:1,task:1,lss:115.176,val_lss:94.762 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
-[2023/01/11-10:08:42][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 62.326623598734535 and val_loss: 28.87399435043335 
-[2023/01/11-10:08:43][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 77.67085994373669 and val_loss: 44.21823068098588 
 [2023/01/11-10:08:44][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 57.35174719492594 and val_loss: 39.91730276743571 
 [2023/01/11-10:08:44][fedweit][mnist][client-1] round:63(cnt:13),epoch:1,task:1,lss:87.904,val_lss:70.47 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:08:44][fedweit][mnist][server] round:64 train clients (selected_ids: [0, 1])
 [2023/01/11-10:08:44][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:08:44][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.00369164251512 and val_loss: 49.551063291488155 
-[2023/01/11-10:08:46][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 82.70447577499762 and val_loss: 49.25184668564215 
-[2023/01/11-10:08:48][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 83.28210419299556 and val_loss: 49.829475028842104 
 [2023/01/11-10:08:50][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 99.64251480102538 and val_loss: 79.28496322631835 
 [2023/01/11-10:08:50][fedweit][mnist][client-0] round:64(cnt:14),epoch:1,task:1,lss:109.226,val_lss:88.868 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
-[2023/01/11-10:08:50][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 86.6218394295114 and val_loss: 53.1692099649398 
-[2023/01/11-10:08:50][fedweit][mnist][client-1] round:321(cnt:21),epoch:1,task:6,lss:87.389,val_lss:53.937 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:08:51][fedweit][mnist][server] round:322 train clients (selected_ids: [1, 0])
-[2023/01/11-10:08:51][fedweit][mnist][server] Length of parallel_clients = 2
+
 [2023/01/11-10:08:52][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 56.97817357381185 and val_loss: 39.60895284016927 
 [2023/01/11-10:08:52][fedweit][mnist][client-1] round:64(cnt:14),epoch:1,task:1,lss:86.503,val_lss:69.134 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:08:53][fedweit][mnist][server] round:65 train clients (selected_ids: [0, 1])
@@ -392,9 +361,6 @@
 [2023/01/11-10:09:20][fedweit][mnist][client-1] round:67(cnt:17),epoch:1,task:1,lss:84.679,val_lss:67.488 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:09:20][fedweit][mnist][server] round:68 train clients (selected_ids: [0, 1])
 [2023/01/11-10:09:20][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:09:24][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 98.29312438964844 and val_loss: 61.466936874389646 
-[2023/01/11-10:09:25][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 101.29900398254395 and val_loss: 64.47281703948974 
-[2023/01/11-10:09:27][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 100.1146743774414 and val_loss: 63.28848813374837 
 [2023/01/11-10:09:27][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 97.5555435180664 and val_loss: 77.40541229248046 
 [2023/01/11-10:09:27][fedweit][mnist][client-0] round:68(cnt:18),epoch:1,task:1,lss:106.112,val_lss:85.962 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:09:28][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 100.1039939880371 and val_loss: 63.277806758880615 
@@ -402,8 +368,6 @@
 [2023/01/11-10:09:30][fedweit][mnist][client-1] round:68(cnt:18),epoch:1,task:1,lss:80.345,val_lss:63.21 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:09:30][fedweit][mnist][server] round:69 train clients (selected_ids: [1, 0])
 [2023/01/11-10:09:30][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:09:30][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 100.98063064575196 and val_loss: 64.15444297790528 
-[2023/01/11-10:09:33][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 96.28575759637552 and val_loss: 59.459570212442365 
 [2023/01/11-10:09:33][fedweit][mnist][client-0] round:322(cnt:22),epoch:1,task:6,lss:97.38,val_lss:60.554 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:09:37][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 98.2122573852539 and val_loss: 78.10532836914062 
 [2023/01/11-10:09:37][fedweit][mnist][client-0] round:69(cnt:19),epoch:1,task:1,lss:106.933,val_lss:86.826 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
@@ -430,19 +394,11 @@
 [2023/01/11-10:10:07][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 65.20862770080566 and val_loss: 31.8285657564799 
 [2023/01/11-10:10:08][fedweit][mnist][server] round:73 train clients (selected_ids: [0, 1])
 [2023/01/11-10:10:08][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:10:08][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 81.84002581509677 and val_loss: 48.45996457880194 
-[2023/01/11-10:10:10][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 86.90158917826992 and val_loss: 53.52152658277942 
-[2023/01/11-10:10:11][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 85.96775464313787 and val_loss: 52.587692074659394 
-[2023/01/11-10:10:14][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 85.92291783351524 and val_loss: 52.5428560294357 
 [2023/01/11-10:10:14][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 95.89322662353516 and val_loss: 75.9716796875 
 [2023/01/11-10:10:14][fedweit][mnist][client-0] round:73(cnt:23),epoch:1,task:1,lss:103.446,val_lss:83.525 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:10:16][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 50.97446823120117 and val_loss: 34.09088293711344 
 [2023/01/11-10:10:16][fedweit][mnist][client-1] round:73(cnt:23),epoch:1,task:1,lss:79.356,val_lss:62.472 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
-[2023/01/11-10:10:16][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 89.49446718810034 and val_loss: 56.11440533497294 
-[2023/01/11-10:10:16][fedweit][mnist][client-1] round:322(cnt:22),epoch:1,task:6,lss:90.248,val_lss:56.868 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:10:17][fedweit][mnist][server] round:74 train clients (selected_ids: [1, 0])
-[2023/01/11-10:10:17][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:10:17][fedweit][mnist][server] round:323 train clients (selected_ids: [0, 1])
+
 [2023/01/11-10:10:17][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:10:23][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 95.94276657104493 and val_loss: 76.06402816772462 
 [2023/01/11-10:10:23][fedweit][mnist][client-0] round:74(cnt:24),epoch:1,task:1,lss:105.055,val_lss:85.176 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
@@ -462,8 +418,6 @@
 [2023/01/11-10:10:44][fedweit][mnist][client-1] round:76(cnt:26),epoch:1,task:1,lss:78.424,val_lss:61.69 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:10:45][fedweit][mnist][server] round:77 train clients (selected_ids: [0, 1])
 [2023/01/11-10:10:45][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:10:51][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 96.3805061340332 and val_loss: 59.61314010620117 
-[2023/01/11-10:10:52][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 100.35954818725585 and val_loss: 63.59218406677246 
 [2023/01/11-10:10:52][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 96.00617370605468 and val_loss: 76.25157318115234 
 [2023/01/11-10:10:52][fedweit][mnist][client-0] round:77(cnt:27),epoch:1,task:1,lss:103.86,val_lss:84.106 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:10:53][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 98.4372688293457 and val_loss: 61.669904454549155 
@@ -471,9 +425,6 @@
 [2023/01/11-10:10:53][fedweit][mnist][client-1] round:77(cnt:27),epoch:1,task:1,lss:76.691,val_lss:60.0 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:10:54][fedweit][mnist][server] round:78 train clients (selected_ids: [1, 0])
 [2023/01/11-10:10:54][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:10:55][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 97.25422382354736 and val_loss: 60.48685808181763 
-[2023/01/11-10:10:57][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 98.94720291137695 and val_loss: 62.179838256835936 
-[2023/01/11-10:11:00][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 93.91834571713306 and val_loss: 57.15098121517995 
 [2023/01/11-10:11:00][fedweit][mnist][client-0] round:323(cnt:23),epoch:1,task:6,lss:95.082,val_lss:58.315 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:11:00][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 97.69855041503907 and val_loss: 77.9866554260254 
 [2023/01/11-10:11:00][fedweit][mnist][client-0] round:78(cnt:28),epoch:1,task:1,lss:104.087,val_lss:84.375 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
@@ -499,9 +450,6 @@
 [2023/01/11-10:11:35][fedweit][mnist][client-1] round:81(cnt:31),epoch:1,task:1,lss:75.576,val_lss:59.055 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:11:35][fedweit][mnist][server] round:82 train clients (selected_ids: [1, 0])
 [2023/01/11-10:11:35][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:11:40][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 61.77909914652506 and val_loss: 28.449368158976238 
-[2023/01/11-10:11:41][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 78.90961213545366 and val_loss: 45.57988166809082 
-[2023/01/11-10:11:42][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 84.59668780911353 and val_loss: 51.266956821564705 
 [2023/01/11-10:11:43][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 93.33361206054687 and val_loss: 73.764794921875 
 [2023/01/11-10:11:43][fedweit][mnist][client-0] round:82(cnt:32),epoch:1,task:1,lss:100.696,val_lss:81.127 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:11:44][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 85.20858783256716 and val_loss: 51.878856565894154 
@@ -509,10 +457,7 @@
 [2023/01/11-10:11:45][fedweit][mnist][client-1] round:82(cnt:32),epoch:1,task:1,lss:76.556,val_lss:60.082 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:11:45][fedweit][mnist][server] round:83 train clients (selected_ids: [1, 0])
 [2023/01/11-10:11:45][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:11:46][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 85.86454174565334 and val_loss: 52.534810683306524 
-[2023/01/11-10:11:49][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 88.95518080914607 and val_loss: 55.6254496965252 
-[2023/01/11-10:11:49][fedweit][mnist][client-1] round:323(cnt:23),epoch:1,task:6,lss:89.82,val_lss:56.49 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:11:49][fedweit][mnist][server] round:324 train clients (selected_ids: [1, 0])
+
 [2023/01/11-10:11:49][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:11:52][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 91.77473449707031 and val_loss: 72.23504028320312 
 [2023/01/11-10:11:52][fedweit][mnist][client-0] round:83(cnt:33),epoch:1,task:1,lss:99.503,val_lss:79.963 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
@@ -543,19 +488,13 @@
 [2023/01/11-10:12:36][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 49.10629463195801 and val_loss: 32.817355155944824 
 [2023/01/11-10:12:36][fedweit][mnist][client-1] round:87(cnt:37),epoch:1,task:1,lss:74.314,val_lss:58.025 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:12:36][fedweit][mnist][server] round:88 train clients (selected_ids: [1, 0])
-[2023/01/11-10:12:36][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:12:38][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 91.70573577880859 and val_loss: 54.98981475830078 
-[2023/01/11-10:12:40][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 95.04132461547852 and val_loss: 58.3254056930542 
-[2023/01/11-10:12:41][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 94.25374806722006 and val_loss: 57.537828318277995 
 [2023/01/11-10:12:44][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 95.70521240234375 and val_loss: 76.33351211547851 
 [2023/01/11-10:12:44][fedweit][mnist][client-0] round:88(cnt:38),epoch:1,task:1,lss:103.057,val_lss:83.685 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:12:45][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 93.61797122955322 and val_loss: 56.902051258087155 
 [2023/01/11-10:12:46][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 49.568545977274574 and val_loss: 33.31024901072184 
 [2023/01/11-10:12:46][fedweit][mnist][client-1] round:88(cnt:38),epoch:1,task:1,lss:74.462,val_lss:58.203 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:12:46][fedweit][mnist][server] round:89 train clients (selected_ids: [1, 0])
-[2023/01/11-10:12:46][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:12:47][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 95.14080947875976 and val_loss: 58.42488983154297 
-[2023/01/11-10:12:50][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 89.58896436847624 and val_loss: 52.87304493638336 
+[2023/01/11-10:12:46][fedweit][mnist][server] Length of parallel_clients = 1 
 [2023/01/11-10:12:50][fedweit][mnist][client-0] round:324(cnt:24),epoch:1,task:6,lss:90.624,val_lss:53.908 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:12:53][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 92.4648681640625 and val_loss: 73.12104187011718 
 [2023/01/11-10:12:53][fedweit][mnist][client-0] round:89(cnt:39),epoch:1,task:1,lss:99.517,val_lss:80.173 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
@@ -586,11 +525,7 @@
 [2023/01/11-10:13:32][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 47.74751281738281 and val_loss: 31.660244464874268 
 [2023/01/11-10:13:32][fedweit][mnist][client-1] round:93(cnt:43),epoch:1,task:1,lss:72.311,val_lss:56.223 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:13:33][fedweit][mnist][server] round:94 train clients (selected_ids: [0, 1])
-[2023/01/11-10:13:33][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:13:33][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 64.46720314025879 and val_loss: 31.196793874104817 
-[2023/01/11-10:13:34][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 80.89204822887073 and val_loss: 47.621639251708984 
-[2023/01/11-10:13:36][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 86.28794147122291 and val_loss: 53.01753271779707 
-[2023/01/11-10:13:38][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 86.58231707317073 and val_loss: 53.31190834975824 
+[2023/01/11-10:13:33][fedweit][mnist][server] Length of parallel_clients = 1 
 [2023/01/11-10:13:39][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 90.01335525512695 and val_loss: 70.80826187133789 
 [2023/01/11-10:13:39][fedweit][mnist][client-0] round:94(cnt:44),epoch:1,task:1,lss:96.342,val_lss:77.137 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:13:40][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 87.41361281451057 and val_loss: 54.14320381014955 
@@ -598,10 +533,7 @@
 [2023/01/11-10:13:41][fedweit][mnist][client-1] round:94(cnt:44),epoch:1,task:1,lss:73.165,val_lss:57.111 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:13:42][fedweit][mnist][server] round:95 train clients (selected_ids: [1, 0])
 [2023/01/11-10:13:42][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:13:43][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 90.40974413762328 and val_loss: 57.13933500696401 
-[2023/01/11-10:13:43][fedweit][mnist][client-1] round:324(cnt:24),epoch:1,task:6,lss:91.154,val_lss:57.883 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:13:43][fedweit][mnist][server] round:325 train clients (selected_ids: [1, 0])
-[2023/01/11-10:13:43][fedweit][mnist][server] Length of parallel_clients = 2
+
 [2023/01/11-10:13:48][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 90.90716857910157 and val_loss: 71.72918090820312 
 [2023/01/11-10:13:48][fedweit][mnist][client-0] round:95(cnt:45),epoch:1,task:1,lss:96.288,val_lss:77.11 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
 [2023/01/11-10:13:51][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 46.38721942901611 and val_loss: 30.372382164001465 
@@ -620,13 +552,8 @@
 [2023/01/11-10:14:11][fedweit][mnist][client-1] round:97(cnt:47),epoch:1,task:1,lss:74.269,val_lss:58.309 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:14:11][fedweit][mnist][server] round:98 train clients (selected_ids: [1, 0])
 [2023/01/11-10:14:11][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:14:19][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 91.90394515991211 and val_loss: 55.24066505432129 
-[2023/01/11-10:14:20][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 95.22876739501953 and val_loss: 58.56548728942871 
-[2023/01/11-10:14:21][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 93.4075439453125 and val_loss: 56.744263331095375 
 [2023/01/11-10:14:22][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 1: T_loss is 88.10091705322266 and val_loss: 69.00096435546875 
 [2023/01/11-10:14:22][fedweit][mnist][client-0] round:98(cnt:48),epoch:1,task:1,lss:95.587,val_lss:76.487 (mnist_2_train,#_train:9923,#_valid:1986,#_test:784)
-[2023/01/11-10:14:23][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 92.70922775268555 and val_loss: 56.04594659805298 
-[2023/01/11-10:14:25][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 94.45774566650391 and val_loss: 57.79446510314941 
 [2023/01/11-10:14:26][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 1: T_loss is 46.79856459299723 and val_loss: 30.868447144826252 
 [2023/01/11-10:14:26][fedweit][mnist][client-1] round:98(cnt:48),epoch:1,task:1,lss:70.21,val_lss:54.28 (mnist_3_train,#_train:10727,#_valid:2146,#_test:784)
 [2023/01/11-10:14:26][fedweit][mnist][server] round:99 train clients (selected_ids: [0, 1])
@@ -649,14 +576,7 @@
 [2023/01/11-10:14:59][fedweit][mnist][client-1] round:100(cnt:0),epoch:1,task:2,lss:138.267,val_lss:112.41 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:14:59][fedweit][mnist][server] round:101 train clients (selected_ids: [1, 0])
 [2023/01/11-10:14:59][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:15:03][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 58.96929677327474 and val_loss: 25.741551558176678 
-[2023/01/11-10:15:04][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 76.32713907415217 and val_loss: 43.09939401799982 
-[2023/01/11-10:15:05][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 81.89553611509261 and val_loss: 48.66779081283077 
-[2023/01/11-10:15:07][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 81.813686463891 and val_loss: 48.58594122165587 
-[2023/01/11-10:15:09][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 82.70056646010455 and val_loss: 49.47282147875019 
-[2023/01/11-10:15:12][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 86.07639437816182 and val_loss: 52.84864913440141 
-[2023/01/11-10:15:12][fedweit][mnist][client-1] round:325(cnt:25),epoch:1,task:6,lss:86.899,val_lss:53.672 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:15:12][fedweit][mnist][server] round:326 train clients (selected_ids: [0, 1])
+
 [2023/01/11-10:15:12][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:15:15][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 135.51412353515624 and val_loss: 106.68802413940429 
 [2023/01/11-10:15:16][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 142.431689453125 and val_loss: 113.6055892944336 
@@ -674,13 +594,7 @@
 [2023/01/11-10:15:42][fedweit][mnist][client-1] round:102(cnt:2),epoch:1,task:2,lss:112.241,val_lss:87.558 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:15:42][fedweit][mnist][server] round:103 train clients (selected_ids: [1, 0])
 [2023/01/11-10:15:42][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:15:46][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 92.90943145751953 and val_loss: 56.28794479370117 
-[2023/01/11-10:15:47][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 95.2601375579834 and val_loss: 58.638650512695314 
-[2023/01/11-10:15:49][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 94.46869837443033 and val_loss: 57.84721094767253 
-[2023/01/11-10:15:50][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 93.86732196807861 and val_loss: 57.245834541320804 
-[2023/01/11-10:15:52][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 96.0854621887207 and val_loss: 59.46397575378418 
-[2023/01/11-10:15:55][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 90.30007371746126 and val_loss: 53.678587366323 
-[2023/01/11-10:15:55][fedweit][mnist][client-0] round:326(cnt:26),epoch:1,task:6,lss:91.778,val_lss:55.157 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
+
 [2023/01/11-10:15:56][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 116.1692138671875 and val_loss: 88.44933853149413 
 [2023/01/11-10:15:57][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 123.11628112792968 and val_loss: 95.39640464782715 
 [2023/01/11-10:15:57][fedweit][mnist][client-0] round:103(cnt:3),epoch:1,task:2,lss:124.382,val_lss:96.662 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
@@ -697,22 +611,14 @@
 [2023/01/11-10:16:19][fedweit][mnist][client-1] round:104(cnt:4),epoch:1,task:2,lss:99.527,val_lss:75.571 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:16:20][fedweit][mnist][server] round:105 train clients (selected_ids: [1, 0])
 [2023/01/11-10:16:20][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:16:30][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 64.24984677632649 and val_loss: 31.064894835154217 
-[2023/01/11-10:16:31][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 78.61584403298117 and val_loss: 45.430893117731266 
-[2023/01/11-10:16:32][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.68056315760458 and val_loss: 50.495612236761275 
 [2023/01/11-10:16:33][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 108.74125823974609 and val_loss: 81.58052215576171 
 [2023/01/11-10:16:34][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 116.74246368408203 and val_loss: 89.58172760009765 
 [2023/01/11-10:16:34][fedweit][mnist][client-0] round:105(cnt:5),epoch:1,task:2,lss:118.927,val_lss:91.767 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:16:34][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.79206029380241 and val_loss: 50.60710916286561 
-[2023/01/11-10:16:36][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 84.70281039967256 and val_loss: 51.51785816865809 
 [2023/01/11-10:16:37][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 69.16618092854817 and val_loss: 45.428358713785805 
 [2023/01/11-10:16:38][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 92.51477120139383 and val_loss: 68.7769477150657 
 [2023/01/11-10:16:38][fedweit][mnist][client-1] round:105(cnt:5),epoch:1,task:2,lss:101.654,val_lss:77.916 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:16:38][fedweit][mnist][server] round:106 train clients (selected_ids: [1, 0])
-[2023/01/11-10:16:38][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:16:39][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 87.72925892814261 and val_loss: 54.544307083380026 
-[2023/01/11-10:16:39][fedweit][mnist][client-1] round:326(cnt:26),epoch:1,task:6,lss:88.731,val_lss:55.546 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:16:39][fedweit][mnist][server] round:327 train clients (selected_ids: [0, 1])
+
 [2023/01/11-10:16:39][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:16:51][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 110.45076522827148 and val_loss: 83.47011337280273 
 [2023/01/11-10:16:51][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 119.49931335449219 and val_loss: 92.51866149902344 
@@ -731,12 +637,7 @@
 [2023/01/11-10:17:14][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 97.7873924255371 and val_loss: 61.21553115844726 
 [2023/01/11-10:17:14][fedweit][mnist][server] round:108 train clients (selected_ids: [1, 0])
 [2023/01/11-10:17:14][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:17:15][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 100.23908233642578 and val_loss: 63.667221260070804 
-[2023/01/11-10:17:16][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 97.47535247802735 and val_loss: 60.90349032084147 
-[2023/01/11-10:17:18][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 96.59405860900878 and val_loss: 60.022197532653806 
-[2023/01/11-10:17:20][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 98.51417404174805 and val_loss: 61.94231315612793 
-[2023/01/11-10:17:23][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 92.95471916824091 and val_loss: 56.38285821383117 
-[2023/01/11-10:17:23][fedweit][mnist][client-0] round:327(cnt:27),epoch:1,task:6,lss:93.776,val_lss:57.204 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
+
 [2023/01/11-10:17:26][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 104.88939056396484 and val_loss: 78.21629104614257 
 [2023/01/11-10:17:27][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 111.46810302734374 and val_loss: 84.79500236511231 
 [2023/01/11-10:17:27][fedweit][mnist][client-0] round:108(cnt:8),epoch:1,task:2,lss:112.519,val_lss:85.846 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
@@ -753,11 +654,7 @@
 [2023/01/11-10:17:51][fedweit][mnist][client-1] round:109(cnt:9),epoch:1,task:2,lss:93.892,val_lss:70.746 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:17:51][fedweit][mnist][server] round:110 train clients (selected_ids: [1, 0])
 [2023/01/11-10:17:51][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:17:59][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 63.79879379272461 and val_loss: 30.655250390370686 
-[2023/01/11-10:18:00][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 81.8963078585538 and val_loss: 48.752764441750266 
-[2023/01/11-10:18:01][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 88.10130925332346 and val_loss: 54.95776637907951 
-[2023/01/11-10:18:03][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 87.69400229105135 and val_loss: 54.550458675477564 
-[2023/01/11-10:18:05][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 88.34050152348537 and val_loss: 55.1969581304812 
+
 [2023/01/11-10:18:06][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 97.74444351196288 and val_loss: 71.33303604125976 
 [2023/01/11-10:18:07][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 103.3958568572998 and val_loss: 76.98444938659668 
 [2023/01/11-10:18:07][fedweit][mnist][client-0] round:110(cnt:10),epoch:1,task:2,lss:103.894,val_lss:77.482 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
@@ -779,19 +676,13 @@
 [2023/01/11-10:18:29][fedweit][mnist][server] round:112 train clients (selected_ids: [1, 0])
 [2023/01/11-10:18:29][fedweit][mnist][server] Length of parallel_clients = 1
 [2023/01/11-10:18:42][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 98.01285324096679 and val_loss: 71.81503829956054 
-[2023/01/11-10:18:43][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 95.15977401733399 and val_loss: 58.6293270111084 
 [2023/01/11-10:18:43][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 103.23091278076171 and val_loss: 77.03309783935546 
 [2023/01/11-10:18:43][fedweit][mnist][client-0] round:112(cnt:12),epoch:1,task:2,lss:104.163,val_lss:77.966 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:18:44][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 97.93450355529785 and val_loss: 61.40405826568603 
-[2023/01/11-10:18:45][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 96.50893427530924 and val_loss: 59.97848943074544 
-[2023/01/11-10:18:47][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 96.2451810836792 and val_loss: 59.71473560333252 
 [2023/01/11-10:18:48][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 58.028547286987305 and val_loss: 35.211496353149414 
 [2023/01/11-10:18:48][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 79.85286782004617 and val_loss: 57.0358170596036 
 [2023/01/11-10:18:48][fedweit][mnist][client-1] round:112(cnt:12),epoch:1,task:2,lss:88.197,val_lss:65.38 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:18:48][fedweit][mnist][server] round:113 train clients (selected_ids: [0, 1])
-[2023/01/11-10:18:48][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:18:49][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 97.15912643432617 and val_loss: 60.62868179321289 
-[2023/01/11-10:18:52][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 91.54026494260694 and val_loss: 55.00982015641009 
+[2023/01/11-10:18:48][fedweit][mnist][server] Length of parallel_clients = 1 
 [2023/01/11-10:18:52][fedweit][mnist][client-0] round:328(cnt:28),epoch:1,task:6,lss:92.561,val_lss:56.03 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:19:01][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 101.11735687255859 and val_loss: 75.02128601074219 
 [2023/01/11-10:19:02][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 105.58013381958008 and val_loss: 79.48406105041504 
@@ -809,13 +700,6 @@
 [2023/01/11-10:19:26][fedweit][mnist][client-1] round:114(cnt:14),epoch:1,task:2,lss:85.466,val_lss:62.832 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:19:26][fedweit][mnist][server] round:115 train clients (selected_ids: [0, 1])
 [2023/01/11-10:19:26][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:19:28][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 61.00595188140869 and val_loss: 27.896713892618816 
-[2023/01/11-10:19:29][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 77.37556318803267 and val_loss: 44.26632638411088 
-[2023/01/11-10:19:30][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.43060499621976 and val_loss: 50.32136707921182 
-[2023/01/11-10:19:32][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.16217748130241 and val_loss: 50.052938879989995 
-[2023/01/11-10:19:34][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 83.39033792533127 and val_loss: 50.28110017963484 
-[2023/01/11-10:19:37][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 86.54912542124264 and val_loss: 53.43988781288022 
-[2023/01/11-10:19:37][fedweit][mnist][client-1] round:328(cnt:28),epoch:1,task:6,lss:87.405,val_lss:54.296 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:19:37][fedweit][mnist][server] round:329 train clients (selected_ids: [0, 1])
 [2023/01/11-10:19:37][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:19:40][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 101.97135391235352 and val_loss: 76.04035415649415 
@@ -834,16 +718,10 @@
 [2023/01/11-10:20:04][fedweit][mnist][client-1] round:116(cnt:16),epoch:1,task:2,lss:88.598,val_lss:66.12 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:20:05][fedweit][mnist][server] round:117 train clients (selected_ids: [0, 1])
 [2023/01/11-10:20:05][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:20:13][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 94.91242446899415 and val_loss: 58.423849487304686 
-[2023/01/11-10:20:14][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 98.95803337097168 and val_loss: 62.46945781707764 
-[2023/01/11-10:20:15][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 97.8024398803711 and val_loss: 61.31386426289876 
 [2023/01/11-10:20:17][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 94.64806823730468 and val_loss: 68.8751449584961 
-[2023/01/11-10:20:17][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 97.69174575805664 and val_loss: 61.203170680999754 
 [2023/01/11-10:20:18][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 98.64080123901367 and val_loss: 72.86787948608398 
 [2023/01/11-10:20:18][fedweit][mnist][client-0] round:117(cnt:17),epoch:1,task:2,lss:99.809,val_lss:74.036 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:20:19][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 98.26891586303711 and val_loss: 61.780341415405275 
-[2023/01/11-10:20:22][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.41069634755453 and val_loss: 33.00759029388428 
-[2023/01/11-10:20:22][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 93.10294342041016 and val_loss: 56.61436818857662 
+[2023/01/11-10:20:22][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.41069634755453 and val_loss: 33.00759029388428
 [2023/01/11-10:20:22][fedweit][mnist][client-0] round:329(cnt:29),epoch:1,task:6,lss:94.049,val_lss:57.56 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:20:22][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 76.82968729192561 and val_loss: 54.42658233642578 
 [2023/01/11-10:20:22][fedweit][mnist][client-1] round:117(cnt:17),epoch:1,task:2,lss:84.604,val_lss:62.201 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
@@ -859,20 +737,12 @@
 [2023/01/11-10:20:40][fedweit][mnist][server] Length of parallel_clients = 1
 [2023/01/11-10:20:52][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 95.92711639404297 and val_loss: 70.29448699951172 
 [2023/01/11-10:20:53][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 100.04799728393554 and val_loss: 74.4153678894043 
-[2023/01/11-10:20:53][fedweit][mnist][client-0] round:119(cnt:19),epoch:1,task:2,lss:100.228,val_lss:74.595 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:20:57][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 60.6951707204183 and val_loss: 27.61630980173747 
-[2023/01/11-10:20:58][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.98939164479574 and val_loss: 33.72526582082113 
-[2023/01/11-10:20:58][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 77.7694698680531 and val_loss: 44.69060776450417 
+[2023/01/11-10:20:53][fedweit][mnist][client-0] round:119(cnt:19),epoch:1,task:2,lss:100.228,val_lss:74.595 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784) 
+[2023/01/11-10:20:58][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.98939164479574 and val_loss: 33.72526582082113
 [2023/01/11-10:20:58][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 77.07856819846414 and val_loss: 54.814443068070844 
 [2023/01/11-10:20:58][fedweit][mnist][client-1] round:119(cnt:19),epoch:1,task:2,lss:84.867,val_lss:62.602 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:20:58][fedweit][mnist][server] round:120 train clients (selected_ids: [0, 1])
-[2023/01/11-10:20:58][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:20:59][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 84.00743669079196 and val_loss: 50.9285757003292 
-[2023/01/11-10:21:01][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.80965051418397 and val_loss: 50.73078909152892 
-[2023/01/11-10:21:03][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 84.43431988884421 and val_loss: 51.35545872706993 
-[2023/01/11-10:21:06][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 87.81014864561988 and val_loss: 54.73128709636751 
-[2023/01/11-10:21:06][fedweit][mnist][client-1] round:329(cnt:29),epoch:1,task:6,lss:88.361,val_lss:55.282 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:21:06][fedweit][mnist][server] round:330 train clients (selected_ids: [0, 1])
+
 [2023/01/11-10:21:06][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:21:11][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 93.6192024230957 and val_loss: 68.0545280456543 
 [2023/01/11-10:21:12][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 99.46040992736816 and val_loss: 73.89573554992675 
@@ -888,17 +758,10 @@
 [2023/01/11-10:21:36][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.25862566630045 and val_loss: 33.12713289260864 
 [2023/01/11-10:21:37][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 75.07586531205611 and val_loss: 52.94437183033336 
 [2023/01/11-10:21:37][fedweit][mnist][client-1] round:121(cnt:21),epoch:1,task:2,lss:82.884,val_lss:60.753 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
-[2023/01/11-10:21:37][fedweit][mnist][server] round:122 train clients (selected_ids: [1, 0])
-[2023/01/11-10:21:37][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:21:42][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 99.93635025024415 and val_loss: 63.484260177612306 
-[2023/01/11-10:21:43][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 102.3483112335205 and val_loss: 65.89621868133545 
-[2023/01/11-10:21:44][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 100.10941670735677 and val_loss: 63.65732510884603 
-[2023/01/11-10:21:46][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 99.63705749511719 and val_loss: 63.1849663734436 
-[2023/01/11-10:21:48][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 101.29673492431641 and val_loss: 64.84464385986328 
+[2023/01/11-10:21:37][fedweit][mnist][server] round:122 train clients (selected_ids: [1, 0]) 
 [2023/01/11-10:21:50][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 95.64317169189454 and val_loss: 70.19288940429688 
 [2023/01/11-10:21:50][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 98.6706314086914 and val_loss: 73.22034912109375 
 [2023/01/11-10:21:50][fedweit][mnist][client-0] round:122(cnt:22),epoch:1,task:2,lss:98.839,val_lss:73.389 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:21:51][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 95.48325673087699 and val_loss: 59.03116545129995 
 [2023/01/11-10:21:51][fedweit][mnist][client-0] round:330(cnt:30),epoch:1,task:6,lss:96.246,val_lss:59.794 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:21:54][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 57.01659329732259 and val_loss: 34.9505189259847 
 [2023/01/11-10:21:55][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 76.95449100841175 and val_loss: 54.888416810469195 
@@ -914,21 +777,13 @@
 [2023/01/11-10:22:13][fedweit][mnist][server] round:124 train clients (selected_ids: [0, 1])
 [2023/01/11-10:22:13][fedweit][mnist][server] Length of parallel_clients = 1
 [2023/01/11-10:22:26][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 94.6987075805664 and val_loss: 69.35751800537109 
-[2023/01/11-10:22:26][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 59.73578929901123 and val_loss: 26.709726174672443 
 [2023/01/11-10:22:26][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 98.03068008422852 and val_loss: 72.68948974609376 
-[2023/01/11-10:22:26][fedweit][mnist][client-0] round:124(cnt:24),epoch:1,task:2,lss:97.44,val_lss:72.098 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:22:27][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 76.61060055819425 and val_loss: 43.584538199684836 
-[2023/01/11-10:22:28][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.4020011655746 and val_loss: 50.3759390308011 
-[2023/01/11-10:22:30][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 84.16283974996428 and val_loss: 51.13677783128692 
-[2023/01/11-10:22:32][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.68922805786133 and val_loss: 33.72993469238281 
-[2023/01/11-10:22:32][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 85.00083609188304 and val_loss: 51.974774379356234 
+[2023/01/11-10:22:26][fedweit][mnist][client-0] round:124(cnt:24),epoch:1,task:2,lss:97.44,val_lss:72.098 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784) 
+[2023/01/11-10:22:32][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.68922805786133 and val_loss: 33.72993469238281  
 [2023/01/11-10:22:33][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 75.16399210149592 and val_loss: 53.20469786904075 
 [2023/01/11-10:22:33][fedweit][mnist][client-1] round:124(cnt:24),epoch:1,task:2,lss:82.306,val_lss:60.347 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:22:33][fedweit][mnist][server] round:125 train clients (selected_ids: [0, 1])
 [2023/01/11-10:22:33][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:22:35][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 88.06819828221056 and val_loss: 55.042135770203636 
-[2023/01/11-10:22:35][fedweit][mnist][client-1] round:330(cnt:30),epoch:1,task:6,lss:88.873,val_lss:55.847 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
-[2023/01/11-10:22:35][fedweit][mnist][server] round:331 train clients (selected_ids: [1, 0])
 [2023/01/11-10:22:35][fedweit][mnist][server] Length of parallel_clients = 2
 [2023/01/11-10:22:45][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 92.94135437011718 and val_loss: 67.65072860717774 
 [2023/01/11-10:22:46][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 97.10872192382813 and val_loss: 71.81810035705567 
@@ -945,13 +800,6 @@
 [2023/01/11-10:23:09][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 74.85208303278142 and val_loss: 52.994599775834516 
 [2023/01/11-10:23:09][fedweit][mnist][client-1] round:126(cnt:26),epoch:1,task:2,lss:81.572,val_lss:59.715 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:23:10][fedweit][mnist][server] round:127 train clients (selected_ids: [0, 1])
-[2023/01/11-10:23:10][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:23:11][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 96.75693359375 and val_loss: 60.342430877685544 
-[2023/01/11-10:23:12][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 99.79109992980958 and val_loss: 63.37659511566162 
-[2023/01/11-10:23:13][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 98.3648203531901 and val_loss: 61.95031572977702 
-[2023/01/11-10:23:15][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 97.6744197845459 and val_loss: 61.25991468429565 
-[2023/01/11-10:23:17][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 99.0329753112793 and val_loss: 62.61847030639648 
-[2023/01/11-10:23:20][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 93.43937545526224 and val_loss: 57.02487063798748 
 [2023/01/11-10:23:20][fedweit][mnist][client-0] round:331(cnt:31),epoch:1,task:6,lss:94.682,val_lss:58.268 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:23:22][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 97.80687561035157 and val_loss: 72.60264434814454 
 [2023/01/11-10:23:23][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 102.67698020935059 and val_loss: 77.47274894714356 
@@ -968,19 +816,11 @@
 [2023/01/11-10:23:47][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 76.64943001487039 and val_loss: 54.89314061945135 
 [2023/01/11-10:23:47][fedweit][mnist][client-1] round:128(cnt:28),epoch:1,task:2,lss:83.977,val_lss:62.221 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:23:47][fedweit][mnist][server] round:129 train clients (selected_ids: [1, 0])
-[2023/01/11-10:23:47][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:23:55][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 60.694844245910645 and val_loss: 27.70172993342082 
-[2023/01/11-10:23:56][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 77.69434322010387 and val_loss: 44.701228055087 
-[2023/01/11-10:23:58][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.11596704298451 and val_loss: 50.12285269460371 
-[2023/01/11-10:23:59][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 92.52601699829101 and val_loss: 67.42136459350586 
-[2023/01/11-10:24:00][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.52190789943788 and val_loss: 50.52879389320932 
 [2023/01/11-10:24:00][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 96.77747840881348 and val_loss: 71.67282600402832 
-[2023/01/11-10:24:00][fedweit][mnist][client-0] round:129(cnt:29),epoch:1,task:2,lss:96.723,val_lss:71.619 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:24:02][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 84.15672511680454 and val_loss: 51.16361086976294 
+[2023/01/11-10:24:00][fedweit][mnist][client-0] round:129(cnt:29),epoch:1,task:2,lss:96.723,val_lss:71.619 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784) 
 [2023/01/11-10:24:04][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 55.2648499806722 and val_loss: 33.553168614705406 
 [2023/01/11-10:24:04][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 75.00652382590555 and val_loss: 53.29484193975275 
 [2023/01/11-10:24:04][fedweit][mnist][client-1] round:129(cnt:29),epoch:1,task:2,lss:82.092,val_lss:60.38 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
-[2023/01/11-10:24:04][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 87.25532656810323 and val_loss: 54.2622121592037 
 [2023/01/11-10:24:04][fedweit][mnist][client-1] round:331(cnt:31),epoch:1,task:6,lss:88.122,val_lss:55.129 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:24:05][fedweit][mnist][server] round:130 train clients (selected_ids: [1, 0])
 [2023/01/11-10:24:05][fedweit][mnist][server] Length of parallel_clients = 1
@@ -996,19 +836,12 @@
 [2023/01/11-10:24:23][fedweit][mnist][server] Length of parallel_clients = 1
 [2023/01/11-10:24:36][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 96.05324096679688 and val_loss: 71.03065032958985 
 [2023/01/11-10:24:37][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 99.32643852233886 and val_loss: 74.30384788513183 
-[2023/01/11-10:24:37][fedweit][mnist][client-0] round:131(cnt:31),epoch:1,task:2,lss:99.642,val_lss:74.619 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:24:40][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 97.15811233520508 and val_loss: 60.781624221801756 
+[2023/01/11-10:24:37][fedweit][mnist][client-0] round:131(cnt:31),epoch:1,task:2,lss:99.642,val_lss:74.619 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784) 
 [2023/01/11-10:24:41][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 56.0082893371582 and val_loss: 34.37879721323649 
-[2023/01/11-10:24:41][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 101.14267005920411 and val_loss: 64.76618194580078 
 [2023/01/11-10:24:41][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 75.00930335304953 and val_loss: 53.37981206720526 
 [2023/01/11-10:24:41][fedweit][mnist][client-1] round:131(cnt:31),epoch:1,task:2,lss:82.204,val_lss:60.574 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:24:41][fedweit][mnist][server] round:132 train clients (selected_ids: [1, 0])
 [2023/01/11-10:24:41][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:24:42][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 100.45425516764323 and val_loss: 64.07776718139648 
-[2023/01/11-10:24:44][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 100.09841728210449 and val_loss: 63.721929454803465 
-[2023/01/11-10:24:46][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 101.05500915527344 and val_loss: 64.67852188110352 
-[2023/01/11-10:24:49][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 95.55136333528112 and val_loss: 59.1748749154513 
-[2023/01/11-10:24:49][fedweit][mnist][client-0] round:332(cnt:32),epoch:1,task:6,lss:96.267,val_lss:59.891 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:24:55][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 94.5803321838379 and val_loss: 69.59625473022462 
 [2023/01/11-10:24:56][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 97.50621376037597 and val_loss: 72.52213630676269 
 [2023/01/11-10:24:56][fedweit][mnist][client-0] round:132(cnt:32),epoch:1,task:2,lss:98.068,val_lss:73.084 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
@@ -1025,11 +858,6 @@
 [2023/01/11-10:25:18][fedweit][mnist][client-1] round:133(cnt:33),epoch:1,task:2,lss:78.269,val_lss:56.72 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:25:19][fedweit][mnist][server] round:134 train clients (selected_ids: [1, 0])
 [2023/01/11-10:25:19][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:25:24][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 60.786851247151695 and val_loss: 27.832234382629395 
-[2023/01/11-10:25:25][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 75.84184473211116 and val_loss: 42.88722922585227 
-[2023/01/11-10:25:26][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 82.12564677576864 and val_loss: 49.17103059830204 
-[2023/01/11-10:25:28][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 81.69979430408013 and val_loss: 48.74517766440787 
-[2023/01/11-10:25:30][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 82.11934871299594 and val_loss: 49.16473171757717 
 [2023/01/11-10:25:31][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 92.59259643554688 and val_loss: 67.69049301147462 
 [2023/01/11-10:25:32][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 95.99950637817383 and val_loss: 71.09740295410157 
 [2023/01/11-10:25:32][fedweit][mnist][client-0] round:134(cnt:34),epoch:1,task:2,lss:95.633,val_lss:70.731 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
@@ -1053,17 +881,10 @@
 [2023/01/11-10:26:08][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 90.75855255126953 and val_loss: 65.92632293701172 
 [2023/01/11-10:26:08][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 94.04644203186035 and val_loss: 69.21421241760254 
 [2023/01/11-10:26:08][fedweit][mnist][client-0] round:136(cnt:36),epoch:1,task:2,lss:93.714,val_lss:68.882 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:26:09][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 96.07197341918945 and val_loss: 59.73081016540527 
-[2023/01/11-10:26:10][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 98.60563583374024 and val_loss: 62.264472007751465 
-[2023/01/11-10:26:11][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 97.03381220499675 and val_loss: 60.692648315429686 
-[2023/01/11-10:26:13][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 51.076927502950035 and val_loss: 29.64309310913086 
-[2023/01/11-10:26:13][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 96.10423259735107 and val_loss: 59.76306915283203 
 [2023/01/11-10:26:13][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 71.312706340443 and val_loss: 49.87887226451527 
 [2023/01/11-10:26:13][fedweit][mnist][client-1] round:136(cnt:36),epoch:1,task:2,lss:78.368,val_lss:56.935 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:26:14][fedweit][mnist][server] round:137 train clients (selected_ids: [1, 0])
 [2023/01/11-10:26:14][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:26:15][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 97.47395599365234 and val_loss: 61.13279258728027 
-[2023/01/11-10:26:18][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 92.07228438580623 and val_loss: 55.73112106323242 
 [2023/01/11-10:26:18][fedweit][mnist][client-0] round:333(cnt:33),epoch:1,task:6,lss:93.089,val_lss:56.748 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:26:26][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 90.74135284423828 and val_loss: 65.94347839355468 
 [2023/01/11-10:26:27][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 95.83352851867676 and val_loss: 71.03565406799316 
@@ -1106,16 +927,11 @@
 [2023/01/11-10:27:31][fedweit][mnist][client-1] round:140(cnt:40),epoch:1,task:2,lss:75.581,val_lss:54.284 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:27:31][fedweit][mnist][server] round:141 train clients (selected_ids: [1, 0])
 [2023/01/11-10:27:31][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:27:40][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 99.57834243774414 and val_loss: 63.2775146484375 
-[2023/01/11-10:27:41][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 101.1328067779541 and val_loss: 64.83197917938233 
-[2023/01/11-10:27:42][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 99.75641123453777 and val_loss: 63.455583572387695 
 [2023/01/11-10:27:44][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 94.8364761352539 and val_loss: 70.15852813720703 
 [2023/01/11-10:27:44][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 98.96820755004883 and val_loss: 62.66738109588623 
 [2023/01/11-10:27:45][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 99.00003356933594 and val_loss: 74.32208557128907 
 [2023/01/11-10:27:45][fedweit][mnist][client-0] round:141(cnt:41),epoch:1,task:2,lss:99.047,val_lss:74.369 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:27:47][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 100.09698547363281 and val_loss: 63.796158447265626 
 [2023/01/11-10:27:49][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 49.68032010396322 and val_loss: 28.41401243209839 
-[2023/01/11-10:27:49][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 94.72196172495357 and val_loss: 58.42113482365843 
 [2023/01/11-10:27:49][fedweit][mnist][client-0] round:334(cnt:34),epoch:1,task:6,lss:95.651,val_lss:59.35 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:27:50][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 69.30154800415039 and val_loss: 48.03524052013051 
 [2023/01/11-10:27:50][fedweit][mnist][client-1] round:141(cnt:41),epoch:1,task:2,lss:76.253,val_lss:54.987 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
@@ -1132,17 +948,12 @@
 [2023/01/11-10:28:21][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 93.30187225341797 and val_loss: 68.67371368408203 
 [2023/01/11-10:28:22][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 100.40950317382813 and val_loss: 75.78134460449219 
 [2023/01/11-10:28:22][fedweit][mnist][client-0] round:143(cnt:43),epoch:1,task:2,lss:100.915,val_lss:76.287 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:28:24][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 62.02366797129313 and val_loss: 29.148374557495117 
-[2023/01/11-10:28:25][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 78.61226480657405 and val_loss: 45.73697003451261 
 [2023/01/11-10:28:26][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 53.751499811808266 and val_loss: 32.53712320327759 
 [2023/01/11-10:28:27][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 74.74953356656161 and val_loss: 53.53515677018599 
 [2023/01/11-10:28:27][fedweit][mnist][client-1] round:143(cnt:43),epoch:1,task:2,lss:81.092,val_lss:59.878 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:28:27][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 84.30332774500692 and val_loss: 51.42803376720798 
 [2023/01/11-10:28:27][fedweit][mnist][server] round:144 train clients (selected_ids: [0, 1])
 [2023/01/11-10:28:27][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:28:29][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 84.1207671746975 and val_loss: 51.245474094297826 
-[2023/01/11-10:28:31][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 84.86305162018421 and val_loss: 51.98775751450483 
-[2023/01/11-10:28:34][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 88.18751788530193 and val_loss: 55.31222440375657 
 [2023/01/11-10:28:34][fedweit][mnist][client-1] round:334(cnt:34),epoch:1,task:6,lss:89.443,val_lss:56.568 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:28:34][fedweit][mnist][server] round:335 train clients (selected_ids: [0, 1])
 [2023/01/11-10:28:34][fedweit][mnist][server] Length of parallel_clients = 2
@@ -1162,13 +973,7 @@
 [2023/01/11-10:29:06][fedweit][mnist][client-1] round:145(cnt:45),epoch:1,task:2,lss:76.692,val_lss:55.536 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:29:06][fedweit][mnist][server] round:146 train clients (selected_ids: [1, 0])
 [2023/01/11-10:29:06][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:29:10][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 89.14072799682617 and val_loss: 52.86877098083496 
-[2023/01/11-10:29:11][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 92.78440551757812 and val_loss: 56.512447929382326 
-[2023/01/11-10:29:12][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 91.00114924112955 and val_loss: 54.72919209798177 
-[2023/01/11-10:29:14][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 90.41838130950927 and val_loss: 54.14642391204834 
-[2023/01/11-10:29:16][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 91.5961117553711 and val_loss: 55.324154739379885 
-[2023/01/11-10:29:19][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 84.86321563720703 and val_loss: 60.31730194091797 
-[2023/01/11-10:29:19][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 86.6402434052014 and val_loss: 50.36828531984423 
+[2023/01/11-10:29:19][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 84.86321563720703 and val_loss: 60.31730194091797
 [2023/01/11-10:29:19][fedweit][mnist][client-0] round:335(cnt:35),epoch:1,task:6,lss:87.426,val_lss:51.154 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:29:20][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 91.26307334899903 and val_loss: 66.71715965270997 
 [2023/01/11-10:29:20][fedweit][mnist][client-0] round:146(cnt:46),epoch:1,task:2,lss:91.357,val_lss:66.811 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
@@ -1184,21 +989,15 @@
 [2023/01/11-10:29:44][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 71.07439561323686 and val_loss: 49.97388180819425 
 [2023/01/11-10:29:44][fedweit][mnist][client-1] round:147(cnt:47),epoch:1,task:2,lss:78.025,val_lss:56.924 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:29:44][fedweit][mnist][server] round:148 train clients (selected_ids: [0, 1])
-[2023/01/11-10:29:44][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:29:57][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 61.36757278442383 and val_loss: 28.513775030771892 
+[2023/01/11-10:29:44][fedweit][mnist][server] Length of parallel_clients = 1 
 [2023/01/11-10:29:57][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 2: T_loss is 87.98415603637696 and val_loss: 63.487985610961914 
 [2023/01/11-10:29:58][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 2: T_loss is 92.3048110961914 and val_loss: 67.80864105224609 
 [2023/01/11-10:29:58][fedweit][mnist][client-0] round:148(cnt:48),epoch:1,task:2,lss:92.777,val_lss:68.281 (mnist_4_train,#_train:14797,#_valid:2961,#_test:784)
-[2023/01/11-10:29:58][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 77.80543795498934 and val_loss: 44.9516395222057 
-[2023/01/11-10:29:59][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.49260711669922 and val_loss: 50.638809942430065 
-[2023/01/11-10:30:01][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.35385615651201 and val_loss: 50.50005787174876 
 [2023/01/11-10:30:02][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 2: T_loss is 52.3672841389974 and val_loss: 31.28955952326457 
 [2023/01/11-10:30:03][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 2: T_loss is 71.4476547241211 and val_loss: 50.36993044072931 
 [2023/01/11-10:30:03][fedweit][mnist][client-1] round:148(cnt:48),epoch:1,task:2,lss:78.388,val_lss:57.31 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:30:03][fedweit][mnist][server] round:149 train clients (selected_ids: [0, 1])
 [2023/01/11-10:30:03][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:30:03][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 83.42395049450444 and val_loss: 50.57015273150276 
-[2023/01/11-10:30:06][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 86.69115885750192 and val_loss: 53.83736132012039 
 [2023/01/11-10:30:06][fedweit][mnist][client-1] round:335(cnt:35),epoch:1,task:6,lss:87.273,val_lss:54.419 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:30:06][fedweit][mnist][server] round:336 train clients (selected_ids: [0, 1])
 [2023/01/11-10:30:06][fedweit][mnist][server] Length of parallel_clients = 2
@@ -1212,16 +1011,10 @@
 [2023/01/11-10:30:23][fedweit][mnist][client-1] round:149(cnt:49),epoch:1,task:2,lss:78.0,val_lss:56.945 (mnist_5_train,#_train:15236,#_valid:3048,#_test:784)
 [2023/01/11-10:30:23][fedweit][mnist][server] round:150 train clients (selected_ids: [1, 0])
 [2023/01/11-10:30:23][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:30:43][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 94.30771026611328 and val_loss: 58.061394119262694 
-[2023/01/11-10:30:44][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 98.26641998291015 and val_loss: 62.02010517120361 
-[2023/01/11-10:30:45][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 97.07095413208008 and val_loss: 60.82463887532552 
-[2023/01/11-10:30:47][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 96.3800235748291 and val_loss: 60.13370819091797 
 [2023/01/11-10:30:48][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 147.8216552734375 and val_loss: 113.85402221679688 
-[2023/01/11-10:30:49][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 154.839998626709 and val_loss: 120.87236595153809 
-[2023/01/11-10:30:49][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 97.47793579101562 and val_loss: 61.23162139892578 
+[2023/01/11-10:30:49][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 154.839998626709 and val_loss: 120.87236595153809
 [2023/01/11-10:30:50][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 3: T_loss is 155.8102559407552 and val_loss: 121.84262313842774 
 [2023/01/11-10:30:50][fedweit][mnist][client-0] round:150(cnt:0),epoch:1,task:3,lss:155.041,val_lss:121.074 (mnist_6_train,#_train:19709,#_valid:3943,#_test:784)
-[2023/01/11-10:30:52][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 91.99169646716508 and val_loss: 55.74538190247583 
 [2023/01/11-10:30:52][fedweit][mnist][client-0] round:336(cnt:36),epoch:1,task:6,lss:92.559,val_lss:56.312 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:30:57][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 3: T_loss is 98.97721862792969 and val_loss: 68.4627202351888 
 [2023/01/11-10:30:58][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 3: T_loss is 123.9984956221147 and val_loss: 93.48399457064542 
@@ -1232,19 +1025,13 @@
 [2023/01/11-10:31:19][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 130.17382736206054 and val_loss: 97.1092315673828 
 [2023/01/11-10:31:20][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 137.4341567993164 and val_loss: 104.36955909729004 
 [2023/01/11-10:31:21][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 3: T_loss is 137.40904134114584 and val_loss: 104.34444224039713 
-[2023/01/11-10:31:21][fedweit][mnist][client-0] round:151(cnt:1),epoch:1,task:3,lss:137.157,val_lss:104.092 (mnist_6_train,#_train:19709,#_valid:3943,#_test:784)
-[2023/01/11-10:31:28][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 64.96640205383301 and val_loss: 32.14089806874593 
-[2023/01/11-10:31:29][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 78.16607527299361 and val_loss: 45.34057027643377 
+[2023/01/11-10:31:21][fedweit][mnist][client-0] round:151(cnt:1),epoch:1,task:3,lss:137.157,val_lss:104.092 (mnist_6_train,#_train:19709,#_valid:3943,#_test:784) 
 [2023/01/11-10:31:29][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 3: T_loss is 84.64678064982097 and val_loss: 54.9679266611735 
-[2023/01/11-10:31:29][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 3: T_loss is 105.87354798750444 and val_loss: 76.19469209150834 
-[2023/01/11-10:31:30][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.26940327305948 and val_loss: 50.44389909313571 
+[2023/01/11-10:31:29][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 3: T_loss is 105.87354798750444 and val_loss: 76.19469209150834
 [2023/01/11-10:31:30][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 3: T_loss is 112.99729747156942 and val_loss: 83.31844157557333 
 [2023/01/11-10:31:30][fedweit][mnist][client-1] round:151(cnt:1),epoch:1,task:3,lss:114.941,val_lss:85.262 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:31:30][fedweit][mnist][server] round:152 train clients (selected_ids: [1, 0])
 [2023/01/11-10:31:30][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:31:32][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 82.65172986286443 and val_loss: 49.82622546684451 
-[2023/01/11-10:31:34][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 83.17901297176586 and val_loss: 50.353508444393384 
-[2023/01/11-10:31:37][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 86.75784701988346 and val_loss: 53.93234277944096 
 [2023/01/11-10:31:37][fedweit][mnist][client-1] round:336(cnt:36),epoch:1,task:6,lss:87.47,val_lss:54.644 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:31:37][fedweit][mnist][server] round:337 train clients (selected_ids: [1, 0])
 [2023/01/11-10:31:37][fedweit][mnist][server] Length of parallel_clients = 2
@@ -1257,13 +1044,7 @@
 [2023/01/11-10:32:03][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 3: T_loss is 102.56147913778982 and val_loss: 73.52183877268145 
 [2023/01/11-10:32:03][fedweit][mnist][client-1] round:152(cnt:2),epoch:1,task:3,lss:104.776,val_lss:75.737 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:32:03][fedweit][mnist][server] round:153 train clients (selected_ids: [1, 0])
-[2023/01/11-10:32:03][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:32:13][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 93.20977249145508 and val_loss: 56.984927368164065 
-[2023/01/11-10:32:13][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 95.72797393798828 and val_loss: 59.503128623962404 
-[2023/01/11-10:32:15][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 94.80536753336588 and val_loss: 58.58052215576172 
-[2023/01/11-10:32:17][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 93.9007194519043 and val_loss: 57.67587375640869 
-[2023/01/11-10:32:19][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 95.7369775390625 and val_loss: 59.51213203430176 
-[2023/01/11-10:32:22][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 90.50379030821753 and val_loss: 54.27894367155481 
+[2023/01/11-10:32:03][fedweit][mnist][server] Length of parallel_clients = 1 
 [2023/01/11-10:32:22][fedweit][mnist][client-0] round:337(cnt:37),epoch:1,task:6,lss:91.49,val_lss:55.265 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:32:24][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 119.55924987792969 and val_loss: 87.71043853759765 
 [2023/01/11-10:32:24][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 126.6573860168457 and val_loss: 94.80857429504394 
@@ -1302,14 +1083,7 @@
 [2023/01/11-10:33:35][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 3: T_loss is 85.21191614324397 and val_loss: 57.207778757268734 
 [2023/01/11-10:33:35][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 3: T_loss is 92.29092481059413 and val_loss: 64.28678623322517 
 [2023/01/11-10:33:35][fedweit][mnist][client-1] round:155(cnt:5),epoch:1,task:3,lss:93.953,val_lss:65.948 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
-[2023/01/11-10:33:36][fedweit][mnist][server] round:156 train clients (selected_ids: [0, 1])
-[2023/01/11-10:33:36][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:33:41][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 96.21910781860352 and val_loss: 60.02461471557617 
-[2023/01/11-10:33:42][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 97.75848770141602 and val_loss: 61.563995933532716 
-[2023/01/11-10:33:43][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 97.52282384236653 and val_loss: 61.32833137512207 
-[2023/01/11-10:33:45][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 96.98481006622315 and val_loss: 60.79031782150268 
-[2023/01/11-10:33:48][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 98.53618759155273 and val_loss: 62.34169464111328 
-[2023/01/11-10:33:51][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 93.23843496353899 and val_loss: 57.04394212316294 
+[2023/01/11-10:33:36][fedweit][mnist][server] round:156 train clients (selected_ids: [0, 1]) 
 [2023/01/11-10:33:51][fedweit][mnist][client-0] round:338(cnt:38),epoch:1,task:6,lss:94.255,val_lss:58.06 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:33:57][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 103.18149337768554 and val_loss: 72.12605056762695 
 [2023/01/11-10:33:58][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 108.46763877868652 and val_loss: 77.41219596862793 
@@ -1321,16 +1095,10 @@
 [2023/01/11-10:34:09][fedweit][mnist][client-1] round:156(cnt:6),epoch:1,task:3,lss:97.341,val_lss:69.566 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:34:10][fedweit][mnist][server] round:157 train clients (selected_ids: [1, 0])
 [2023/01/11-10:34:10][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:34:28][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 62.999542236328125 and val_loss: 30.228683471679688 
-[2023/01/11-10:34:29][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 77.79391132701527 and val_loss: 45.02305221557617 
-[2023/01/11-10:34:31][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 83.38403049592048 and val_loss: 50.6131713621078 
 [2023/01/11-10:34:31][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 107.13843231201172 and val_loss: 76.28524169921874 
 [2023/01/11-10:34:32][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 110.49738922119141 and val_loss: 79.64419593811036 
-[2023/01/11-10:34:33][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.14370615889386 and val_loss: 50.372847394245426 
 [2023/01/11-10:34:33][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 3: T_loss is 109.49524230957032 and val_loss: 78.64205169677734 
 [2023/01/11-10:34:33][fedweit][mnist][client-0] round:157(cnt:7),epoch:1,task:3,lss:108.919,val_lss:78.066 (mnist_6_train,#_train:19709,#_valid:3943,#_test:784)
-[2023/01/11-10:34:35][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 83.80206927131204 and val_loss: 51.03121117984547 
-[2023/01/11-10:34:38][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 86.82947990542553 and val_loss: 54.0586205779529 
 [2023/01/11-10:34:38][fedweit][mnist][client-1] round:338(cnt:38),epoch:1,task:6,lss:87.571,val_lss:54.8 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:34:38][fedweit][mnist][server] round:339 train clients (selected_ids: [1, 0])
 [2023/01/11-10:34:38][fedweit][mnist][server] Length of parallel_clients = 2
@@ -1350,12 +1118,6 @@
 [2023/01/11-10:35:14][fedweit][mnist][client-1] round:158(cnt:8),epoch:1,task:3,lss:92.835,val_lss:65.429 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:35:14][fedweit][mnist][server] round:159 train clients (selected_ids: [0, 1])
 [2023/01/11-10:35:14][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:35:17][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 94.3264144897461 and val_loss: 58.16280517578125 
-[2023/01/11-10:35:18][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 96.13792572021484 and val_loss: 59.97431697845459 
-[2023/01/11-10:35:19][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 95.45238876342773 and val_loss: 59.28877906799316 
-[2023/01/11-10:35:21][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 94.88306846618653 and val_loss: 58.71945905685425 
-[2023/01/11-10:35:24][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 95.83409439086914 and val_loss: 59.67048606872559 
-[2023/01/11-10:35:26][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 90.2230679871606 and val_loss: 54.05945912345511 
 [2023/01/11-10:35:26][fedweit][mnist][client-0] round:339(cnt:39),epoch:1,task:6,lss:91.001,val_lss:54.838 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:35:33][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 102.27179565429688 and val_loss: 71.74381866455079 
 [2023/01/11-10:35:34][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 106.51908798217774 and val_loss: 75.99111099243164 
@@ -1367,16 +1129,10 @@
 [2023/01/11-10:35:44][fedweit][mnist][client-1] round:159(cnt:9),epoch:1,task:3,lss:88.51,val_lss:61.255 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:35:45][fedweit][mnist][server] round:160 train clients (selected_ids: [0, 1])
 [2023/01/11-10:35:45][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:36:02][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 64.34727605183919 and val_loss: 31.59887425104777 
-[2023/01/11-10:36:03][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 97.20125350952148 and val_loss: 66.81966171264648 
-[2023/01/11-10:36:03][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 79.12518171830611 and val_loss: 46.376780249855734 
-[2023/01/11-10:36:03][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 101.77614288330078 and val_loss: 71.39455108642578 
-[2023/01/11-10:36:04][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 84.37518359768775 and val_loss: 51.6267815866778 
+[2023/01/11-10:36:03][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 97.20125350952148 and val_loss: 66.81966171264648  
+[2023/01/11-10:36:03][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 101.77614288330078 and val_loss: 71.39455108642578
 [2023/01/11-10:36:05][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 3: T_loss is 101.31725769042968 and val_loss: 70.93566589355468 
 [2023/01/11-10:36:05][fedweit][mnist][client-0] round:160(cnt:10),epoch:1,task:3,lss:101.657,val_lss:71.275 (mnist_6_train,#_train:19709,#_valid:3943,#_test:784)
-[2023/01/11-10:36:06][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.90848485434928 and val_loss: 51.1600825612138 
-[2023/01/11-10:36:08][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 84.88732880237056 and val_loss: 52.13892701092888 
-[2023/01/11-10:36:11][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 88.48862232145716 and val_loss: 55.74022061707544 
 [2023/01/11-10:36:11][fedweit][mnist][client-1] round:339(cnt:39),epoch:1,task:6,lss:89.172,val_lss:56.424 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:36:11][fedweit][mnist][server] round:340 train clients (selected_ids: [0, 1])
 [2023/01/11-10:36:11][fedweit][mnist][server] Length of parallel_clients = 2
@@ -1395,13 +1151,7 @@
 [2023/01/11-10:36:44][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 3: T_loss is 82.85575349869266 and val_loss: 55.878418460969 
 [2023/01/11-10:36:44][fedweit][mnist][client-1] round:161(cnt:11),epoch:1,task:3,lss:85.558,val_lss:58.581 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:36:44][fedweit][mnist][server] round:162 train clients (selected_ids: [1, 0])
-[2023/01/11-10:36:44][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:36:45][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 6: T_loss is 90.55017471313477 and val_loss: 54.41521453857422 
-[2023/01/11-10:36:46][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 6: T_loss is 93.95947189331055 and val_loss: 57.82451114654541 
-[2023/01/11-10:36:47][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 6: T_loss is 93.1309700012207 and val_loss: 56.99600969950358 
-[2023/01/11-10:36:49][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 92.56618576049804 and val_loss: 56.431224536895755 
-[2023/01/11-10:36:51][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 94.01128814697266 and val_loss: 57.876328201293944 
-[2023/01/11-10:36:54][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 88.64183056940797 and val_loss: 52.50687026977539 
+[2023/01/11-10:36:44][fedweit][mnist][server] Length of parallel_clients = 1 
 [2023/01/11-10:36:54][fedweit][mnist][client-0] round:340(cnt:40),epoch:1,task:6,lss:89.717,val_lss:53.582 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:37:03][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 100.13017807006835 and val_loss: 69.98975143432617 
 [2023/01/11-10:37:03][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 102.94878616333008 and val_loss: 72.8083595275879 
@@ -1413,16 +1163,10 @@
 [2023/01/11-10:37:14][fedweit][mnist][client-1] round:162(cnt:12),epoch:1,task:3,lss:87.818,val_lss:60.923 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:37:14][fedweit][mnist][server] round:163 train clients (selected_ids: [1, 0])
 [2023/01/11-10:37:14][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:37:28][fedweit][mnist][client-1] forgetting for client: 1 at task 0 during curr_task 6: T_loss is 63.822267850240074 and val_loss: 31.10387722651164 
-[2023/01/11-10:37:29][fedweit][mnist][client-1] forgetting for client: 1 at task 1 during curr_task 6: T_loss is 77.8662619157271 and val_loss: 45.14786997708407 
-[2023/01/11-10:37:30][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 6: T_loss is 82.68314460016066 and val_loss: 49.96475281253938 
-[2023/01/11-10:37:32][fedweit][mnist][client-1] forgetting for client: 1 at task 3 during curr_task 6: T_loss is 83.26985838355088 and val_loss: 50.55146770942502 
 [2023/01/11-10:37:32][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 106.81685180664063 and val_loss: 76.77705688476563 
 [2023/01/11-10:37:33][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 109.44011497497559 and val_loss: 79.40032005310059 
 [2023/01/11-10:37:34][fedweit][mnist][client-0] forgetting for client: 0 at task 2 during curr_task 3: T_loss is 108.83154042561848 and val_loss: 78.79174550374348 
 [2023/01/11-10:37:34][fedweit][mnist][client-0] round:163(cnt:13),epoch:1,task:3,lss:108.562,val_lss:78.523 (mnist_6_train,#_train:19709,#_valid:3943,#_test:784)
-[2023/01/11-10:37:34][fedweit][mnist][client-1] forgetting for client: 1 at task 4 during curr_task 6: T_loss is 83.95369914933747 and val_loss: 51.23530758128447 
-[2023/01/11-10:37:37][fedweit][mnist][client-1] forgetting for client: 1 at task 5 during curr_task 6: T_loss is 87.14172100629963 and val_loss: 54.42332971291464 
 [2023/01/11-10:37:37][fedweit][mnist][client-1] round:340(cnt:40),epoch:1,task:6,lss:87.876,val_lss:55.158 (mnist_13_train,#_train:35282,#_valid:7058,#_test:784)
 [2023/01/11-10:37:37][fedweit][mnist][server] round:341 train clients (selected_ids: [1, 0])
 [2023/01/11-10:37:37][fedweit][mnist][server] Length of parallel_clients = 2
@@ -1444,10 +1188,7 @@
 [2023/01/11-10:38:13][fedweit][mnist][client-1] forgetting for client: 1 at task 2 during curr_task 3: T_loss is 86.30712029241747 and val_loss: 59.6664780647524 
 [2023/01/11-10:38:13][fedweit][mnist][client-1] round:164(cnt:14),epoch:1,task:3,lss:88.735,val_lss:62.095 (mnist_7_train,#_train:20445,#_valid:4090,#_test:784)
 [2023/01/11-10:38:14][fedweit][mnist][server] round:165 train clients (selected_ids: [0, 1])
-[2023/01/11-10:38:14][fedweit][mnist][server] Length of parallel_clients = 1
-[2023/01/11-10:38:15][fedweit][mnist][client-0] forgetting for client: 0 at task 3 during curr_task 6: T_loss is 94.56249713897705 and val_loss: 58.45837926864624 
-[2023/01/11-10:38:17][fedweit][mnist][client-0] forgetting for client: 0 at task 4 during curr_task 6: T_loss is 96.36985961914063 and val_loss: 60.26574081420898 
-[2023/01/11-10:38:20][fedweit][mnist][client-0] forgetting for client: 0 at task 5 during curr_task 6: T_loss is 90.97737546826973 and val_loss: 54.87325743378186 
+[2023/01/11-10:38:14][fedweit][mnist][server] Length of parallel_clients = 1 
 [2023/01/11-10:38:20][fedweit][mnist][client-0] round:341(cnt:41),epoch:1,task:6,lss:91.871,val_lss:55.767 (mnist_12_train,#_train:35311,#_valid:7063,#_test:784)
 [2023/01/11-10:38:32][fedweit][mnist][client-0] forgetting for client: 0 at task 0 during curr_task 3: T_loss is 93.80874176025391 and val_loss: 63.96227340698242 
 [2023/01/11-10:38:33][fedweit][mnist][client-0] forgetting for client: 0 at task 1 during curr_task 3: T_loss is 97.57038879394531 and val_loss: 67.72391815185547 
