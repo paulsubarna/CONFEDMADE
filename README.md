@@ -4,7 +4,7 @@
 This repository is an official Tensorflow 2 implementation of [Learning Representations from Indirect Experience through Unsupervised
 Continual Federated Learning ] (**ICML 2023**)
 
-> Currently working on PyTorch version 
+
 
 ## Abstract
 
