@@ -1,0 +1,1501 @@
+
+[task 0][round 0][client 0] [loss:[125.52491760253906]][val_loss:[121.8553237915039]]
+[task 0][round 0][client 1] [loss:[118.0235366821289]][val_loss:[114.43397521972656]]
+[task 0][round 0][client 2] [loss:[106.57235717773438]][val_loss:[102.0376968383789]]
+[task 0][round 1][client 0] [loss:[112.1330795288086]][val_loss:[109.18537902832031]]
+[task 0][round 1][client 1] [loss:[106.06531524658203]][val_loss:[101.89457702636719]]
+[task 0][round 1][client 2] [loss:[103.151123046875]][val_loss:[100.37108612060547]]
+[task 0][round 2][client 0] [loss:[100.91907501220703]][val_loss:[99.89566040039062]]
+[task 0][round 2][client 1] [loss:[95.78234100341797]][val_loss:[91.0086441040039]]
+[task 0][round 2][client 2] [loss:[101.97943878173828]][val_loss:[96.40233612060547]]
+[task 0][round 3][client 0] [loss:[91.67282104492188]][val_loss:[91.6277847290039]]
+[task 0][round 3][client 1] [loss:[87.48979949951172]][val_loss:[88.18692016601562]]
+[task 0][round 3][client 2] [loss:[102.6897201538086]][val_loss:[96.46666717529297]]
+[task 0][round 4][client 0] [loss:[83.67597961425781]][val_loss:[79.92841339111328]]
+[task 0][round 4][client 1] [loss:[80.44930267333984]][val_loss:[74.63971710205078]]
+[task 0][round 4][client 2] [loss:[103.76850891113281]][val_loss:[101.31595611572266]]
+[task 0][round 5][client 0] [loss:[77.1414566040039]][val_loss:[75.83663940429688]]
+[task 0][round 5][client 1] [loss:[74.31779479980469]][val_loss:[72.2083511352539]]
+[task 0][round 5][client 2] [loss:[105.03585815429688]][val_loss:[94.7771224975586]]
+[task 0][round 6][client 0] [loss:[71.6495590209961]][val_loss:[69.48712921142578]]
+[task 0][round 6][client 1] [loss:[69.40544128417969]][val_loss:[72.77253723144531]]
+[task 0][round 6][client 2] [loss:[106.40582275390625]][val_loss:[98.24362182617188]]
+[task 0][round 7][client 0] [loss:[67.18724822998047]][val_loss:[69.03977966308594]]
+[task 0][round 7][client 1] [loss:[64.87919616699219]][val_loss:[65.10919189453125]]
+[task 0][round 7][client 2] [loss:[107.85750579833984]][val_loss:[101.23482513427734]]
+[task 0][round 8][client 0] [loss:[63.42979431152344]][val_loss:[60.62849807739258]]
+[task 0][round 8][client 1] [loss:[61.130558013916016]][val_loss:[56.35361862182617]]
+[task 0][round 8][client 2] [loss:[108.39570617675781]][val_loss:[100.3685531616211]]
+[task 0][round 9][client 0] [loss:[59.947486877441406]][val_loss:[60.2273063659668]]
+[task 0][round 9][client 1] [loss:[57.97581100463867]][val_loss:[55.475162506103516]]
+[task 0][round 9][client 2] [loss:[108.61071014404297]][val_loss:[114.60668182373047]]
+[task 0][round 10][client 0] [loss:[57.13056945800781]][val_loss:[54.79277038574219]]
+[task 0][round 10][client 1] [loss:[55.574737548828125]][val_loss:[52.872745513916016]]
+[task 0][round 10][client 2] [loss:[110.14601135253906]][val_loss:[100.51752471923828]]
+[task 0][round 11][client 0] [loss:[54.10569763183594]][val_loss:[51.24699020385742]]
+[task 0][round 11][client 1] [loss:[52.78190994262695]][val_loss:[51.55671310424805]]
+[task 0][round 11][client 2] [loss:[109.47118377685547]][val_loss:[103.0728530883789]]
+[task 0][round 12][client 0] [loss:[52.05070495605469]][val_loss:[52.79043197631836]]
+[task 0][round 12][client 1] [loss:[50.52002716064453]][val_loss:[50.79374313354492]]
+[task 0][round 12][client 2] [loss:[109.68610382080078]][val_loss:[112.7873764038086]]
+[task 0][round 13][client 0] [loss:[49.995361328125]][val_loss:[48.262489318847656]]
+[task 0][round 13][client 1] [loss:[48.16094970703125]][val_loss:[50.8736572265625]]
+[task 0][round 13][client 2] [loss:[110.02639770507812]][val_loss:[97.8129653930664]]
+[task 0][round 14][client 0] [loss:[48.10240936279297]][val_loss:[46.030181884765625]]
+[task 0][round 14][client 1] [loss:[46.649559020996094]][val_loss:[44.3950309753418]]
+[task 0][round 14][client 2] [loss:[110.228759765625]][val_loss:[95.85031127929688]]
+[task 0][round 15][client 0] [loss:[46.54082489013672]][val_loss:[43.40236282348633]]
+[task 0][round 15][client 1] [loss:[45.36800765991211]][val_loss:[47.879451751708984]]
+[task 0][round 15][client 2] [loss:[109.22230529785156]][val_loss:[114.86376953125]]
+[task 0][round 16][client 0] [loss:[45.047576904296875]][val_loss:[45.84364700317383]]
+[task 0][round 16][client 1] [loss:[43.85298156738281]][val_loss:[45.08045959472656]]
+[task 0][round 16][client 2] [loss:[110.12771606445312]][val_loss:[111.96698760986328]]
+[task 0][round 17][client 0] [loss:[43.79292678833008]][val_loss:[45.20700454711914]]
+[task 0][round 17][client 1] [loss:[42.08052062988281]][val_loss:[39.60898208618164]]
+[task 0][round 17][client 2] [loss:[108.82744598388672]][val_loss:[106.16343688964844]]
+[task 0][round 18][client 0] [loss:[42.06812286376953]][val_loss:[45.18742752075195]]
+[task 0][round 18][client 1] [loss:[41.23627471923828]][val_loss:[41.086002349853516]]
+[task 0][round 18][client 2] [loss:[109.95668029785156]][val_loss:[96.836181640625]]
+[task 0][round 19][client 0] [loss:[41.278987884521484]][val_loss:[39.882076263427734]]
+[task 0][round 19][client 1] [loss:[40.1040153503418]][val_loss:[44.43437194824219]]
+[task 0][round 19][client 2] [loss:[108.78005981445312]][val_loss:[108.97688293457031]]
+[task 0][round 20][client 0] [loss:[39.907081604003906]][val_loss:[39.8067512512207]]
+[task 0][round 20][client 1] [loss:[39.277034759521484]][val_loss:[38.38626480102539]]
+[task 0][round 20][client 2] [loss:[109.82518005371094]][val_loss:[105.0185775756836]]
+[task 0][round 21][client 0] [loss:[39.15376281738281]][val_loss:[41.086421966552734]]
+[task 0][round 21][client 1] [loss:[38.039459228515625]][val_loss:[39.78675079345703]]
+[task 0][round 21][client 2] [loss:[109.28026580810547]][val_loss:[119.69235229492188]]
+[task 0][round 22][client 0] [loss:[38.060546875]][val_loss:[41.674163818359375]]
+[task 0][round 22][client 1] [loss:[36.63670349121094]][val_loss:[36.56044006347656]]
+[task 0][round 22][client 2] [loss:[108.94847869873047]][val_loss:[109.01915740966797]]
+[task 0][round 23][client 0] [loss:[37.39360427856445]][val_loss:[36.7308349609375]]
+[task 0][round 23][client 1] [loss:[36.13964080810547]][val_loss:[36.69782638549805]]
+[task 0][round 23][client 2] [loss:[107.60343933105469]][val_loss:[103.76531982421875]]
+[task 0][round 24][client 0] [loss:[35.98704147338867]][val_loss:[31.597074508666992]]
+[task 0][round 24][client 1] [loss:[35.25448226928711]][val_loss:[32.53519058227539]]
+[task 0][round 24][client 2] [loss:[106.60487365722656]][val_loss:[106.00234985351562]]
+[task 0][round 25][client 0] [loss:[35.76129913330078]][val_loss:[34.559898376464844]]
+[task 0][round 25][client 1] [loss:[34.5452766418457]][val_loss:[31.41705894470215]]
+[task 0][round 25][client 2] [loss:[107.01646423339844]][val_loss:[106.63568115234375]]
+[task 0][round 26][client 0] [loss:[34.910125732421875]][val_loss:[33.76047134399414]]
+[task 0][round 26][client 1] [loss:[34.144676208496094]][val_loss:[34.610294342041016]]
+[task 0][round 26][client 2] [loss:[107.64950561523438]][val_loss:[93.63328552246094]]
+[task 0][round 27][client 0] [loss:[34.32289505004883]][val_loss:[32.066219329833984]]
+[task 0][round 27][client 1] [loss:[33.22287368774414]][val_loss:[33.19282913208008]]
+[task 0][round 27][client 2] [loss:[107.51819610595703]][val_loss:[105.66060638427734]]
+[task 0][round 28][client 0] [loss:[33.574764251708984]][val_loss:[35.385128021240234]]
+[task 0][round 28][client 1] [loss:[32.74171829223633]][val_loss:[30.461082458496094]]
+[task 0][round 28][client 2] [loss:[106.510498046875]][val_loss:[106.47423553466797]]
+[task 0][round 29][client 0] [loss:[33.172332763671875]][val_loss:[31.155807495117188]]
+[task 0][round 29][client 1] [loss:[31.898460388183594]][val_loss:[34.53579330444336]]
+[task 0][round 29][client 2] [loss:[104.74333190917969]][val_loss:[109.43482208251953]]
+[task 0][round 30][client 0] [loss:[32.61206817626953]][val_loss:[29.95039939880371]]
+[task 0][round 30][client 1] [loss:[31.705738067626953]][val_loss:[32.38976287841797]]
+[task 0][round 30][client 2] [loss:[107.69534301757812]][val_loss:[114.84591674804688]]
+[task 0][round 31][client 0] [loss:[32.04564666748047]][val_loss:[33.43543243408203]]
+[task 0][round 31][client 1] [loss:[31.111787796020508]][val_loss:[31.007400512695312]]
+[task 0][round 31][client 2] [loss:[105.8108901977539]][val_loss:[100.4984130859375]]
+[task 0][round 32][client 0] [loss:[31.418798446655273]][val_loss:[31.571332931518555]]
+[task 0][round 32][client 1] [loss:[30.582155227661133]][val_loss:[27.00298500061035]]
+[task 0][round 32][client 2] [loss:[104.98576354980469]][val_loss:[98.36768341064453]]
+[task 0][round 33][client 0] [loss:[31.159711837768555]][val_loss:[28.45810890197754]]
+[task 0][round 33][client 1] [loss:[29.998525619506836]][val_loss:[27.57822036743164]]
+[task 0][round 33][client 2] [loss:[104.00076293945312]][val_loss:[104.0168685913086]]
+[task 0][round 34][client 0] [loss:[30.5156307220459]][val_loss:[28.212106704711914]]
+[task 0][round 34][client 1] [loss:[29.794157028198242]][val_loss:[31.532615661621094]]
+[task 0][round 34][client 2] [loss:[103.92355346679688]][val_loss:[102.9394760131836]]
+[task 0][round 35][client 0] [loss:[30.067636489868164]][val_loss:[29.37999153137207]]
+[task 0][round 35][client 1] [loss:[29.150588989257812]][val_loss:[30.285350799560547]]
+[task 0][round 35][client 2] [loss:[103.55049133300781]][val_loss:[97.74462127685547]]
+[task 0][round 36][client 0] [loss:[29.661161422729492]][val_loss:[30.963367462158203]]
+[task 0][round 36][client 1] [loss:[28.683486938476562]][val_loss:[27.024141311645508]]
+[task 0][round 36][client 2] [loss:[103.8722152709961]][val_loss:[118.8016128540039]]
+[task 0][round 37][client 0] [loss:[29.482534408569336]][val_loss:[27.376676559448242]]
+[task 0][round 37][client 1] [loss:[28.46014404296875]][val_loss:[30.960847854614258]]
+[task 0][round 37][client 2] [loss:[103.06758117675781]][val_loss:[93.74532318115234]]
+[task 0][round 38][client 0] [loss:[28.874605178833008]][val_loss:[28.83289909362793]]
+[task 0][round 38][client 1] [loss:[28.054668426513672]][val_loss:[28.562908172607422]]
+[task 0][round 38][client 2] [loss:[101.7402572631836]][val_loss:[105.75434112548828]]
+[task 0][round 39][client 0] [loss:[28.575288772583008]][val_loss:[28.747743606567383]]
+[task 0][round 39][client 1] [loss:[27.83514976501465]][val_loss:[29.23075294494629]]
+[task 0][round 39][client 2] [loss:[102.77857208251953]][val_loss:[91.2688217163086]]
+[task 0][round 40][client 0] [loss:[28.36935043334961]][val_loss:[28.885948181152344]]
+[task 0][round 40][client 1] [loss:[27.373600006103516]][val_loss:[28.420717239379883]]
+[task 0][round 40][client 2] [loss:[102.09959411621094]][val_loss:[104.00167846679688]]
+[task 0][round 41][client 0] [loss:[28.056955337524414]][val_loss:[26.83526611328125]]
+[task 0][round 41][client 1] [loss:[27.234148025512695]][val_loss:[27.68430519104004]]
+[task 0][round 41][client 2] [loss:[101.4156494140625]][val_loss:[87.73751068115234]]
+[task 0][round 42][client 0] [loss:[27.76157569885254]][val_loss:[24.787561416625977]]
+[task 0][round 42][client 1] [loss:[26.77487564086914]][val_loss:[25.30020523071289]]
+[task 0][round 42][client 2] [loss:[100.27388000488281]][val_loss:[105.5451431274414]]
+[task 0][round 43][client 0] [loss:[27.246227264404297]][val_loss:[26.628585815429688]]
+[task 0][round 43][client 1] [loss:[26.529712677001953]][val_loss:[27.41101837158203]]
+[task 0][round 43][client 2] [loss:[100.26507568359375]][val_loss:[110.03382110595703]]
+[task 0][round 44][client 0] [loss:[27.05887794494629]][val_loss:[28.159093856811523]]
+[task 0][round 44][client 1] [loss:[26.19879722595215]][val_loss:[25.703962326049805]]
+[task 0][round 44][client 2] [loss:[101.04108428955078]][val_loss:[95.14734649658203]]
+[task 0][round 45][client 0] [loss:[26.86795997619629]][val_loss:[25.926715850830078]]
+[task 0][round 45][client 1] [loss:[25.699254989624023]][val_loss:[25.761301040649414]]
+[task 0][round 45][client 2] [loss:[100.7575912475586]][val_loss:[102.07821655273438]]
+[task 0][round 46][client 0] [loss:[26.55982208251953]][val_loss:[26.2506046295166]]
+[task 0][round 46][client 1] [loss:[25.666114807128906]][val_loss:[26.278324127197266]]
+[task 0][round 46][client 2] [loss:[98.49237060546875]][val_loss:[111.3807373046875]]
+[task 0][round 47][client 0] [loss:[26.404064178466797]][val_loss:[26.28231430053711]]
+[task 0][round 47][client 1] [loss:[25.455190658569336]][val_loss:[27.1243953704834]]
+[task 0][round 47][client 2] [loss:[99.44110107421875]][val_loss:[94.1107177734375]]
+[task 0][round 48][client 0] [loss:[25.983680725097656]][val_loss:[24.900236129760742]]
+[task 0][round 48][client 1] [loss:[25.0714054107666]][val_loss:[24.57697868347168]]
+[task 0][round 48][client 2] [loss:[98.51441192626953]][val_loss:[96.73411560058594]]
+[task 0][round 49][client 0] [loss:[25.826263427734375]][val_loss:[27.08074951171875]]
+[task 0][round 49][client 1] [loss:[24.843069076538086]][val_loss:[26.40254783630371]]
+[task 0][round 49][client 2] [loss:[99.46159362792969]][val_loss:[107.1572494506836]]
+forgetting loss of task  0 for client 0 at current task 1: 25.065872192382812
+[task 1][round 0][client 0] [loss:[128.7525177001953]][val_loss:[126.9524154663086]]
+forgetting loss of task  0 for client 1 at current task 1: 26.67630958557129
+[task 1][round 0][client 1] [loss:[97.4912338256836]][val_loss:[86.48339080810547]]
+forgetting loss of task  0 for client 2 at current task 1: 95.07768249511719
+[task 1][round 0][client 2] [loss:[25.827993392944336]][val_loss:[25.13919448852539]]
+forgetting loss of task  0 for client 0 at current task 1: 27.48927116394043
+[task 1][round 1][client 0] [loss:[126.63958740234375]][val_loss:[127.82598876953125]]
+forgetting loss of task  0 for client 1 at current task 1: 24.95014762878418
+[task 1][round 1][client 1] [loss:[95.2357406616211]][val_loss:[97.05023956298828]]
+forgetting loss of task  0 for client 2 at current task 1: 87.11085510253906
+[task 1][round 1][client 2] [loss:[25.839330673217773]][val_loss:[26.7982120513916]]
+forgetting loss of task  0 for client 0 at current task 1: 25.92997932434082
+[task 1][round 2][client 0] [loss:[125.18898010253906]][val_loss:[122.88761138916016]]
+forgetting loss of task  0 for client 1 at current task 1: 25.521921157836914
+[task 1][round 2][client 1] [loss:[93.11272430419922]][val_loss:[90.71267700195312]]
+forgetting loss of task  0 for client 2 at current task 1: 91.338134765625
+[task 1][round 2][client 2] [loss:[25.71827507019043]][val_loss:[26.974994659423828]]
+forgetting loss of task  0 for client 0 at current task 1: 25.044612884521484
+[task 1][round 3][client 0] [loss:[122.7567138671875]][val_loss:[122.60763549804688]]
+forgetting loss of task  0 for client 1 at current task 1: 24.88878059387207
+[task 1][round 3][client 1] [loss:[92.59764862060547]][val_loss:[90.16265869140625]]
+forgetting loss of task  0 for client 2 at current task 1: 93.89298248291016
+[task 1][round 3][client 2] [loss:[25.906658172607422]][val_loss:[24.241308212280273]]
+forgetting loss of task  0 for client 0 at current task 1: 27.206457138061523
+[task 1][round 4][client 0] [loss:[122.05352783203125]][val_loss:[119.05654907226562]]
+forgetting loss of task  0 for client 1 at current task 1: 25.821308135986328
+[task 1][round 4][client 1] [loss:[90.4674072265625]][val_loss:[88.71720886230469]]
+forgetting loss of task  0 for client 2 at current task 1: 91.56492614746094
+[task 1][round 4][client 2] [loss:[25.79258918762207]][val_loss:[24.728395462036133]]
+forgetting loss of task  0 for client 0 at current task 1: 25.295747756958008
+[task 1][round 5][client 0] [loss:[120.9735336303711]][val_loss:[120.37574768066406]]
+forgetting loss of task  0 for client 1 at current task 1: 25.22915267944336
+[task 1][round 5][client 1] [loss:[90.10128021240234]][val_loss:[86.9483413696289]]
+forgetting loss of task  0 for client 2 at current task 1: 83.83368682861328
+[task 1][round 5][client 2] [loss:[25.979665756225586]][val_loss:[26.560352325439453]]
+forgetting loss of task  0 for client 0 at current task 1: 25.268028259277344
+[task 1][round 6][client 0] [loss:[120.43524932861328]][val_loss:[120.96761322021484]]
+forgetting loss of task  0 for client 1 at current task 1: 23.396135330200195
+[task 1][round 6][client 1] [loss:[88.63883972167969]][val_loss:[100.38843536376953]]
+forgetting loss of task  0 for client 2 at current task 1: 83.60954284667969
+[task 1][round 6][client 2] [loss:[26.013338088989258]][val_loss:[25.522972106933594]]
+forgetting loss of task  0 for client 0 at current task 1: 24.267778396606445
+[task 1][round 7][client 0] [loss:[119.43547058105469]][val_loss:[122.82070922851562]]
+forgetting loss of task  0 for client 1 at current task 1: 28.66555404663086
+[task 1][round 7][client 1] [loss:[86.15572357177734]][val_loss:[79.59880828857422]]
+forgetting loss of task  0 for client 2 at current task 1: 80.79107666015625
+[task 1][round 7][client 2] [loss:[25.93252182006836]][val_loss:[27.32940101623535]]
+forgetting loss of task  0 for client 0 at current task 1: 28.5611572265625
+[task 1][round 8][client 0] [loss:[117.78766632080078]][val_loss:[115.23066711425781]]
+forgetting loss of task  0 for client 1 at current task 1: 24.842554092407227
+[task 1][round 8][client 1] [loss:[86.5074234008789]][val_loss:[82.87010955810547]]
+forgetting loss of task  0 for client 2 at current task 1: 93.9206314086914
+[task 1][round 8][client 2] [loss:[25.953733444213867]][val_loss:[24.11781883239746]]
+forgetting loss of task  0 for client 0 at current task 1: 24.960552215576172
+[task 1][round 9][client 0] [loss:[117.52131652832031]][val_loss:[115.67572021484375]]
+forgetting loss of task  0 for client 1 at current task 1: 23.52969741821289
+[task 1][round 9][client 1] [loss:[85.63729095458984]][val_loss:[89.38715362548828]]
+forgetting loss of task  0 for client 2 at current task 1: 87.28801727294922
+[task 1][round 9][client 2] [loss:[26.160959243774414]][val_loss:[24.72551727294922]]
+forgetting loss of task  0 for client 0 at current task 1: 26.42238426208496
+[task 1][round 10][client 0] [loss:[116.64361572265625]][val_loss:[118.8507308959961]]
+forgetting loss of task  0 for client 1 at current task 1: 28.009668350219727
+[task 1][round 10][client 1] [loss:[85.35115814208984]][val_loss:[79.25212097167969]]
+forgetting loss of task  0 for client 2 at current task 1: 80.8359146118164
+[task 1][round 10][client 2] [loss:[26.03034210205078]][val_loss:[26.032665252685547]]
+forgetting loss of task  0 for client 0 at current task 1: 25.6729679107666
+[task 1][round 11][client 0] [loss:[116.61892700195312]][val_loss:[117.53718566894531]]
+forgetting loss of task  0 for client 1 at current task 1: 28.665576934814453
+[task 1][round 11][client 1] [loss:[84.21502685546875]][val_loss:[77.71544647216797]]
+forgetting loss of task  0 for client 2 at current task 1: 78.92718505859375
+[task 1][round 11][client 2] [loss:[26.12403678894043]][val_loss:[27.587478637695312]]
+forgetting loss of task  0 for client 0 at current task 1: 25.592138290405273
+[task 1][round 12][client 0] [loss:[115.72142791748047]][val_loss:[116.5879898071289]]
+forgetting loss of task  0 for client 1 at current task 1: 24.591299057006836
+[task 1][round 12][client 1] [loss:[83.32230377197266]][val_loss:[84.00440216064453]]
+forgetting loss of task  0 for client 2 at current task 1: 83.72038269042969
+[task 1][round 12][client 2] [loss:[26.179576873779297]][val_loss:[27.27593421936035]]
+forgetting loss of task  0 for client 0 at current task 1: 25.416427612304688
+[task 1][round 13][client 0] [loss:[116.05677032470703]][val_loss:[117.04873657226562]]
+forgetting loss of task  0 for client 1 at current task 1: 26.55376625061035
+[task 1][round 13][client 1] [loss:[83.43372344970703]][val_loss:[76.02528381347656]]
+forgetting loss of task  0 for client 2 at current task 1: 83.33680725097656
+[task 1][round 13][client 2] [loss:[26.23130226135254]][val_loss:[25.41864776611328]]
+forgetting loss of task  0 for client 0 at current task 1: 25.677410125732422
+[task 1][round 14][client 0] [loss:[115.16378021240234]][val_loss:[114.9277114868164]]
+forgetting loss of task  0 for client 1 at current task 1: 23.275060653686523
+[task 1][round 14][client 1] [loss:[81.7295150756836]][val_loss:[93.31122589111328]]
+forgetting loss of task  0 for client 2 at current task 1: 78.75799560546875
+[task 1][round 14][client 2] [loss:[26.010156631469727]][val_loss:[26.023658752441406]]
+forgetting loss of task  0 for client 0 at current task 1: 23.425386428833008
+[task 1][round 15][client 0] [loss:[114.59886169433594]][val_loss:[117.98851776123047]]
+forgetting loss of task  0 for client 1 at current task 1: 25.31080436706543
+[task 1][round 15][client 1] [loss:[80.88959503173828]][val_loss:[81.3462142944336]]
+forgetting loss of task  0 for client 2 at current task 1: 76.71834564208984
+[task 1][round 15][client 2] [loss:[26.143848419189453]][val_loss:[26.583951950073242]]
+forgetting loss of task  0 for client 0 at current task 1: 26.25543212890625
+[task 1][round 16][client 0] [loss:[114.54483032226562]][val_loss:[116.22911834716797]]
+forgetting loss of task  0 for client 1 at current task 1: 26.311206817626953
+[task 1][round 16][client 1] [loss:[81.01924896240234]][val_loss:[75.03706359863281]]
+forgetting loss of task  0 for client 2 at current task 1: 74.42255401611328
+[task 1][round 16][client 2] [loss:[25.976408004760742]][val_loss:[28.350200653076172]]
+forgetting loss of task  0 for client 0 at current task 1: 26.849618911743164
+[task 1][round 17][client 0] [loss:[114.5456314086914]][val_loss:[114.89331817626953]]
+forgetting loss of task  0 for client 1 at current task 1: 28.85894012451172
+[task 1][round 17][client 1] [loss:[80.09120178222656]][val_loss:[74.35810089111328]]
+forgetting loss of task  0 for client 2 at current task 1: 84.90835571289062
+[task 1][round 17][client 2] [loss:[26.22241973876953]][val_loss:[25.10467529296875]]
+forgetting loss of task  0 for client 0 at current task 1: 26.19228744506836
+[task 1][round 18][client 0] [loss:[114.48568725585938]][val_loss:[116.61793518066406]]
+forgetting loss of task  0 for client 1 at current task 1: 25.955154418945312
+[task 1][round 18][client 1] [loss:[79.82011413574219]][val_loss:[75.41633605957031]]
+forgetting loss of task  0 for client 2 at current task 1: 74.94156646728516
+[task 1][round 18][client 2] [loss:[26.098690032958984]][val_loss:[28.02626609802246]]
+forgetting loss of task  0 for client 0 at current task 1: 25.612075805664062
+[task 1][round 19][client 0] [loss:[113.81098937988281]][val_loss:[115.06718444824219]]
+forgetting loss of task  0 for client 1 at current task 1: 24.39963722229004
+[task 1][round 19][client 1] [loss:[79.17216491699219]][val_loss:[84.04376983642578]]
+forgetting loss of task  0 for client 2 at current task 1: 78.7940444946289
+[task 1][round 19][client 2] [loss:[25.97625732421875]][val_loss:[24.184432983398438]]
+forgetting loss of task  0 for client 0 at current task 1: 28.340900421142578
+[task 1][round 20][client 0] [loss:[113.87896728515625]][val_loss:[112.77476501464844]]
+forgetting loss of task  0 for client 1 at current task 1: 27.60419464111328
+[task 1][round 20][client 1] [loss:[79.30207824707031]][val_loss:[75.02430725097656]]
+forgetting loss of task  0 for client 2 at current task 1: 75.17152404785156
+[task 1][round 20][client 2] [loss:[26.273218154907227]][val_loss:[24.867794036865234]]
+forgetting loss of task  0 for client 0 at current task 1: 24.045991897583008
+[task 1][round 21][client 0] [loss:[113.6028060913086]][val_loss:[113.41099548339844]]
+forgetting loss of task  0 for client 1 at current task 1: 23.8619441986084
+[task 1][round 21][client 1] [loss:[78.40035247802734]][val_loss:[83.28716278076172]]
+forgetting loss of task  0 for client 2 at current task 1: 73.20323181152344
+[task 1][round 21][client 2] [loss:[26.13138198852539]][val_loss:[28.50442123413086]]
+forgetting loss of task  0 for client 0 at current task 1: 26.351280212402344
+[task 1][round 22][client 0] [loss:[113.7904052734375]][val_loss:[114.56604766845703]]
+forgetting loss of task  0 for client 1 at current task 1: 25.0987548828125
+[task 1][round 22][client 1] [loss:[78.11143493652344]][val_loss:[78.9614028930664]]
+forgetting loss of task  0 for client 2 at current task 1: 83.1652603149414
+[task 1][round 22][client 2] [loss:[26.050539016723633]][val_loss:[23.174694061279297]]
+forgetting loss of task  0 for client 0 at current task 1: 25.033395767211914
+[task 1][round 23][client 0] [loss:[113.50518035888672]][val_loss:[114.55420684814453]]
+forgetting loss of task  0 for client 1 at current task 1: 23.18355941772461
+[task 1][round 23][client 1] [loss:[77.12906646728516]][val_loss:[82.61309051513672]]
+forgetting loss of task  0 for client 2 at current task 1: 76.26155090332031
+[task 1][round 23][client 2] [loss:[26.192014694213867]][val_loss:[24.95582389831543]]
+forgetting loss of task  0 for client 0 at current task 1: 26.433183670043945
+[task 1][round 24][client 0] [loss:[113.5052261352539]][val_loss:[114.7602767944336]]
+forgetting loss of task  0 for client 1 at current task 1: 26.86134147644043
+[task 1][round 24][client 1] [loss:[77.1125259399414]][val_loss:[73.49317932128906]]
+forgetting loss of task  0 for client 2 at current task 1: 73.032470703125
+[task 1][round 24][client 2] [loss:[26.214637756347656]][val_loss:[26.798234939575195]]
+forgetting loss of task  0 for client 0 at current task 1: 26.419885635375977
+[task 1][round 25][client 0] [loss:[113.4270248413086]][val_loss:[113.58894348144531]]
+forgetting loss of task  0 for client 1 at current task 1: 26.52199363708496
+[task 1][round 25][client 1] [loss:[76.31045532226562]][val_loss:[74.57302856445312]]
+forgetting loss of task  0 for client 2 at current task 1: 73.12391662597656
+[task 1][round 25][client 2] [loss:[26.049762725830078]][val_loss:[28.334524154663086]]
+forgetting loss of task  0 for client 0 at current task 1: 24.7210693359375
+[task 1][round 26][client 0] [loss:[112.9440689086914]][val_loss:[114.28832244873047]]
+forgetting loss of task  0 for client 1 at current task 1: 27.000885009765625
+[task 1][round 26][client 1] [loss:[76.97224426269531]][val_loss:[72.78564453125]]
+forgetting loss of task  0 for client 2 at current task 1: 72.47402954101562
+[task 1][round 26][client 2] [loss:[26.125164031982422]][val_loss:[28.897430419921875]]
+forgetting loss of task  0 for client 0 at current task 1: 25.06100845336914
+[task 1][round 27][client 0] [loss:[112.60324096679688]][val_loss:[113.8833236694336]]
+forgetting loss of task  0 for client 1 at current task 1: 28.634803771972656
+[task 1][round 27][client 1] [loss:[75.77122497558594]][val_loss:[72.78229522705078]]
+forgetting loss of task  0 for client 2 at current task 1: 73.25334167480469
+[task 1][round 27][client 2] [loss:[26.016021728515625]][val_loss:[26.619068145751953]]
+forgetting loss of task  0 for client 0 at current task 1: 25.120685577392578
+[task 1][round 28][client 0] [loss:[112.60465240478516]][val_loss:[113.92622375488281]]
+forgetting loss of task  0 for client 1 at current task 1: 27.54049301147461
+[task 1][round 28][client 1] [loss:[75.58311462402344]][val_loss:[72.32608032226562]]
+forgetting loss of task  0 for client 2 at current task 1: 82.96309661865234
+[task 1][round 28][client 2] [loss:[25.9637393951416]][val_loss:[23.505239486694336]]
+forgetting loss of task  0 for client 0 at current task 1: 28.279993057250977
+[task 1][round 29][client 0] [loss:[112.34321594238281]][val_loss:[111.77684783935547]]
+forgetting loss of task  0 for client 1 at current task 1: 28.071849822998047
+[task 1][round 29][client 1] [loss:[75.22718811035156]][val_loss:[71.5226821899414]]
+forgetting loss of task  0 for client 2 at current task 1: 72.75941467285156
+[task 1][round 29][client 2] [loss:[26.140552520751953]][val_loss:[27.49786376953125]]
+forgetting loss of task  0 for client 0 at current task 1: 25.859207153320312
+[task 1][round 30][client 0] [loss:[112.65579223632812]][val_loss:[112.2433090209961]]
+forgetting loss of task  0 for client 1 at current task 1: 25.553781509399414
+[task 1][round 30][client 1] [loss:[74.7147216796875]][val_loss:[71.9932861328125]]
+forgetting loss of task  0 for client 2 at current task 1: 82.74552917480469
+[task 1][round 30][client 2] [loss:[26.06519889831543]][val_loss:[23.864564895629883]]
+forgetting loss of task  0 for client 0 at current task 1: 25.800567626953125
+[task 1][round 31][client 0] [loss:[112.05005645751953]][val_loss:[112.95269775390625]]
+forgetting loss of task  0 for client 1 at current task 1: 26.756044387817383
+[task 1][round 31][client 1] [loss:[74.46902465820312]][val_loss:[74.11125183105469]]
+forgetting loss of task  0 for client 2 at current task 1: 75.01126098632812
+[task 1][round 31][client 2] [loss:[26.04773712158203]][val_loss:[24.885251998901367]]
+forgetting loss of task  0 for client 0 at current task 1: 24.94428825378418
+[task 1][round 32][client 0] [loss:[112.47473907470703]][val_loss:[112.89303588867188]]
+forgetting loss of task  0 for client 1 at current task 1: 26.781143188476562
+[task 1][round 32][client 1] [loss:[74.57318878173828]][val_loss:[70.91999053955078]]
+forgetting loss of task  0 for client 2 at current task 1: 77.20526123046875
+[task 1][round 32][client 2] [loss:[25.80561065673828]][val_loss:[26.43815803527832]]
+forgetting loss of task  0 for client 0 at current task 1: 27.893497467041016
+[task 1][round 33][client 0] [loss:[112.03849029541016]][val_loss:[112.35478210449219]]
+forgetting loss of task  0 for client 1 at current task 1: 26.461334228515625
+[task 1][round 33][client 1] [loss:[74.10491943359375]][val_loss:[71.57575225830078]]
+forgetting loss of task  0 for client 2 at current task 1: 71.28528594970703
+[task 1][round 33][client 2] [loss:[25.89838409423828]][val_loss:[27.855091094970703]]
+forgetting loss of task  0 for client 0 at current task 1: 26.28251838684082
+[task 1][round 34][client 0] [loss:[112.07905578613281]][val_loss:[113.4991455078125]]
+forgetting loss of task  0 for client 1 at current task 1: 25.75507354736328
+[task 1][round 34][client 1] [loss:[73.48055267333984]][val_loss:[70.79812622070312]]
+forgetting loss of task  0 for client 2 at current task 1: 73.88097381591797
+[task 1][round 34][client 2] [loss:[25.907926559448242]][val_loss:[23.348173141479492]]
+forgetting loss of task  0 for client 0 at current task 1: 26.658916473388672
+[task 1][round 35][client 0] [loss:[111.78782653808594]][val_loss:[111.89684295654297]]
+forgetting loss of task  0 for client 1 at current task 1: 25.64662742614746
+[task 1][round 35][client 1] [loss:[73.26669311523438]][val_loss:[73.79276275634766]]
+forgetting loss of task  0 for client 2 at current task 1: 74.1948013305664
+[task 1][round 35][client 2] [loss:[25.95790672302246]][val_loss:[24.287240982055664]]
+forgetting loss of task  0 for client 0 at current task 1: 26.26793098449707
+[task 1][round 36][client 0] [loss:[111.59638977050781]][val_loss:[112.09796142578125]]
+forgetting loss of task  0 for client 1 at current task 1: 25.353710174560547
+[task 1][round 36][client 1] [loss:[73.31471252441406]][val_loss:[73.66331481933594]]
+forgetting loss of task  0 for client 2 at current task 1: 70.19053649902344
+[task 1][round 36][client 2] [loss:[25.97169303894043]][val_loss:[27.905405044555664]]
+forgetting loss of task  0 for client 0 at current task 1: 24.307598114013672
+[task 1][round 37][client 0] [loss:[111.62556457519531]][val_loss:[113.79584503173828]]
+forgetting loss of task  0 for client 1 at current task 1: 25.27730941772461
+[task 1][round 37][client 1] [loss:[72.79413604736328]][val_loss:[70.56076049804688]]
+forgetting loss of task  0 for client 2 at current task 1: 70.37146759033203
+[task 1][round 37][client 2] [loss:[25.865819931030273]][val_loss:[27.83354377746582]]
+forgetting loss of task  0 for client 0 at current task 1: 26.494783401489258
+[task 1][round 38][client 0] [loss:[111.4471435546875]][val_loss:[111.83769226074219]]
+forgetting loss of task  0 for client 1 at current task 1: 22.532167434692383
+[task 1][round 38][client 1] [loss:[72.27713775634766]][val_loss:[76.56501770019531]]
+forgetting loss of task  0 for client 2 at current task 1: 71.95892333984375
+[task 1][round 38][client 2] [loss:[25.893634796142578]][val_loss:[26.297779083251953]]
+forgetting loss of task  0 for client 0 at current task 1: 25.36554527282715
+[task 1][round 39][client 0] [loss:[111.784423828125]][val_loss:[111.61466217041016]]
+forgetting loss of task  0 for client 1 at current task 1: 24.252269744873047
+[task 1][round 39][client 1] [loss:[72.36964416503906]][val_loss:[71.06610107421875]]
+forgetting loss of task  0 for client 2 at current task 1: 73.88231658935547
+[task 1][round 39][client 2] [loss:[25.69410514831543]][val_loss:[25.49866485595703]]
+forgetting loss of task  0 for client 0 at current task 1: 26.84005355834961
+[task 1][round 40][client 0] [loss:[111.27181243896484]][val_loss:[111.75420379638672]]
+forgetting loss of task  0 for client 1 at current task 1: 27.31768798828125
+[task 1][round 40][client 1] [loss:[72.30094146728516]][val_loss:[68.85139465332031]]
+forgetting loss of task  0 for client 2 at current task 1: 74.36783599853516
+[task 1][round 40][client 2] [loss:[25.798973083496094]][val_loss:[23.658050537109375]]
+forgetting loss of task  0 for client 0 at current task 1: 27.392154693603516
+[task 1][round 41][client 0] [loss:[111.50157928466797]][val_loss:[112.32157897949219]]
+forgetting loss of task  0 for client 1 at current task 1: 25.257965087890625
+[task 1][round 41][client 1] [loss:[71.76559448242188]][val_loss:[68.06074523925781]]
+forgetting loss of task  0 for client 2 at current task 1: 76.37721252441406
+[task 1][round 41][client 2] [loss:[25.83180809020996]][val_loss:[23.201976776123047]]
+forgetting loss of task  0 for client 0 at current task 1: 23.092124938964844
+[task 1][round 42][client 0] [loss:[111.57366180419922]][val_loss:[113.18535614013672]]
+forgetting loss of task  0 for client 1 at current task 1: 26.927539825439453
+[task 1][round 42][client 1] [loss:[71.56998443603516]][val_loss:[70.11956787109375]]
+forgetting loss of task  0 for client 2 at current task 1: 73.81165313720703
+[task 1][round 42][client 2] [loss:[25.898685455322266]][val_loss:[23.294580459594727]]
+forgetting loss of task  0 for client 0 at current task 1: 22.762554168701172
+[task 1][round 43][client 0] [loss:[110.92845153808594]][val_loss:[112.6559066772461]]
+forgetting loss of task  0 for client 1 at current task 1: 25.285415649414062
+[task 1][round 43][client 1] [loss:[71.77117156982422]][val_loss:[68.11942291259766]]
+forgetting loss of task  0 for client 2 at current task 1: 71.4979476928711
+[task 1][round 43][client 2] [loss:[25.646440505981445]][val_loss:[23.84235954284668]]
+forgetting loss of task  0 for client 0 at current task 1: 27.085683822631836
+[task 1][round 44][client 0] [loss:[111.14875793457031]][val_loss:[111.68122863769531]]
+forgetting loss of task  0 for client 1 at current task 1: 25.928285598754883
+[task 1][round 44][client 1] [loss:[71.29132843017578]][val_loss:[70.05882263183594]]
+forgetting loss of task  0 for client 2 at current task 1: 69.1642837524414
+[task 1][round 44][client 2] [loss:[25.675796508789062]][val_loss:[26.941862106323242]]
+forgetting loss of task  0 for client 0 at current task 1: 26.966167449951172
+[task 1][round 45][client 0] [loss:[110.85963439941406]][val_loss:[111.2051010131836]]
+forgetting loss of task  0 for client 1 at current task 1: 28.314830780029297
+[task 1][round 45][client 1] [loss:[70.50178527832031]][val_loss:[67.74459075927734]]
+forgetting loss of task  0 for client 2 at current task 1: 69.00796508789062
+[task 1][round 45][client 2] [loss:[25.658727645874023]][val_loss:[25.797197341918945]]
+forgetting loss of task  0 for client 0 at current task 1: 26.038698196411133
+[task 1][round 46][client 0] [loss:[111.00039672851562]][val_loss:[113.36074829101562]]
+forgetting loss of task  0 for client 1 at current task 1: 23.666095733642578
+[task 1][round 46][client 1] [loss:[70.7236099243164]][val_loss:[70.82026672363281]]
+forgetting loss of task  0 for client 2 at current task 1: 73.0069808959961
+[task 1][round 46][client 2] [loss:[25.692913055419922]][val_loss:[23.210216522216797]]
+forgetting loss of task  0 for client 0 at current task 1: 25.16893196105957
+[task 1][round 47][client 0] [loss:[110.9136962890625]][val_loss:[111.16861724853516]]
+forgetting loss of task  0 for client 1 at current task 1: 23.730510711669922
+[task 1][round 47][client 1] [loss:[70.49607849121094]][val_loss:[71.82181549072266]]
+forgetting loss of task  0 for client 2 at current task 1: 68.79872131347656
+[task 1][round 47][client 2] [loss:[25.68563461303711]][val_loss:[25.63899803161621]]
+forgetting loss of task  0 for client 0 at current task 1: 26.575603485107422
+[task 1][round 48][client 0] [loss:[110.99769592285156]][val_loss:[111.05043029785156]]
+forgetting loss of task  0 for client 1 at current task 1: 24.94954490661621
+[task 1][round 48][client 1] [loss:[69.93978118896484]][val_loss:[72.63055419921875]]
+forgetting loss of task  0 for client 2 at current task 1: 69.850341796875
+[task 1][round 48][client 2] [loss:[25.65816879272461]][val_loss:[23.669918060302734]]
+forgetting loss of task  0 for client 0 at current task 1: 25.440378189086914
+[task 1][round 49][client 0] [loss:[110.97146606445312]][val_loss:[111.87040710449219]]
+forgetting loss of task  0 for client 1 at current task 1: 26.424863815307617
+[task 1][round 49][client 1] [loss:[70.22006225585938]][val_loss:[68.39334106445312]]
+forgetting loss of task  0 for client 2 at current task 1: 69.28209686279297
+[task 1][round 49][client 2] [loss:[25.520998001098633]][val_loss:[25.637880325317383]]
+forgetting loss of task  0 for client 0 at current task 2: 25.587745666503906
+forgetting loss of task  1 for client 0 at current task 2: 110.5610122680664
+[task 2][round 0][client 0] [loss:[25.109588623046875]][val_loss:[25.477344512939453]]
+forgetting loss of task  0 for client 1 at current task 2: 26.29090690612793
+forgetting loss of task  1 for client 1 at current task 2: 68.63358306884766
+[task 2][round 0][client 1] [loss:[25.3349552154541]][val_loss:[27.0128231048584]]
+forgetting loss of task  0 for client 2 at current task 2: 67.1500015258789
+forgetting loss of task  1 for client 2 at current task 2: 25.943740844726562
+[task 2][round 0][client 2] [loss:[110.98248291015625]][val_loss:[110.02828979492188]]
+forgetting loss of task  0 for client 0 at current task 2: 23.252483367919922
+forgetting loss of task  1 for client 0 at current task 2: 111.2955322265625
+[task 2][round 1][client 0] [loss:[24.8117733001709]][val_loss:[22.78282928466797]]
+forgetting loss of task  0 for client 1 at current task 2: 24.919219970703125
+forgetting loss of task  1 for client 1 at current task 2: 68.8992691040039
+[task 2][round 1][client 1] [loss:[24.907949447631836]][val_loss:[25.287487030029297]]
+forgetting loss of task  0 for client 2 at current task 2: 71.76730346679688
+forgetting loss of task  1 for client 2 at current task 2: 23.610048294067383
+[task 2][round 1][client 2] [loss:[111.56901550292969]][val_loss:[110.0678482055664]]
+forgetting loss of task  0 for client 0 at current task 2: 23.229795455932617
+forgetting loss of task  1 for client 0 at current task 2: 112.03123474121094
+[task 2][round 2][client 0] [loss:[24.652957916259766]][val_loss:[23.03233528137207]]
+forgetting loss of task  0 for client 1 at current task 2: 22.903921127319336
+forgetting loss of task  1 for client 1 at current task 2: 69.0710220336914
+[task 2][round 2][client 1] [loss:[24.81430435180664]][val_loss:[23.718175888061523]]
+forgetting loss of task  0 for client 2 at current task 2: 81.22108459472656
+forgetting loss of task  1 for client 2 at current task 2: 23.19670295715332
+[task 2][round 2][client 2] [loss:[111.14241790771484]][val_loss:[112.68377685546875]]
+forgetting loss of task  0 for client 0 at current task 2: 22.199432373046875
+forgetting loss of task  1 for client 0 at current task 2: 111.72096252441406
+[task 2][round 3][client 0] [loss:[24.391456604003906]][val_loss:[21.802494049072266]]
+forgetting loss of task  0 for client 1 at current task 2: 26.226926803588867
+forgetting loss of task  1 for client 1 at current task 2: 67.54319763183594
+[task 2][round 3][client 1] [loss:[24.6517391204834]][val_loss:[27.106443405151367]]
+forgetting loss of task  0 for client 2 at current task 2: 76.40876770019531
+forgetting loss of task  1 for client 2 at current task 2: 23.031082153320312
+[task 2][round 3][client 2] [loss:[111.36333465576172]][val_loss:[110.05953979492188]]
+forgetting loss of task  0 for client 0 at current task 2: 22.52553939819336
+forgetting loss of task  1 for client 0 at current task 2: 111.49248504638672
+[task 2][round 4][client 0] [loss:[24.018722534179688]][val_loss:[22.116411209106445]]
+forgetting loss of task  0 for client 1 at current task 2: 24.590810775756836
+forgetting loss of task  1 for client 1 at current task 2: 69.26244354248047
+[task 2][round 4][client 1] [loss:[24.35944938659668]][val_loss:[25.199724197387695]]
+forgetting loss of task  0 for client 2 at current task 2: 75.33809661865234
+forgetting loss of task  1 for client 2 at current task 2: 22.59161949157715
+[task 2][round 4][client 2] [loss:[111.43256378173828]][val_loss:[110.77229309082031]]
+forgetting loss of task  0 for client 0 at current task 2: 23.70915412902832
+forgetting loss of task  1 for client 0 at current task 2: 112.20540618896484
+[task 2][round 5][client 0] [loss:[23.796539306640625]][val_loss:[23.249874114990234]]
+forgetting loss of task  0 for client 1 at current task 2: 25.1756649017334
+forgetting loss of task  1 for client 1 at current task 2: 66.73038482666016
+[task 2][round 5][client 1] [loss:[24.158906936645508]][val_loss:[26.16208267211914]]
+forgetting loss of task  0 for client 2 at current task 2: 68.94315338134766
+forgetting loss of task  1 for client 2 at current task 2: 24.295270919799805
+[task 2][round 5][client 2] [loss:[111.23771667480469]][val_loss:[111.0981216430664]]
+forgetting loss of task  0 for client 0 at current task 2: 24.86528205871582
+forgetting loss of task  1 for client 0 at current task 2: 111.1161117553711
+[task 2][round 6][client 0] [loss:[23.767534255981445]][val_loss:[24.306673049926758]]
+forgetting loss of task  0 for client 1 at current task 2: 24.89351463317871
+forgetting loss of task  1 for client 1 at current task 2: 68.12496185302734
+[task 2][round 6][client 1] [loss:[23.93215560913086]][val_loss:[25.747224807739258]]
+forgetting loss of task  0 for client 2 at current task 2: 69.95103454589844
+forgetting loss of task  1 for client 2 at current task 2: 23.86528205871582
+[task 2][round 6][client 2] [loss:[111.49708557128906]][val_loss:[111.09083557128906]]
+forgetting loss of task  0 for client 0 at current task 2: 23.203702926635742
+forgetting loss of task  1 for client 0 at current task 2: 111.13573455810547
+[task 2][round 7][client 0] [loss:[23.33363151550293]][val_loss:[22.628385543823242]]
+forgetting loss of task  0 for client 1 at current task 2: 23.37879180908203
+forgetting loss of task  1 for client 1 at current task 2: 69.34508514404297
+[task 2][round 7][client 1] [loss:[23.798601150512695]][val_loss:[24.315082550048828]]
+forgetting loss of task  0 for client 2 at current task 2: 69.38697814941406
+forgetting loss of task  1 for client 2 at current task 2: 25.691585540771484
+[task 2][round 7][client 2] [loss:[111.50475311279297]][val_loss:[111.70368957519531]]
+forgetting loss of task  0 for client 0 at current task 2: 25.610849380493164
+forgetting loss of task  1 for client 0 at current task 2: 109.81120300292969
+[task 2][round 8][client 0] [loss:[23.244159698486328]][val_loss:[25.12796974182129]]
+forgetting loss of task  0 for client 1 at current task 2: 23.223613739013672
+forgetting loss of task  1 for client 1 at current task 2: 73.14657592773438
+[task 2][round 8][client 1] [loss:[23.71320915222168]][val_loss:[23.80144691467285]]
+forgetting loss of task  0 for client 2 at current task 2: 69.3157958984375
+forgetting loss of task  1 for client 2 at current task 2: 23.715511322021484
+[task 2][round 8][client 2] [loss:[111.8516616821289]][val_loss:[111.10655975341797]]
+forgetting loss of task  0 for client 0 at current task 2: 22.601041793823242
+forgetting loss of task  1 for client 0 at current task 2: 110.02085876464844
+[task 2][round 9][client 0] [loss:[23.044267654418945]][val_loss:[22.232219696044922]]
+forgetting loss of task  0 for client 1 at current task 2: 21.590621948242188
+forgetting loss of task  1 for client 1 at current task 2: 73.32475280761719
+[task 2][round 9][client 1] [loss:[23.218124389648438]][val_loss:[22.55890655517578]]
+forgetting loss of task  0 for client 2 at current task 2: 70.53630828857422
+forgetting loss of task  1 for client 2 at current task 2: 24.494319915771484
+[task 2][round 9][client 2] [loss:[111.86994934082031]][val_loss:[109.90110778808594]]
+forgetting loss of task  0 for client 0 at current task 2: 21.487319946289062
+forgetting loss of task  1 for client 0 at current task 2: 113.84674835205078
+[task 2][round 10][client 0] [loss:[22.85196876525879]][val_loss:[20.88979721069336]]
+forgetting loss of task  0 for client 1 at current task 2: 23.005056381225586
+forgetting loss of task  1 for client 1 at current task 2: 71.27715301513672
+[task 2][round 10][client 1] [loss:[23.17830467224121]][val_loss:[23.69256591796875]]
+forgetting loss of task  0 for client 2 at current task 2: 70.66547393798828
+forgetting loss of task  1 for client 2 at current task 2: 24.124248504638672
+[task 2][round 10][client 2] [loss:[112.08269500732422]][val_loss:[112.6017837524414]]
+forgetting loss of task  0 for client 0 at current task 2: 21.291065216064453
+forgetting loss of task  1 for client 0 at current task 2: 113.0787124633789
+[task 2][round 11][client 0] [loss:[22.578405380249023]][val_loss:[20.85211181640625]]
+forgetting loss of task  0 for client 1 at current task 2: 20.69478416442871
+forgetting loss of task  1 for client 1 at current task 2: 76.75154876708984
+[task 2][round 11][client 1] [loss:[23.106359481811523]][val_loss:[21.608074188232422]]
+forgetting loss of task  0 for client 2 at current task 2: 74.25354766845703
+forgetting loss of task  1 for client 2 at current task 2: 22.94847297668457
+[task 2][round 11][client 2] [loss:[112.40422058105469]][val_loss:[113.28459167480469]]
+forgetting loss of task  0 for client 0 at current task 2: 24.348861694335938
+forgetting loss of task  1 for client 0 at current task 2: 110.60201263427734
+[task 2][round 12][client 0] [loss:[22.374370574951172]][val_loss:[24.223237991333008]]
+forgetting loss of task  0 for client 1 at current task 2: 22.15199851989746
+forgetting loss of task  1 for client 1 at current task 2: 73.3360366821289
+[task 2][round 12][client 1] [loss:[22.938915252685547]][val_loss:[22.91374969482422]]
+forgetting loss of task  0 for client 2 at current task 2: 76.92571258544922
+forgetting loss of task  1 for client 2 at current task 2: 21.661836624145508
+[task 2][round 12][client 2] [loss:[111.82584381103516]][val_loss:[113.41539001464844]]
+forgetting loss of task  0 for client 0 at current task 2: 23.641586303710938
+forgetting loss of task  1 for client 0 at current task 2: 110.59636688232422
+[task 2][round 13][client 0] [loss:[22.251907348632812]][val_loss:[23.24241828918457]]
+forgetting loss of task  0 for client 1 at current task 2: 21.379709243774414
+forgetting loss of task  1 for client 1 at current task 2: 82.5462875366211
+[task 2][round 13][client 1] [loss:[22.729963302612305]][val_loss:[22.1480770111084]]
+forgetting loss of task  0 for client 2 at current task 2: 72.27140045166016
+forgetting loss of task  1 for client 2 at current task 2: 22.596012115478516
+[task 2][round 13][client 2] [loss:[112.00977325439453]][val_loss:[110.27935791015625]]
+forgetting loss of task  0 for client 0 at current task 2: 23.219165802001953
+forgetting loss of task  1 for client 0 at current task 2: 110.68461608886719
+[task 2][round 14][client 0] [loss:[22.10795021057129]][val_loss:[22.66387367248535]]
+forgetting loss of task  0 for client 1 at current task 2: 20.509798049926758
+forgetting loss of task  1 for client 1 at current task 2: 78.49708557128906
+[task 2][round 14][client 1] [loss:[22.617839813232422]][val_loss:[21.79383087158203]]
+forgetting loss of task  0 for client 2 at current task 2: 76.6563491821289
+forgetting loss of task  1 for client 2 at current task 2: 21.692180633544922
+[task 2][round 14][client 2] [loss:[112.2835464477539]][val_loss:[109.8180160522461]]
+forgetting loss of task  0 for client 0 at current task 2: 23.304353713989258
+forgetting loss of task  1 for client 0 at current task 2: 110.23149108886719
+[task 2][round 15][client 0] [loss:[21.89381217956543]][val_loss:[22.605915069580078]]
+forgetting loss of task  0 for client 1 at current task 2: 20.691560745239258
+forgetting loss of task  1 for client 1 at current task 2: 72.37333679199219
+[task 2][round 15][client 1] [loss:[22.453174591064453]][val_loss:[21.760196685791016]]
+forgetting loss of task  0 for client 2 at current task 2: 68.64041900634766
+forgetting loss of task  1 for client 2 at current task 2: 24.11311912536621
+[task 2][round 15][client 2] [loss:[111.88411712646484]][val_loss:[110.52651977539062]]
+forgetting loss of task  0 for client 0 at current task 2: 21.72705078125
+forgetting loss of task  1 for client 0 at current task 2: 111.55813598632812
+[task 2][round 16][client 0] [loss:[21.82080078125]][val_loss:[21.08942222595215]]
+forgetting loss of task  0 for client 1 at current task 2: 21.531944274902344
+forgetting loss of task  1 for client 1 at current task 2: 72.74897003173828
+[task 2][round 16][client 1] [loss:[22.168956756591797]][val_loss:[22.229629516601562]]
+forgetting loss of task  0 for client 2 at current task 2: 78.10455322265625
+forgetting loss of task  1 for client 2 at current task 2: 21.182777404785156
+[task 2][round 16][client 2] [loss:[112.83200073242188]][val_loss:[110.97549438476562]]
+forgetting loss of task  0 for client 0 at current task 2: 22.345972061157227
+forgetting loss of task  1 for client 0 at current task 2: 111.72340393066406
+[task 2][round 17][client 0] [loss:[21.594970703125]][val_loss:[21.928857803344727]]
+forgetting loss of task  0 for client 1 at current task 2: 20.96981430053711
+forgetting loss of task  1 for client 1 at current task 2: 71.08025360107422
+[task 2][round 17][client 1] [loss:[22.13128662109375]][val_loss:[21.994626998901367]]
+forgetting loss of task  0 for client 2 at current task 2: 72.07450103759766
+forgetting loss of task  1 for client 2 at current task 2: 21.995182037353516
+[task 2][round 17][client 2] [loss:[112.16681671142578]][val_loss:[110.6192855834961]]
+forgetting loss of task  0 for client 0 at current task 2: 21.99972152709961
+forgetting loss of task  1 for client 0 at current task 2: 113.06059265136719
+[task 2][round 18][client 0] [loss:[21.50190544128418]][val_loss:[21.573497772216797]]
+forgetting loss of task  0 for client 1 at current task 2: 20.594263076782227
+forgetting loss of task  1 for client 1 at current task 2: 80.16012573242188
+[task 2][round 18][client 1] [loss:[21.9215030670166]][val_loss:[21.62459945678711]]
+forgetting loss of task  0 for client 2 at current task 2: 76.20469665527344
+forgetting loss of task  1 for client 2 at current task 2: 21.474273681640625
+[task 2][round 18][client 2] [loss:[112.45362854003906]][val_loss:[113.07340240478516]]
+forgetting loss of task  0 for client 0 at current task 2: 22.592363357543945
+forgetting loss of task  1 for client 0 at current task 2: 112.58717346191406
+[task 2][round 19][client 0] [loss:[21.385143280029297]][val_loss:[21.949819564819336]]
+forgetting loss of task  0 for client 1 at current task 2: 20.25844383239746
+forgetting loss of task  1 for client 1 at current task 2: 73.45844268798828
+[task 2][round 19][client 1] [loss:[21.85943603515625]][val_loss:[21.234024047851562]]
+forgetting loss of task  0 for client 2 at current task 2: 72.2178955078125
+forgetting loss of task  1 for client 2 at current task 2: 22.286588668823242
+[task 2][round 19][client 2] [loss:[112.54884338378906]][val_loss:[110.70108032226562]]
+forgetting loss of task  0 for client 0 at current task 2: 21.002511978149414
+forgetting loss of task  1 for client 0 at current task 2: 115.6070556640625
+[task 2][round 20][client 0] [loss:[21.213150024414062]][val_loss:[20.46880531311035]]
+forgetting loss of task  0 for client 1 at current task 2: 21.70858383178711
+forgetting loss of task  1 for client 1 at current task 2: 70.16802215576172
+[task 2][round 20][client 1] [loss:[21.702184677124023]][val_loss:[22.667984008789062]]
+forgetting loss of task  0 for client 2 at current task 2: 73.0125961303711
+forgetting loss of task  1 for client 2 at current task 2: 21.556718826293945
+[task 2][round 20][client 2] [loss:[112.1568603515625]][val_loss:[112.99845886230469]]
+forgetting loss of task  0 for client 0 at current task 2: 21.11359214782715
+forgetting loss of task  1 for client 0 at current task 2: 113.49459838867188
+[task 2][round 21][client 0] [loss:[21.083404541015625]][val_loss:[20.28144645690918]]
+forgetting loss of task  0 for client 1 at current task 2: 21.203495025634766
+forgetting loss of task  1 for client 1 at current task 2: 71.12886810302734
+[task 2][round 21][client 1] [loss:[21.627649307250977]][val_loss:[21.990676879882812]]
+forgetting loss of task  0 for client 2 at current task 2: 72.08642578125
+forgetting loss of task  1 for client 2 at current task 2: 22.262544631958008
+[task 2][round 21][client 2] [loss:[113.10961151123047]][val_loss:[111.2623519897461]]
+forgetting loss of task  0 for client 0 at current task 2: 21.332536697387695
+forgetting loss of task  1 for client 0 at current task 2: 110.14387512207031
+[task 2][round 22][client 0] [loss:[21.023042678833008]][val_loss:[20.8989200592041]]
+forgetting loss of task  0 for client 1 at current task 2: 21.298555374145508
+forgetting loss of task  1 for client 1 at current task 2: 75.80496215820312
+[task 2][round 22][client 1] [loss:[21.584877014160156]][val_loss:[22.140037536621094]]
+forgetting loss of task  0 for client 2 at current task 2: 76.50029754638672
+forgetting loss of task  1 for client 2 at current task 2: 20.795001983642578
+[task 2][round 22][client 2] [loss:[112.71269989013672]][val_loss:[112.75855255126953]]
+forgetting loss of task  0 for client 0 at current task 2: 21.521833419799805
+forgetting loss of task  1 for client 0 at current task 2: 111.69447326660156
+[task 2][round 23][client 0] [loss:[20.85675621032715]][val_loss:[20.877246856689453]]
+forgetting loss of task  0 for client 1 at current task 2: 21.204769134521484
+forgetting loss of task  1 for client 1 at current task 2: 71.89163970947266
+[task 2][round 23][client 1] [loss:[21.382976531982422]][val_loss:[22.07170295715332]]
+forgetting loss of task  0 for client 2 at current task 2: 72.01728057861328
+forgetting loss of task  1 for client 2 at current task 2: 21.254459381103516
+[task 2][round 23][client 2] [loss:[111.58028411865234]][val_loss:[109.45648956298828]]
+forgetting loss of task  0 for client 0 at current task 2: 22.445215225219727
+forgetting loss of task  1 for client 0 at current task 2: 111.65013885498047
+[task 2][round 24][client 0] [loss:[20.723115921020508]][val_loss:[21.803524017333984]]
+forgetting loss of task  0 for client 1 at current task 2: 20.666584014892578
+forgetting loss of task  1 for client 1 at current task 2: 71.31954956054688
+[task 2][round 24][client 1] [loss:[21.315959930419922]][val_loss:[21.6066837310791]]
+forgetting loss of task  0 for client 2 at current task 2: 78.81201171875
+forgetting loss of task  1 for client 2 at current task 2: 20.62493896484375
+[task 2][round 24][client 2] [loss:[112.87194061279297]][val_loss:[113.92741394042969]]
+forgetting loss of task  0 for client 0 at current task 2: 21.14647674560547
+forgetting loss of task  1 for client 0 at current task 2: 113.55685424804688
+[task 2][round 25][client 0] [loss:[20.624671936035156]][val_loss:[20.63308334350586]]
+forgetting loss of task  0 for client 1 at current task 2: 19.133066177368164
+forgetting loss of task  1 for client 1 at current task 2: 81.6130599975586
+[task 2][round 25][client 1] [loss:[21.185123443603516]][val_loss:[20.311859130859375]]
+forgetting loss of task  0 for client 2 at current task 2: 71.59083557128906
+forgetting loss of task  1 for client 2 at current task 2: 20.87363052368164
+[task 2][round 25][client 2] [loss:[113.24700164794922]][val_loss:[111.87907409667969]]
+forgetting loss of task  0 for client 0 at current task 2: 19.313249588012695
+forgetting loss of task  1 for client 0 at current task 2: 115.8260498046875
+[task 2][round 26][client 0] [loss:[20.43174171447754]][val_loss:[18.464130401611328]]
+forgetting loss of task  0 for client 1 at current task 2: 20.032018661499023
+forgetting loss of task  1 for client 1 at current task 2: 81.15364074707031
+[task 2][round 26][client 1] [loss:[21.014095306396484]][val_loss:[20.83441162109375]]
+forgetting loss of task  0 for client 2 at current task 2: 80.34165954589844
+forgetting loss of task  1 for client 2 at current task 2: 19.76645851135254
+[task 2][round 26][client 2] [loss:[113.39775085449219]][val_loss:[114.7855453491211]]
+forgetting loss of task  0 for client 0 at current task 2: 19.783828735351562
+forgetting loss of task  1 for client 0 at current task 2: 115.80681610107422
+[task 2][round 27][client 0] [loss:[20.38762664794922]][val_loss:[19.160276412963867]]
+forgetting loss of task  0 for client 1 at current task 2: 21.650575637817383
+forgetting loss of task  1 for client 1 at current task 2: 70.66635131835938
+[task 2][round 27][client 1] [loss:[20.981517791748047]][val_loss:[22.104167938232422]]
+forgetting loss of task  0 for client 2 at current task 2: 78.57601928710938
+forgetting loss of task  1 for client 2 at current task 2: 20.10324478149414
+[task 2][round 27][client 2] [loss:[112.22113037109375]][val_loss:[112.81706237792969]]
+forgetting loss of task  0 for client 0 at current task 2: 21.474061965942383
+forgetting loss of task  1 for client 0 at current task 2: 112.60237121582031
+[task 2][round 28][client 0] [loss:[20.217126846313477]][val_loss:[20.850385665893555]]
+forgetting loss of task  0 for client 1 at current task 2: 19.486425399780273
+forgetting loss of task  1 for client 1 at current task 2: 78.00569152832031
+[task 2][round 28][client 1] [loss:[20.852357864379883]][val_loss:[20.363895416259766]]
+forgetting loss of task  0 for client 2 at current task 2: 82.39909362792969
+forgetting loss of task  1 for client 2 at current task 2: 20.081323623657227
+[task 2][round 28][client 2] [loss:[113.81006622314453]][val_loss:[113.7406005859375]]
+forgetting loss of task  0 for client 0 at current task 2: 22.387313842773438
+forgetting loss of task  1 for client 0 at current task 2: 110.92687225341797
+[task 2][round 29][client 0] [loss:[20.09010124206543]][val_loss:[21.746397018432617]]
+forgetting loss of task  0 for client 1 at current task 2: 21.268117904663086
+forgetting loss of task  1 for client 1 at current task 2: 70.37390899658203
+[task 2][round 29][client 1] [loss:[20.887344360351562]][val_loss:[22.00974464416504]]
+forgetting loss of task  0 for client 2 at current task 2: 74.51012420654297
+forgetting loss of task  1 for client 2 at current task 2: 21.014978408813477
+[task 2][round 29][client 2] [loss:[113.02716064453125]][val_loss:[110.97161102294922]]
+forgetting loss of task  0 for client 0 at current task 2: 20.12872886657715
+forgetting loss of task  1 for client 0 at current task 2: 112.1119155883789
+[task 2][round 30][client 0] [loss:[20.024065017700195]][val_loss:[19.43484115600586]]
+forgetting loss of task  0 for client 1 at current task 2: 20.053678512573242
+forgetting loss of task  1 for client 1 at current task 2: 80.54396057128906
+[task 2][round 30][client 1] [loss:[20.650949478149414]][val_loss:[20.895980834960938]]
+forgetting loss of task  0 for client 2 at current task 2: 81.27546691894531
+forgetting loss of task  1 for client 2 at current task 2: 20.374940872192383
+[task 2][round 30][client 2] [loss:[112.72179412841797]][val_loss:[114.05455780029297]]
+forgetting loss of task  0 for client 0 at current task 2: 19.12037467956543
+forgetting loss of task  1 for client 0 at current task 2: 114.85911560058594
+[task 2][round 31][client 0] [loss:[19.890172958374023]][val_loss:[18.144338607788086]]
+forgetting loss of task  0 for client 1 at current task 2: 20.059646606445312
+forgetting loss of task  1 for client 1 at current task 2: 74.56956481933594
+[task 2][round 31][client 1] [loss:[20.611452102661133]][val_loss:[20.887422561645508]]
+forgetting loss of task  0 for client 2 at current task 2: 71.08421325683594
+forgetting loss of task  1 for client 2 at current task 2: 21.100400924682617
+[task 2][round 31][client 2] [loss:[113.22096252441406]][val_loss:[110.75936126708984]]
+forgetting loss of task  0 for client 0 at current task 2: 20.186077117919922
+forgetting loss of task  1 for client 0 at current task 2: 111.9903793334961
+[task 2][round 32][client 0] [loss:[19.830556869506836]][val_loss:[19.868738174438477]]
+forgetting loss of task  0 for client 1 at current task 2: 19.928207397460938
+forgetting loss of task  1 for client 1 at current task 2: 72.08991241455078
+[task 2][round 32][client 1] [loss:[20.54220199584961]][val_loss:[20.960168838500977]]
+forgetting loss of task  0 for client 2 at current task 2: 77.87258911132812
+forgetting loss of task  1 for client 2 at current task 2: 20.516450881958008
+[task 2][round 32][client 2] [loss:[112.92281341552734]][val_loss:[114.02881622314453]]
+forgetting loss of task  0 for client 0 at current task 2: 20.753437042236328
+forgetting loss of task  1 for client 0 at current task 2: 112.90152740478516
+[task 2][round 33][client 0] [loss:[19.824453353881836]][val_loss:[20.028053283691406]]
+forgetting loss of task  0 for client 1 at current task 2: 18.73067283630371
+forgetting loss of task  1 for client 1 at current task 2: 78.26750946044922
+[task 2][round 33][client 1] [loss:[20.412357330322266]][val_loss:[19.933984756469727]]
+forgetting loss of task  0 for client 2 at current task 2: 75.70380401611328
+forgetting loss of task  1 for client 2 at current task 2: 19.79496192932129
+[task 2][round 33][client 2] [loss:[112.96263885498047]][val_loss:[111.89131927490234]]
+forgetting loss of task  0 for client 0 at current task 2: 20.932884216308594
+forgetting loss of task  1 for client 0 at current task 2: 110.76030731201172
+[task 2][round 34][client 0] [loss:[19.675495147705078]][val_loss:[20.186283111572266]]
+forgetting loss of task  0 for client 1 at current task 2: 19.71648406982422
+forgetting loss of task  1 for client 1 at current task 2: 73.5697250366211
+[task 2][round 34][client 1] [loss:[20.3551082611084]][val_loss:[20.67806625366211]]
+forgetting loss of task  0 for client 2 at current task 2: 83.38809967041016
+forgetting loss of task  1 for client 2 at current task 2: 18.678709030151367
+[task 2][round 34][client 2] [loss:[113.55148315429688]][val_loss:[114.18572998046875]]
+forgetting loss of task  0 for client 0 at current task 2: 21.475282669067383
+forgetting loss of task  1 for client 0 at current task 2: 110.54248046875
+[task 2][round 35][client 0] [loss:[19.53773307800293]][val_loss:[20.86553192138672]]
+forgetting loss of task  0 for client 1 at current task 2: 19.768821716308594
+forgetting loss of task  1 for client 1 at current task 2: 75.24298095703125
+[task 2][round 35][client 1] [loss:[20.165565490722656]][val_loss:[20.944459915161133]]
+forgetting loss of task  0 for client 2 at current task 2: 70.55259704589844
+forgetting loss of task  1 for client 2 at current task 2: 21.143739700317383
+[task 2][round 35][client 2] [loss:[113.43789672851562]][val_loss:[110.99633026123047]]
+forgetting loss of task  0 for client 0 at current task 2: 18.909154891967773
+forgetting loss of task  1 for client 0 at current task 2: 115.30357360839844
+[task 2][round 36][client 0] [loss:[19.45220947265625]][val_loss:[18.0238094329834]]
+forgetting loss of task  0 for client 1 at current task 2: 20.73438262939453
+forgetting loss of task  1 for client 1 at current task 2: 71.03312683105469
+[task 2][round 36][client 1] [loss:[20.146114349365234]][val_loss:[21.733232498168945]]
+forgetting loss of task  0 for client 2 at current task 2: 77.74866485595703
+forgetting loss of task  1 for client 2 at current task 2: 20.0009822845459
+[task 2][round 36][client 2] [loss:[113.14391326904297]][val_loss:[111.32865905761719]]
+forgetting loss of task  0 for client 0 at current task 2: 20.54755973815918
+forgetting loss of task  1 for client 0 at current task 2: 111.2142333984375
+[task 2][round 37][client 0] [loss:[19.347084045410156]][val_loss:[19.77784538269043]]
+forgetting loss of task  0 for client 1 at current task 2: 20.074684143066406
+forgetting loss of task  1 for client 1 at current task 2: 73.59477996826172
+[task 2][round 37][client 1] [loss:[20.007352828979492]][val_loss:[21.146230697631836]]
+forgetting loss of task  0 for client 2 at current task 2: 72.05229949951172
+forgetting loss of task  1 for client 2 at current task 2: 21.746097564697266
+[task 2][round 37][client 2] [loss:[113.79218292236328]][val_loss:[111.56082153320312]]
+forgetting loss of task  0 for client 0 at current task 2: 20.195829391479492
+forgetting loss of task  1 for client 0 at current task 2: 111.51808166503906
+[task 2][round 38][client 0] [loss:[19.32200813293457]][val_loss:[19.48052406311035]]
+forgetting loss of task  0 for client 1 at current task 2: 18.7570743560791
+forgetting loss of task  1 for client 1 at current task 2: 78.5372543334961
+[task 2][round 38][client 1] [loss:[19.980222702026367]][val_loss:[19.805280685424805]]
+forgetting loss of task  0 for client 2 at current task 2: 78.94418334960938
+forgetting loss of task  1 for client 2 at current task 2: 19.33795738220215
+[task 2][round 38][client 2] [loss:[113.68235778808594]][val_loss:[112.4787826538086]]
+forgetting loss of task  0 for client 0 at current task 2: 20.702735900878906
+forgetting loss of task  1 for client 0 at current task 2: 114.52486419677734
+[task 2][round 39][client 0] [loss:[19.178627014160156]][val_loss:[19.991159439086914]]
+forgetting loss of task  0 for client 1 at current task 2: 20.01293182373047
+forgetting loss of task  1 for client 1 at current task 2: 73.0622329711914
+[task 2][round 39][client 1] [loss:[19.902355194091797]][val_loss:[21.255996704101562]]
+forgetting loss of task  0 for client 2 at current task 2: 91.77387237548828
+forgetting loss of task  1 for client 2 at current task 2: 18.88934898376465
+[task 2][round 39][client 2] [loss:[114.49588775634766]][val_loss:[118.5003890991211]]
+forgetting loss of task  0 for client 0 at current task 2: 20.88663101196289
+forgetting loss of task  1 for client 0 at current task 2: 110.01359558105469
+[task 2][round 40][client 0] [loss:[19.100969314575195]][val_loss:[20.44744873046875]]
+forgetting loss of task  0 for client 1 at current task 2: 18.36675453186035
+forgetting loss of task  1 for client 1 at current task 2: 78.395751953125
+[task 2][round 40][client 1] [loss:[19.824981689453125]][val_loss:[19.509780883789062]]
+forgetting loss of task  0 for client 2 at current task 2: 72.8648452758789
+forgetting loss of task  1 for client 2 at current task 2: 20.061779022216797
+[task 2][round 40][client 2] [loss:[114.19738006591797]][val_loss:[110.53235626220703]]
+forgetting loss of task  0 for client 0 at current task 2: 19.74117088317871
+forgetting loss of task  1 for client 0 at current task 2: 115.67626190185547
+[task 2][round 41][client 0] [loss:[18.902767181396484]][val_loss:[19.049896240234375]]
+forgetting loss of task  0 for client 1 at current task 2: 17.97663116455078
+forgetting loss of task  1 for client 1 at current task 2: 76.99533081054688
+[task 2][round 41][client 1] [loss:[19.630786895751953]][val_loss:[19.24264144897461]]
+forgetting loss of task  0 for client 2 at current task 2: 73.65399169921875
+forgetting loss of task  1 for client 2 at current task 2: 19.723529815673828
+[task 2][round 41][client 2] [loss:[113.75450134277344]][val_loss:[112.37244415283203]]
+forgetting loss of task  0 for client 0 at current task 2: 19.29551887512207
+forgetting loss of task  1 for client 0 at current task 2: 113.26277160644531
+[task 2][round 42][client 0] [loss:[18.927013397216797]][val_loss:[18.67868995666504]]
+forgetting loss of task  0 for client 1 at current task 2: 19.646957397460938
+forgetting loss of task  1 for client 1 at current task 2: 72.28219604492188
+[task 2][round 42][client 1] [loss:[19.613285064697266]][val_loss:[20.67264175415039]]
+forgetting loss of task  0 for client 2 at current task 2: 79.9692153930664
+forgetting loss of task  1 for client 2 at current task 2: 19.479787826538086
+[task 2][round 42][client 2] [loss:[114.37599182128906]][val_loss:[113.49092102050781]]
+forgetting loss of task  0 for client 0 at current task 2: 20.494556427001953
+forgetting loss of task  1 for client 0 at current task 2: 112.11785125732422
+[task 2][round 43][client 0] [loss:[18.793357849121094]][val_loss:[19.777029037475586]]
+forgetting loss of task  0 for client 1 at current task 2: 17.374881744384766
+forgetting loss of task  1 for client 1 at current task 2: 91.77316284179688
+[task 2][round 43][client 1] [loss:[19.564462661743164]][val_loss:[18.81795310974121]]
+forgetting loss of task  0 for client 2 at current task 2: 77.63188934326172
+forgetting loss of task  1 for client 2 at current task 2: 20.12579917907715
+[task 2][round 43][client 2] [loss:[113.71636199951172]][val_loss:[112.46471405029297]]
+forgetting loss of task  0 for client 0 at current task 2: 20.018964767456055
+forgetting loss of task  1 for client 0 at current task 2: 112.05432891845703
+[task 2][round 44][client 0] [loss:[18.828083038330078]][val_loss:[19.39943504333496]]
+forgetting loss of task  0 for client 1 at current task 2: 17.739458084106445
+forgetting loss of task  1 for client 1 at current task 2: 86.17691040039062
+[task 2][round 44][client 1] [loss:[19.46674346923828]][val_loss:[18.87994384765625]]
+forgetting loss of task  0 for client 2 at current task 2: 73.90814208984375
+forgetting loss of task  1 for client 2 at current task 2: 20.610790252685547
+[task 2][round 44][client 2] [loss:[114.2985610961914]][val_loss:[113.83671569824219]]
+forgetting loss of task  0 for client 0 at current task 2: 19.195676803588867
+forgetting loss of task  1 for client 0 at current task 2: 113.14749145507812
+[task 2][round 45][client 0] [loss:[18.81159210205078]][val_loss:[18.44402503967285]]
+forgetting loss of task  0 for client 1 at current task 2: 19.018983840942383
+forgetting loss of task  1 for client 1 at current task 2: 79.45503234863281
+[task 2][round 45][client 1] [loss:[19.448320388793945]][val_loss:[19.938892364501953]]
+forgetting loss of task  0 for client 2 at current task 2: 78.8448257446289
+forgetting loss of task  1 for client 2 at current task 2: 19.703632354736328
+[task 2][round 45][client 2] [loss:[113.61015319824219]][val_loss:[112.54708862304688]]
+forgetting loss of task  0 for client 0 at current task 2: 19.24173927307129
+forgetting loss of task  1 for client 0 at current task 2: 116.70838928222656
+[task 2][round 46][client 0] [loss:[18.69472312927246]][val_loss:[18.368785858154297]]
+forgetting loss of task  0 for client 1 at current task 2: 18.901472091674805
+forgetting loss of task  1 for client 1 at current task 2: 77.52142333984375
+[task 2][round 46][client 1] [loss:[19.38166618347168]][val_loss:[20.12317657470703]]
+forgetting loss of task  0 for client 2 at current task 2: 77.81298065185547
+forgetting loss of task  1 for client 2 at current task 2: 19.409469604492188
+[task 2][round 46][client 2] [loss:[114.35120391845703]][val_loss:[115.53939056396484]]
+forgetting loss of task  0 for client 0 at current task 2: 18.73775291442871
+forgetting loss of task  1 for client 0 at current task 2: 115.48589324951172
+[task 2][round 47][client 0] [loss:[18.63144874572754]][val_loss:[17.719440460205078]]
+forgetting loss of task  0 for client 1 at current task 2: 17.873634338378906
+forgetting loss of task  1 for client 1 at current task 2: 86.33092498779297
+[task 2][round 47][client 1] [loss:[19.353252410888672]][val_loss:[19.118846893310547]]
+forgetting loss of task  0 for client 2 at current task 2: 72.23544311523438
+forgetting loss of task  1 for client 2 at current task 2: 20.4490909576416
+[task 2][round 47][client 2] [loss:[113.98599243164062]][val_loss:[112.6977767944336]]
+forgetting loss of task  0 for client 0 at current task 2: 19.436140060424805
+forgetting loss of task  1 for client 0 at current task 2: 110.71920776367188
+[task 2][round 48][client 0] [loss:[18.56882095336914]][val_loss:[18.742082595825195]]
+forgetting loss of task  0 for client 1 at current task 2: 18.766502380371094
+forgetting loss of task  1 for client 1 at current task 2: 71.84077453613281
+[task 2][round 48][client 1] [loss:[19.17952537536621]][val_loss:[19.89927864074707]]
+forgetting loss of task  0 for client 2 at current task 2: 77.01473999023438
+forgetting loss of task  1 for client 2 at current task 2: 20.090225219726562
+[task 2][round 48][client 2] [loss:[113.55796813964844]][val_loss:[112.94776153564453]]
+forgetting loss of task  0 for client 0 at current task 2: 18.918581008911133
+forgetting loss of task  1 for client 0 at current task 2: 112.9403076171875
+[task 2][round 49][client 0] [loss:[18.47591781616211]][val_loss:[18.316762924194336]]
+forgetting loss of task  0 for client 1 at current task 2: 17.53837776184082
+forgetting loss of task  1 for client 1 at current task 2: 83.2415542602539
+[task 2][round 49][client 1] [loss:[19.19645118713379]][val_loss:[19.040176391601562]]
+forgetting loss of task  0 for client 2 at current task 2: 95.02228546142578
+forgetting loss of task  1 for client 2 at current task 2: 18.345726013183594
+[task 2][round 49][client 2] [loss:[114.608154296875]][val_loss:[118.51258087158203]]
+forgetting loss of task  0 for client 0 at current task 3: 18.303024291992188
+forgetting loss of task  1 for client 0 at current task 3: 114.80516052246094
+forgetting loss of task  2 for client 0 at current task 3: 17.58423614501953
+[task 3][round 0][client 0] [loss:[79.27455139160156]][val_loss:[83.9264144897461]]
+forgetting loss of task  0 for client 1 at current task 3: 17.7298583984375
+forgetting loss of task  1 for client 1 at current task 3: 90.63003540039062
+forgetting loss of task  2 for client 1 at current task 3: 18.62971305847168
+[task 3][round 0][client 1] [loss:[113.93458557128906]][val_loss:[114.07528686523438]]
+forgetting loss of task  0 for client 2 at current task 3: 74.08283233642578
+forgetting loss of task  1 for client 2 at current task 3: 19.443157196044922
+forgetting loss of task  2 for client 2 at current task 3: 112.9433364868164
+[task 3][round 0][client 2] [loss:[18.4543399810791]][val_loss:[18.63973045349121]]
+forgetting loss of task  0 for client 0 at current task 3: 19.08547019958496
+forgetting loss of task  1 for client 0 at current task 3: 112.3697280883789
+forgetting loss of task  2 for client 0 at current task 3: 18.462417602539062
+[task 3][round 1][client 0] [loss:[77.86761474609375]][val_loss:[73.70892333984375]]
+forgetting loss of task  0 for client 1 at current task 3: 18.841405868530273
+forgetting loss of task  1 for client 1 at current task 3: 70.62397003173828
+forgetting loss of task  2 for client 1 at current task 3: 19.66022491455078
+[task 3][round 1][client 1] [loss:[114.2482681274414]][val_loss:[110.56790161132812]]
+forgetting loss of task  0 for client 2 at current task 3: 78.06825256347656
+forgetting loss of task  1 for client 2 at current task 3: 19.143138885498047
+forgetting loss of task  2 for client 2 at current task 3: 113.85088348388672
+[task 3][round 1][client 2] [loss:[18.45897102355957]][val_loss:[18.366689682006836]]
+forgetting loss of task  0 for client 0 at current task 3: 20.73311424255371
+forgetting loss of task  1 for client 0 at current task 3: 111.79345703125
+forgetting loss of task  2 for client 0 at current task 3: 20.150012969970703
+[task 3][round 2][client 0] [loss:[76.52886199951172]][val_loss:[71.55911254882812]]
+forgetting loss of task  0 for client 1 at current task 3: 18.029451370239258
+forgetting loss of task  1 for client 1 at current task 3: 72.32450103759766
+forgetting loss of task  2 for client 1 at current task 3: 18.975645065307617
+[task 3][round 2][client 1] [loss:[113.0281753540039]][val_loss:[113.69258880615234]]
+forgetting loss of task  0 for client 2 at current task 3: 74.88399505615234
+forgetting loss of task  1 for client 2 at current task 3: 18.8070011138916
+forgetting loss of task  2 for client 2 at current task 3: 113.90316009521484
+[task 3][round 2][client 2] [loss:[18.522851943969727]][val_loss:[17.859142303466797]]
+forgetting loss of task  0 for client 0 at current task 3: 18.851318359375
+forgetting loss of task  1 for client 0 at current task 3: 113.07142639160156
+forgetting loss of task  2 for client 0 at current task 3: 17.864973068237305
+[task 3][round 3][client 0] [loss:[75.38738250732422]][val_loss:[84.45697784423828]]
+forgetting loss of task  0 for client 1 at current task 3: 19.56853675842285
+forgetting loss of task  1 for client 1 at current task 3: 71.29164123535156
+forgetting loss of task  2 for client 1 at current task 3: 20.32769775390625
+[task 3][round 3][client 1] [loss:[112.81692504882812]][val_loss:[111.91658020019531]]
+forgetting loss of task  0 for client 2 at current task 3: 90.97573852539062
+forgetting loss of task  1 for client 2 at current task 3: 18.26010513305664
+forgetting loss of task  2 for client 2 at current task 3: 116.1842041015625
+[task 3][round 3][client 2] [loss:[18.561012268066406]][val_loss:[17.19426918029785]]
+forgetting loss of task  0 for client 0 at current task 3: 17.959957122802734
+forgetting loss of task  1 for client 0 at current task 3: 116.01358032226562
+forgetting loss of task  2 for client 0 at current task 3: 17.072328567504883
+[task 3][round 4][client 0] [loss:[74.51568603515625]][val_loss:[95.28617095947266]]
+forgetting loss of task  0 for client 1 at current task 3: 17.241437911987305
+forgetting loss of task  1 for client 1 at current task 3: 76.18407440185547
+forgetting loss of task  2 for client 1 at current task 3: 18.129535675048828
+[task 3][round 4][client 1] [loss:[113.03522491455078]][val_loss:[113.17598724365234]]
+forgetting loss of task  0 for client 2 at current task 3: 75.33597564697266
+forgetting loss of task  1 for client 2 at current task 3: 19.43677520751953
+forgetting loss of task  2 for client 2 at current task 3: 111.84598541259766
+[task 3][round 4][client 2] [loss:[18.609371185302734]][val_loss:[18.53408432006836]]
+forgetting loss of task  0 for client 0 at current task 3: 19.16371726989746
+forgetting loss of task  1 for client 0 at current task 3: 113.55597686767578
+forgetting loss of task  2 for client 0 at current task 3: 18.281103134155273
+[task 3][round 5][client 0] [loss:[74.38353729248047]][val_loss:[74.07891082763672]]
+forgetting loss of task  0 for client 1 at current task 3: 17.766511917114258
+forgetting loss of task  1 for client 1 at current task 3: 80.05487823486328
+forgetting loss of task  2 for client 1 at current task 3: 18.534915924072266
+[task 3][round 5][client 1] [loss:[112.42725372314453]][val_loss:[113.6322250366211]]
+forgetting loss of task  0 for client 2 at current task 3: 76.32494354248047
+forgetting loss of task  1 for client 2 at current task 3: 19.00455093383789
+forgetting loss of task  2 for client 2 at current task 3: 111.90193939208984
+[task 3][round 5][client 2] [loss:[18.676666259765625]][val_loss:[18.48542022705078]]
+forgetting loss of task  0 for client 0 at current task 3: 19.535507202148438
+forgetting loss of task  1 for client 0 at current task 3: 110.77462005615234
+forgetting loss of task  2 for client 0 at current task 3: 19.03845977783203
+[task 3][round 6][client 0] [loss:[73.82035827636719]][val_loss:[68.83586120605469]]
+forgetting loss of task  0 for client 1 at current task 3: 18.202117919921875
+forgetting loss of task  1 for client 1 at current task 3: 79.95358276367188
+forgetting loss of task  2 for client 1 at current task 3: 18.922637939453125
+[task 3][round 6][client 1] [loss:[112.60533905029297]][val_loss:[115.50405883789062]]
+forgetting loss of task  0 for client 2 at current task 3: 68.1750259399414
+forgetting loss of task  1 for client 2 at current task 3: 19.93770980834961
+forgetting loss of task  2 for client 2 at current task 3: 112.24381256103516
+[task 3][round 6][client 2] [loss:[18.652379989624023]][val_loss:[19.184791564941406]]
+forgetting loss of task  0 for client 0 at current task 3: 19.12654685974121
+forgetting loss of task  1 for client 0 at current task 3: 111.93020629882812
+forgetting loss of task  2 for client 0 at current task 3: 18.491840362548828
+[task 3][round 7][client 0] [loss:[73.0774917602539]][val_loss:[72.86103057861328]]
+forgetting loss of task  0 for client 1 at current task 3: 19.319751739501953
+forgetting loss of task  1 for client 1 at current task 3: 72.24838256835938
+forgetting loss of task  2 for client 1 at current task 3: 19.830760955810547
+[task 3][round 7][client 1] [loss:[112.2408218383789]][val_loss:[112.4386978149414]]
+forgetting loss of task  0 for client 2 at current task 3: 76.46463775634766
+forgetting loss of task  1 for client 2 at current task 3: 18.989580154418945
+forgetting loss of task  2 for client 2 at current task 3: 111.97367095947266
+[task 3][round 7][client 2] [loss:[18.657392501831055]][val_loss:[18.07552146911621]]
+forgetting loss of task  0 for client 0 at current task 3: 18.4053955078125
+forgetting loss of task  1 for client 0 at current task 3: 112.41890716552734
+forgetting loss of task  2 for client 0 at current task 3: 17.634706497192383
+[task 3][round 8][client 0] [loss:[71.99279022216797]][val_loss:[73.27920532226562]]
+forgetting loss of task  0 for client 1 at current task 3: 17.4544620513916
+forgetting loss of task  1 for client 1 at current task 3: 74.76065826416016
+forgetting loss of task  2 for client 1 at current task 3: 18.275333404541016
+[task 3][round 8][client 1] [loss:[112.04280090332031]][val_loss:[111.64447021484375]]
+forgetting loss of task  0 for client 2 at current task 3: 71.29457092285156
+forgetting loss of task  1 for client 2 at current task 3: 19.24679183959961
+forgetting loss of task  2 for client 2 at current task 3: 110.77092742919922
+[task 3][round 8][client 2] [loss:[18.81624412536621]][val_loss:[18.600400924682617]]
+forgetting loss of task  0 for client 0 at current task 3: 19.719419479370117
+forgetting loss of task  1 for client 0 at current task 3: 111.1315689086914
+forgetting loss of task  2 for client 0 at current task 3: 18.97290802001953
+[task 3][round 9][client 0] [loss:[71.70088958740234]][val_loss:[69.15991973876953]]
+forgetting loss of task  0 for client 1 at current task 3: 18.53579330444336
+forgetting loss of task  1 for client 1 at current task 3: 74.30411529541016
+forgetting loss of task  2 for client 1 at current task 3: 19.285072326660156
+[task 3][round 9][client 1] [loss:[112.0967788696289]][val_loss:[112.12776947021484]]
+forgetting loss of task  0 for client 2 at current task 3: 69.33503723144531
+forgetting loss of task  1 for client 2 at current task 3: 20.18026351928711
+forgetting loss of task  2 for client 2 at current task 3: 109.77677917480469
+[task 3][round 9][client 2] [loss:[18.755725860595703]][val_loss:[19.448915481567383]]
+forgetting loss of task  0 for client 0 at current task 3: 19.59389305114746
+forgetting loss of task  1 for client 0 at current task 3: 110.65766906738281
+forgetting loss of task  2 for client 0 at current task 3: 18.905908584594727
+[task 3][round 10][client 0] [loss:[71.94900512695312]][val_loss:[67.35972595214844]]
+forgetting loss of task  0 for client 1 at current task 3: 17.09653091430664
+forgetting loss of task  1 for client 1 at current task 3: 87.28263092041016
+forgetting loss of task  2 for client 1 at current task 3: 18.283845901489258
+[task 3][round 10][client 1] [loss:[112.1110610961914]][val_loss:[117.79205322265625]]
+forgetting loss of task  0 for client 2 at current task 3: 68.0948486328125
+forgetting loss of task  1 for client 2 at current task 3: 20.189830780029297
+forgetting loss of task  2 for client 2 at current task 3: 112.84114837646484
+[task 3][round 10][client 2] [loss:[18.820791244506836]][val_loss:[19.371501922607422]]
+forgetting loss of task  0 for client 0 at current task 3: 20.248815536499023
+forgetting loss of task  1 for client 0 at current task 3: 110.773193359375
+forgetting loss of task  2 for client 0 at current task 3: 19.623960494995117
+[task 3][round 11][client 0] [loss:[70.55939483642578]][val_loss:[72.06090545654297]]
+forgetting loss of task  0 for client 1 at current task 3: 19.757543563842773
+forgetting loss of task  1 for client 1 at current task 3: 67.63909149169922
+forgetting loss of task  2 for client 1 at current task 3: 20.258193969726562
+[task 3][round 11][client 1] [loss:[112.35039520263672]][val_loss:[110.74823760986328]]
+forgetting loss of task  0 for client 2 at current task 3: 71.12567901611328
+forgetting loss of task  1 for client 2 at current task 3: 20.24106216430664
+forgetting loss of task  2 for client 2 at current task 3: 111.10269927978516
+[task 3][round 11][client 2] [loss:[18.824478149414062]][val_loss:[19.515615463256836]]
+forgetting loss of task  0 for client 0 at current task 3: 18.393953323364258
+forgetting loss of task  1 for client 0 at current task 3: 113.03225708007812
+forgetting loss of task  2 for client 0 at current task 3: 17.667560577392578
+[task 3][round 12][client 0] [loss:[70.6280746459961]][val_loss:[70.94046783447266]]
+forgetting loss of task  0 for client 1 at current task 3: 19.745222091674805
+forgetting loss of task  1 for client 1 at current task 3: 66.94554138183594
+forgetting loss of task  2 for client 1 at current task 3: 20.24188804626465
+[task 3][round 12][client 1] [loss:[111.8514404296875]][val_loss:[111.3584976196289]]
+forgetting loss of task  0 for client 2 at current task 3: 68.24759674072266
+forgetting loss of task  1 for client 2 at current task 3: 19.507381439208984
+forgetting loss of task  2 for client 2 at current task 3: 110.69487762451172
+[task 3][round 12][client 2] [loss:[18.847808837890625]][val_loss:[18.74589729309082]]
+forgetting loss of task  0 for client 0 at current task 3: 19.481361389160156
+forgetting loss of task  1 for client 0 at current task 3: 111.23358154296875
+forgetting loss of task  2 for client 0 at current task 3: 18.88136100769043
+[task 3][round 13][client 0] [loss:[69.88768005371094]][val_loss:[69.22019958496094]]
+forgetting loss of task  0 for client 1 at current task 3: 19.17342758178711
+forgetting loss of task  1 for client 1 at current task 3: 67.77485656738281
+forgetting loss of task  2 for client 1 at current task 3: 19.954662322998047
+[task 3][round 13][client 1] [loss:[112.6247329711914]][val_loss:[113.04419708251953]]
+forgetting loss of task  0 for client 2 at current task 3: 72.69901275634766
+forgetting loss of task  1 for client 2 at current task 3: 19.300460815429688
+forgetting loss of task  2 for client 2 at current task 3: 113.1378402709961
+[task 3][round 13][client 2] [loss:[18.938072204589844]][val_loss:[18.780075073242188]]
+forgetting loss of task  0 for client 0 at current task 3: 20.120681762695312
+forgetting loss of task  1 for client 0 at current task 3: 111.42223358154297
+forgetting loss of task  2 for client 0 at current task 3: 19.388290405273438
+[task 3][round 14][client 0] [loss:[69.45352172851562]][val_loss:[68.37822723388672]]
+forgetting loss of task  0 for client 1 at current task 3: 18.564266204833984
+forgetting loss of task  1 for client 1 at current task 3: 67.7938232421875
+forgetting loss of task  2 for client 1 at current task 3: 19.255943298339844
+[task 3][round 14][client 1] [loss:[111.50397491455078]][val_loss:[112.3742446899414]]
+forgetting loss of task  0 for client 2 at current task 3: 69.1711654663086
+forgetting loss of task  1 for client 2 at current task 3: 20.25043296813965
+forgetting loss of task  2 for client 2 at current task 3: 110.87641906738281
+[task 3][round 14][client 2] [loss:[18.857240676879883]][val_loss:[19.56398582458496]]
+forgetting loss of task  0 for client 0 at current task 3: 18.78131675720215
+forgetting loss of task  1 for client 0 at current task 3: 111.03984069824219
+forgetting loss of task  2 for client 0 at current task 3: 18.259206771850586
+[task 3][round 15][client 0] [loss:[69.00729370117188]][val_loss:[68.8662338256836]]
+forgetting loss of task  0 for client 1 at current task 3: 19.830013275146484
+forgetting loss of task  1 for client 1 at current task 3: 65.26973724365234
+forgetting loss of task  2 for client 1 at current task 3: 20.273021697998047
+[task 3][round 15][client 1] [loss:[111.67931365966797]][val_loss:[111.24907684326172]]
+forgetting loss of task  0 for client 2 at current task 3: 69.97441864013672
+forgetting loss of task  1 for client 2 at current task 3: 19.50296974182129
+forgetting loss of task  2 for client 2 at current task 3: 113.61193084716797
+[task 3][round 15][client 2] [loss:[18.966487884521484]][val_loss:[18.64637565612793]]
+forgetting loss of task  0 for client 0 at current task 3: 19.398210525512695
+forgetting loss of task  1 for client 0 at current task 3: 111.04733276367188
+forgetting loss of task  2 for client 0 at current task 3: 18.97178077697754
+[task 3][round 16][client 0] [loss:[68.94218444824219]][val_loss:[68.31998443603516]]
+forgetting loss of task  0 for client 1 at current task 3: 18.794265747070312
+forgetting loss of task  1 for client 1 at current task 3: 68.30940246582031
+forgetting loss of task  2 for client 1 at current task 3: 19.50861167907715
+[task 3][round 16][client 1] [loss:[112.12166595458984]][val_loss:[112.51519012451172]]
+forgetting loss of task  0 for client 2 at current task 3: 65.12200927734375
+forgetting loss of task  1 for client 2 at current task 3: 20.09343719482422
+forgetting loss of task  2 for client 2 at current task 3: 110.79898834228516
+[task 3][round 16][client 2] [loss:[19.024818420410156]][val_loss:[19.529338836669922]]
+forgetting loss of task  0 for client 0 at current task 3: 19.043123245239258
+forgetting loss of task  1 for client 0 at current task 3: 112.21817779541016
+forgetting loss of task  2 for client 0 at current task 3: 18.193904876708984
+[task 3][round 17][client 0] [loss:[67.94039916992188]][val_loss:[68.463134765625]]
+forgetting loss of task  0 for client 1 at current task 3: 19.338075637817383
+forgetting loss of task  1 for client 1 at current task 3: 65.49620819091797
+forgetting loss of task  2 for client 1 at current task 3: 19.918210983276367
+[task 3][round 17][client 1] [loss:[111.8773422241211]][val_loss:[111.62906646728516]]
+forgetting loss of task  0 for client 2 at current task 3: 68.58424377441406
+forgetting loss of task  1 for client 2 at current task 3: 18.68776512145996
+forgetting loss of task  2 for client 2 at current task 3: 111.15858459472656
+[task 3][round 17][client 2] [loss:[18.925975799560547]][val_loss:[18.144451141357422]]
+forgetting loss of task  0 for client 0 at current task 3: 18.15448760986328
+forgetting loss of task  1 for client 0 at current task 3: 111.64227294921875
+forgetting loss of task  2 for client 0 at current task 3: 17.429195404052734
+[task 3][round 18][client 0] [loss:[68.37013244628906]][val_loss:[70.98448944091797]]
+forgetting loss of task  0 for client 1 at current task 3: 19.580123901367188
+forgetting loss of task  1 for client 1 at current task 3: 64.96360778808594
+forgetting loss of task  2 for client 1 at current task 3: 20.31293296813965
+[task 3][round 18][client 1] [loss:[111.84185791015625]][val_loss:[111.69206237792969]]
+forgetting loss of task  0 for client 2 at current task 3: 66.1046371459961
+forgetting loss of task  1 for client 2 at current task 3: 20.5941162109375
+forgetting loss of task  2 for client 2 at current task 3: 111.14159393310547
+[task 3][round 18][client 2] [loss:[18.941654205322266]][val_loss:[19.973308563232422]]
+forgetting loss of task  0 for client 0 at current task 3: 21.290687561035156
+forgetting loss of task  1 for client 0 at current task 3: 110.52462005615234
+forgetting loss of task  2 for client 0 at current task 3: 20.550317764282227
+[task 3][round 19][client 0] [loss:[67.32368469238281]][val_loss:[66.37541961669922]]
+forgetting loss of task  0 for client 1 at current task 3: 18.714780807495117
+forgetting loss of task  1 for client 1 at current task 3: 68.47464752197266
+forgetting loss of task  2 for client 1 at current task 3: 19.411766052246094
+[task 3][round 19][client 1] [loss:[111.59429168701172]][val_loss:[111.78243255615234]]
+forgetting loss of task  0 for client 2 at current task 3: 67.6575927734375
+forgetting loss of task  1 for client 2 at current task 3: 18.522703170776367
+forgetting loss of task  2 for client 2 at current task 3: 112.17239379882812
+[task 3][round 19][client 2] [loss:[19.007320404052734]][val_loss:[17.871355056762695]]
+forgetting loss of task  0 for client 0 at current task 3: 19.639392852783203
+forgetting loss of task  1 for client 0 at current task 3: 111.51910400390625
+forgetting loss of task  2 for client 0 at current task 3: 18.859413146972656
+[task 3][round 20][client 0] [loss:[67.299560546875]][val_loss:[67.8302993774414]]
+forgetting loss of task  0 for client 1 at current task 3: 18.73528289794922
+forgetting loss of task  1 for client 1 at current task 3: 64.68722534179688
+forgetting loss of task  2 for client 1 at current task 3: 19.580516815185547
+[task 3][round 20][client 1] [loss:[112.0142822265625]][val_loss:[111.11311340332031]]
+forgetting loss of task  0 for client 2 at current task 3: 64.55598449707031
+forgetting loss of task  1 for client 2 at current task 3: 19.159440994262695
+forgetting loss of task  2 for client 2 at current task 3: 110.58863067626953
+[task 3][round 20][client 2] [loss:[19.007583618164062]][val_loss:[18.58209800720215]]
+forgetting loss of task  0 for client 0 at current task 3: 19.616222381591797
+forgetting loss of task  1 for client 0 at current task 3: 110.99786376953125
+forgetting loss of task  2 for client 0 at current task 3: 19.1641788482666
+[task 3][round 21][client 0] [loss:[66.86390686035156]][val_loss:[63.33224868774414]]
+forgetting loss of task  0 for client 1 at current task 3: 18.565359115600586
+forgetting loss of task  1 for client 1 at current task 3: 66.87100982666016
+forgetting loss of task  2 for client 1 at current task 3: 19.19171142578125
+[task 3][round 21][client 1] [loss:[111.92183685302734]][val_loss:[111.49349212646484]]
+forgetting loss of task  0 for client 2 at current task 3: 65.39256286621094
+forgetting loss of task  1 for client 2 at current task 3: 19.36564826965332
+forgetting loss of task  2 for client 2 at current task 3: 111.1064453125
+[task 3][round 21][client 2] [loss:[19.026897430419922]][val_loss:[18.555543899536133]]
+forgetting loss of task  0 for client 0 at current task 3: 19.808547973632812
+forgetting loss of task  1 for client 0 at current task 3: 110.36458587646484
+forgetting loss of task  2 for client 0 at current task 3: 19.18415069580078
+[task 3][round 22][client 0] [loss:[66.74610137939453]][val_loss:[64.45075225830078]]
+forgetting loss of task  0 for client 1 at current task 3: 18.3330135345459
+forgetting loss of task  1 for client 1 at current task 3: 65.32707977294922
+forgetting loss of task  2 for client 1 at current task 3: 19.0892391204834
+[task 3][round 22][client 1] [loss:[112.18706512451172]][val_loss:[111.77153778076172]]
+forgetting loss of task  0 for client 2 at current task 3: 67.50729370117188
+forgetting loss of task  1 for client 2 at current task 3: 18.853992462158203
+forgetting loss of task  2 for client 2 at current task 3: 112.1295166015625
+[task 3][round 22][client 2] [loss:[18.981821060180664]][val_loss:[18.15463638305664]]
+forgetting loss of task  0 for client 0 at current task 3: 20.041122436523438
+forgetting loss of task  1 for client 0 at current task 3: 111.70914459228516
+forgetting loss of task  2 for client 0 at current task 3: 19.498640060424805
+[task 3][round 23][client 0] [loss:[65.87541961669922]][val_loss:[65.32350158691406]]
+forgetting loss of task  0 for client 1 at current task 3: 18.649507522583008
+forgetting loss of task  1 for client 1 at current task 3: 64.57255554199219
+forgetting loss of task  2 for client 1 at current task 3: 19.253501892089844
+[task 3][round 23][client 1] [loss:[112.04159545898438]][val_loss:[112.09691619873047]]
+forgetting loss of task  0 for client 2 at current task 3: 70.45729064941406
+forgetting loss of task  1 for client 2 at current task 3: 19.043140411376953
+forgetting loss of task  2 for client 2 at current task 3: 111.25211334228516
+[task 3][round 23][client 2] [loss:[19.121143341064453]][val_loss:[18.418092727661133]]
+forgetting loss of task  0 for client 0 at current task 3: 18.606868743896484
+forgetting loss of task  1 for client 0 at current task 3: 112.90554809570312
+forgetting loss of task  2 for client 0 at current task 3: 18.161190032958984
+[task 3][round 24][client 0] [loss:[66.07530212402344]][val_loss:[67.453369140625]]
+forgetting loss of task  0 for client 1 at current task 3: 18.482654571533203
+forgetting loss of task  1 for client 1 at current task 3: 64.54084777832031
+forgetting loss of task  2 for client 1 at current task 3: 19.06444549560547
+[task 3][round 24][client 1] [loss:[111.67019653320312]][val_loss:[111.25326538085938]]
+forgetting loss of task  0 for client 2 at current task 3: 66.92940521240234
+forgetting loss of task  1 for client 2 at current task 3: 18.792295455932617
+forgetting loss of task  2 for client 2 at current task 3: 110.63253784179688
+[task 3][round 24][client 2] [loss:[19.135995864868164]][val_loss:[18.160400390625]]
+forgetting loss of task  0 for client 0 at current task 3: 19.017444610595703
+forgetting loss of task  1 for client 0 at current task 3: 112.78102111816406
+forgetting loss of task  2 for client 0 at current task 3: 18.404170989990234
+[task 3][round 25][client 0] [loss:[65.48380279541016]][val_loss:[67.59040832519531]]
+forgetting loss of task  0 for client 1 at current task 3: 20.43836212158203
+forgetting loss of task  1 for client 1 at current task 3: 63.97077941894531
+forgetting loss of task  2 for client 1 at current task 3: 21.224822998046875
+[task 3][round 25][client 1] [loss:[111.78522491455078]][val_loss:[112.6387939453125]]
+forgetting loss of task  0 for client 2 at current task 3: 63.61996078491211
+forgetting loss of task  1 for client 2 at current task 3: 20.750993728637695
+forgetting loss of task  2 for client 2 at current task 3: 111.31358337402344
+[task 3][round 25][client 2] [loss:[19.041460037231445]][val_loss:[20.002655029296875]]
+forgetting loss of task  0 for client 0 at current task 3: 20.37706184387207
+forgetting loss of task  1 for client 0 at current task 3: 111.86832427978516
+forgetting loss of task  2 for client 0 at current task 3: 19.998863220214844
+[task 3][round 26][client 0] [loss:[65.78905487060547]][val_loss:[65.38274383544922]]
+forgetting loss of task  0 for client 1 at current task 3: 17.515607833862305
+forgetting loss of task  1 for client 1 at current task 3: 69.27567291259766
+forgetting loss of task  2 for client 1 at current task 3: 18.20048713684082
+[task 3][round 26][client 1] [loss:[112.1290054321289]][val_loss:[113.24681091308594]]
+forgetting loss of task  0 for client 2 at current task 3: 70.96707916259766
+forgetting loss of task  1 for client 2 at current task 3: 18.582433700561523
+forgetting loss of task  2 for client 2 at current task 3: 112.37130737304688
+[task 3][round 26][client 2] [loss:[19.032257080078125]][val_loss:[17.733951568603516]]
+forgetting loss of task  0 for client 0 at current task 3: 19.255558013916016
+forgetting loss of task  1 for client 0 at current task 3: 113.4826889038086
+forgetting loss of task  2 for client 0 at current task 3: 18.756349563598633
+[task 3][round 27][client 0] [loss:[65.14505004882812]][val_loss:[65.97523498535156]]
+forgetting loss of task  0 for client 1 at current task 3: 19.402116775512695
+forgetting loss of task  1 for client 1 at current task 3: 62.571895599365234
+forgetting loss of task  2 for client 1 at current task 3: 20.078580856323242
+[task 3][round 27][client 1] [loss:[111.67147827148438]][val_loss:[111.30795288085938]]
+forgetting loss of task  0 for client 2 at current task 3: 64.64540100097656
+forgetting loss of task  1 for client 2 at current task 3: 21.48172950744629
+forgetting loss of task  2 for client 2 at current task 3: 111.17713165283203
+[task 3][round 27][client 2] [loss:[19.171981811523438]][val_loss:[20.732105255126953]]
+forgetting loss of task  0 for client 0 at current task 3: 20.519027709960938
+forgetting loss of task  1 for client 0 at current task 3: 112.56988525390625
+forgetting loss of task  2 for client 0 at current task 3: 19.770999908447266
+[task 3][round 28][client 0] [loss:[64.85958862304688]][val_loss:[63.67033004760742]]
+forgetting loss of task  0 for client 1 at current task 3: 18.650150299072266
+forgetting loss of task  1 for client 1 at current task 3: 63.671051025390625
+forgetting loss of task  2 for client 1 at current task 3: 19.259782791137695
+[task 3][round 28][client 1] [loss:[111.86347961425781]][val_loss:[112.5428466796875]]
+forgetting loss of task  0 for client 2 at current task 3: 63.242740631103516
+forgetting loss of task  1 for client 2 at current task 3: 21.09853744506836
+forgetting loss of task  2 for client 2 at current task 3: 110.7784194946289
+[task 3][round 28][client 2] [loss:[19.123722076416016]][val_loss:[20.50897789001465]]
+forgetting loss of task  0 for client 0 at current task 3: 18.93208885192871
+forgetting loss of task  1 for client 0 at current task 3: 111.47527313232422
+forgetting loss of task  2 for client 0 at current task 3: 18.41353988647461
+[task 3][round 29][client 0] [loss:[64.72773742675781]][val_loss:[65.85353088378906]]
+forgetting loss of task  0 for client 1 at current task 3: 18.931777954101562
+forgetting loss of task  1 for client 1 at current task 3: 63.427120208740234
+forgetting loss of task  2 for client 1 at current task 3: 19.62929344177246
+[task 3][round 29][client 1] [loss:[112.04251098632812]][val_loss:[111.08472442626953]]
+forgetting loss of task  0 for client 2 at current task 3: 65.4254150390625
+forgetting loss of task  1 for client 2 at current task 3: 19.37761878967285
+forgetting loss of task  2 for client 2 at current task 3: 110.72917938232422
+[task 3][round 29][client 2] [loss:[19.280654907226562]][val_loss:[18.84592628479004]]
+forgetting loss of task  0 for client 0 at current task 3: 19.4587459564209
+forgetting loss of task  1 for client 0 at current task 3: 112.58055114746094
+forgetting loss of task  2 for client 0 at current task 3: 19.110591888427734
+[task 3][round 30][client 0] [loss:[64.36531066894531]][val_loss:[64.34474182128906]]
+forgetting loss of task  0 for client 1 at current task 3: 18.29790496826172
+forgetting loss of task  1 for client 1 at current task 3: 65.13760375976562
+forgetting loss of task  2 for client 1 at current task 3: 18.95026206970215
+[task 3][round 30][client 1] [loss:[112.1236801147461]][val_loss:[112.43755340576172]]
+forgetting loss of task  0 for client 2 at current task 3: 62.98125076293945
+forgetting loss of task  1 for client 2 at current task 3: 20.54079818725586
+forgetting loss of task  2 for client 2 at current task 3: 109.972900390625
+[task 3][round 30][client 2] [loss:[19.184112548828125]][val_loss:[19.793506622314453]]
+forgetting loss of task  0 for client 0 at current task 3: 20.449678421020508
+forgetting loss of task  1 for client 0 at current task 3: 110.88230895996094
+forgetting loss of task  2 for client 0 at current task 3: 19.961904525756836
+[task 3][round 31][client 0] [loss:[64.3664779663086]][val_loss:[64.34032440185547]]
+forgetting loss of task  0 for client 1 at current task 3: 18.365222930908203
+forgetting loss of task  1 for client 1 at current task 3: 62.773807525634766
+forgetting loss of task  2 for client 1 at current task 3: 19.06663703918457
+[task 3][round 31][client 1] [loss:[111.5798110961914]][val_loss:[111.4822006225586]]
+forgetting loss of task  0 for client 2 at current task 3: 63.77072525024414
+forgetting loss of task  1 for client 2 at current task 3: 21.535198211669922
+forgetting loss of task  2 for client 2 at current task 3: 110.76998901367188
+[task 3][round 31][client 2] [loss:[19.303789138793945]][val_loss:[20.862314224243164]]
+forgetting loss of task  0 for client 0 at current task 3: 19.31476402282715
+forgetting loss of task  1 for client 0 at current task 3: 110.23081970214844
+forgetting loss of task  2 for client 0 at current task 3: 18.628955841064453
+[task 3][round 32][client 0] [loss:[64.33348846435547]][val_loss:[65.1417007446289]]
+forgetting loss of task  0 for client 1 at current task 3: 18.199861526489258
+forgetting loss of task  1 for client 1 at current task 3: 66.89712524414062
+forgetting loss of task  2 for client 1 at current task 3: 18.85908317565918
+[task 3][round 32][client 1] [loss:[111.80534362792969]][val_loss:[112.0855712890625]]
+forgetting loss of task  0 for client 2 at current task 3: 64.50228881835938
+forgetting loss of task  1 for client 2 at current task 3: 18.832853317260742
+forgetting loss of task  2 for client 2 at current task 3: 111.48234558105469
+[task 3][round 32][client 2] [loss:[19.197097778320312]][val_loss:[18.188405990600586]]
+forgetting loss of task  0 for client 0 at current task 3: 19.0754451751709
+forgetting loss of task  1 for client 0 at current task 3: 111.42415618896484
+forgetting loss of task  2 for client 0 at current task 3: 18.630701065063477
+[task 3][round 33][client 0] [loss:[63.87721633911133]][val_loss:[62.84842300415039]]
+forgetting loss of task  0 for client 1 at current task 3: 18.155031204223633
+forgetting loss of task  1 for client 1 at current task 3: 63.484527587890625
+forgetting loss of task  2 for client 1 at current task 3: 18.887235641479492
+[task 3][round 33][client 1] [loss:[111.68223571777344]][val_loss:[112.0823745727539]]
+forgetting loss of task  0 for client 2 at current task 3: 61.69209671020508
+forgetting loss of task  1 for client 2 at current task 3: 20.116273880004883
+forgetting loss of task  2 for client 2 at current task 3: 110.68490600585938
+[task 3][round 33][client 2] [loss:[19.279401779174805]][val_loss:[19.591814041137695]]
+forgetting loss of task  0 for client 0 at current task 3: 18.58296012878418
+forgetting loss of task  1 for client 0 at current task 3: 112.2322998046875
+forgetting loss of task  2 for client 0 at current task 3: 17.908796310424805
+[task 3][round 34][client 0] [loss:[63.36469268798828]][val_loss:[67.36107635498047]]
+forgetting loss of task  0 for client 1 at current task 3: 18.36245346069336
+forgetting loss of task  1 for client 1 at current task 3: 65.3643798828125
+forgetting loss of task  2 for client 1 at current task 3: 19.1177921295166
+[task 3][round 34][client 1] [loss:[111.66361236572266]][val_loss:[112.49064636230469]]
+forgetting loss of task  0 for client 2 at current task 3: 65.08618927001953
+forgetting loss of task  1 for client 2 at current task 3: 19.07590103149414
+forgetting loss of task  2 for client 2 at current task 3: 111.31977844238281
+[task 3][round 34][client 2] [loss:[19.150320053100586]][val_loss:[18.2949161529541]]
+forgetting loss of task  0 for client 0 at current task 3: 20.50993537902832
+forgetting loss of task  1 for client 0 at current task 3: 111.45641326904297
+forgetting loss of task  2 for client 0 at current task 3: 19.952489852905273
+[task 3][round 35][client 0] [loss:[63.214107513427734]][val_loss:[60.90725326538086]]
+forgetting loss of task  0 for client 1 at current task 3: 19.136817932128906
+forgetting loss of task  1 for client 1 at current task 3: 61.006797790527344
+forgetting loss of task  2 for client 1 at current task 3: 19.900482177734375
+[task 3][round 35][client 1] [loss:[111.90567779541016]][val_loss:[112.98014068603516]]
+forgetting loss of task  0 for client 2 at current task 3: 64.59376525878906
+forgetting loss of task  1 for client 2 at current task 3: 20.122716903686523
+forgetting loss of task  2 for client 2 at current task 3: 110.59550476074219
+[task 3][round 35][client 2] [loss:[19.250431060791016]][val_loss:[19.53978157043457]]
+forgetting loss of task  0 for client 0 at current task 3: 20.820837020874023
+forgetting loss of task  1 for client 0 at current task 3: 111.3543701171875
+forgetting loss of task  2 for client 0 at current task 3: 20.20633316040039
+[task 3][round 36][client 0] [loss:[62.806209564208984]][val_loss:[62.943939208984375]]
+forgetting loss of task  0 for client 1 at current task 3: 17.65034294128418
+forgetting loss of task  1 for client 1 at current task 3: 63.0233154296875
+forgetting loss of task  2 for client 1 at current task 3: 18.425817489624023
+[task 3][round 36][client 1] [loss:[111.83487701416016]][val_loss:[113.16976165771484]]
+forgetting loss of task  0 for client 2 at current task 3: 63.73360061645508
+forgetting loss of task  1 for client 2 at current task 3: 19.84026527404785
+forgetting loss of task  2 for client 2 at current task 3: 111.10041809082031
+[task 3][round 36][client 2] [loss:[19.295467376708984]][val_loss:[19.110214233398438]]
+forgetting loss of task  0 for client 0 at current task 3: 18.668617248535156
+forgetting loss of task  1 for client 0 at current task 3: 111.81336212158203
+forgetting loss of task  2 for client 0 at current task 3: 18.050823211669922
+[task 3][round 37][client 0] [loss:[62.79764175415039]][val_loss:[67.97311401367188]]
+forgetting loss of task  0 for client 1 at current task 3: 18.839435577392578
+forgetting loss of task  1 for client 1 at current task 3: 66.29664611816406
+forgetting loss of task  2 for client 1 at current task 3: 19.40372085571289
+[task 3][round 37][client 1] [loss:[111.8208999633789]][val_loss:[111.97749328613281]]
+forgetting loss of task  0 for client 2 at current task 3: 65.12541198730469
+forgetting loss of task  1 for client 2 at current task 3: 19.30735969543457
+forgetting loss of task  2 for client 2 at current task 3: 112.08940887451172
+[task 3][round 37][client 2] [loss:[19.300329208374023]][val_loss:[18.81618309020996]]
+forgetting loss of task  0 for client 0 at current task 3: 19.257240295410156
+forgetting loss of task  1 for client 0 at current task 3: 112.22186279296875
+forgetting loss of task  2 for client 0 at current task 3: 18.655227661132812
+[task 3][round 38][client 0] [loss:[62.92292022705078]][val_loss:[61.4307861328125]]
+forgetting loss of task  0 for client 1 at current task 3: 20.517831802368164
+forgetting loss of task  1 for client 1 at current task 3: 60.56597137451172
+forgetting loss of task  2 for client 1 at current task 3: 21.004638671875
+[task 3][round 38][client 1] [loss:[111.91902923583984]][val_loss:[111.6326904296875]]
+forgetting loss of task  0 for client 2 at current task 3: 65.67979431152344
+forgetting loss of task  1 for client 2 at current task 3: 19.688087463378906
+forgetting loss of task  2 for client 2 at current task 3: 113.69759368896484
+[task 3][round 38][client 2] [loss:[19.266279220581055]][val_loss:[19.124652862548828]]
+forgetting loss of task  0 for client 0 at current task 3: 18.55600929260254
+forgetting loss of task  1 for client 0 at current task 3: 110.9404525756836
+forgetting loss of task  2 for client 0 at current task 3: 17.973304748535156
+[task 3][round 39][client 0] [loss:[62.30855941772461]][val_loss:[65.5573501586914]]
+forgetting loss of task  0 for client 1 at current task 3: 19.76187515258789
+forgetting loss of task  1 for client 1 at current task 3: 61.17080307006836
+forgetting loss of task  2 for client 1 at current task 3: 20.530723571777344
+[task 3][round 39][client 1] [loss:[111.7616958618164]][val_loss:[111.59363555908203]]
+forgetting loss of task  0 for client 2 at current task 3: 61.84531021118164
+forgetting loss of task  1 for client 2 at current task 3: 20.146379470825195
+forgetting loss of task  2 for client 2 at current task 3: 111.45604705810547
+[task 3][round 39][client 2] [loss:[19.24994659423828]][val_loss:[19.731151580810547]]
+forgetting loss of task  0 for client 0 at current task 3: 21.321571350097656
+forgetting loss of task  1 for client 0 at current task 3: 112.19615173339844
+forgetting loss of task  2 for client 0 at current task 3: 20.8184814453125
+[task 3][round 40][client 0] [loss:[62.618011474609375]][val_loss:[62.86920166015625]]
+forgetting loss of task  0 for client 1 at current task 3: 19.4988956451416
+forgetting loss of task  1 for client 1 at current task 3: 60.748600006103516
+forgetting loss of task  2 for client 1 at current task 3: 20.235816955566406
+[task 3][round 40][client 1] [loss:[111.76424407958984]][val_loss:[111.9639892578125]]
+forgetting loss of task  0 for client 2 at current task 3: 68.97329711914062
+forgetting loss of task  1 for client 2 at current task 3: 18.706954956054688
+forgetting loss of task  2 for client 2 at current task 3: 112.68157958984375
+[task 3][round 40][client 2] [loss:[19.113069534301758]][val_loss:[17.915307998657227]]
+forgetting loss of task  0 for client 0 at current task 3: 18.559782028198242
+forgetting loss of task  1 for client 0 at current task 3: 111.78099822998047
+forgetting loss of task  2 for client 0 at current task 3: 17.784879684448242
+[task 3][round 41][client 0] [loss:[62.360843658447266]][val_loss:[65.35508728027344]]
+forgetting loss of task  0 for client 1 at current task 3: 20.652610778808594
+forgetting loss of task  1 for client 1 at current task 3: 61.12586212158203
+forgetting loss of task  2 for client 1 at current task 3: 21.278907775878906
+[task 3][round 41][client 1] [loss:[111.5545883178711]][val_loss:[111.35653686523438]]
+forgetting loss of task  0 for client 2 at current task 3: 64.06883239746094
+forgetting loss of task  1 for client 2 at current task 3: 19.750627517700195
+forgetting loss of task  2 for client 2 at current task 3: 110.60950469970703
+[task 3][round 41][client 2] [loss:[19.30018424987793]][val_loss:[19.348400115966797]]
+forgetting loss of task  0 for client 0 at current task 3: 20.50079345703125
+forgetting loss of task  1 for client 0 at current task 3: 110.96504974365234
+forgetting loss of task  2 for client 0 at current task 3: 19.933853149414062
+[task 3][round 42][client 0] [loss:[61.92368698120117]][val_loss:[61.34223175048828]]
+forgetting loss of task  0 for client 1 at current task 3: 18.34357452392578
+forgetting loss of task  1 for client 1 at current task 3: 65.44779968261719
+forgetting loss of task  2 for client 1 at current task 3: 19.160709381103516
+[task 3][round 42][client 1] [loss:[111.63401794433594]][val_loss:[113.3038330078125]]
+forgetting loss of task  0 for client 2 at current task 3: 62.53844451904297
+forgetting loss of task  1 for client 2 at current task 3: 19.555004119873047
+forgetting loss of task  2 for client 2 at current task 3: 111.7137222290039
+[task 3][round 42][client 2] [loss:[19.404556274414062]][val_loss:[18.730531692504883]]
+forgetting loss of task  0 for client 0 at current task 3: 18.20098114013672
+forgetting loss of task  1 for client 0 at current task 3: 114.44367218017578
+forgetting loss of task  2 for client 0 at current task 3: 17.476905822753906
+[task 3][round 43][client 0] [loss:[61.975101470947266]][val_loss:[69.4588851928711]]
+forgetting loss of task  0 for client 1 at current task 3: 17.82710075378418
+forgetting loss of task  1 for client 1 at current task 3: 61.891395568847656
+forgetting loss of task  2 for client 1 at current task 3: 18.59025001525879
+[task 3][round 43][client 1] [loss:[111.381591796875]][val_loss:[112.62574005126953]]
+forgetting loss of task  0 for client 2 at current task 3: 62.30225372314453
+forgetting loss of task  1 for client 2 at current task 3: 19.44207000732422
+forgetting loss of task  2 for client 2 at current task 3: 111.9715347290039
+[task 3][round 43][client 2] [loss:[19.33470344543457]][val_loss:[18.79442596435547]]
+forgetting loss of task  0 for client 0 at current task 3: 21.371501922607422
+forgetting loss of task  1 for client 0 at current task 3: 111.23877716064453
+forgetting loss of task  2 for client 0 at current task 3: 20.651994705200195
+[task 3][round 44][client 0] [loss:[61.70563888549805]][val_loss:[61.50516128540039]]
+forgetting loss of task  0 for client 1 at current task 3: 18.739723205566406
+forgetting loss of task  1 for client 1 at current task 3: 61.98545837402344
+forgetting loss of task  2 for client 1 at current task 3: 19.41795539855957
+[task 3][round 44][client 1] [loss:[111.54135131835938]][val_loss:[112.5609130859375]]
+forgetting loss of task  0 for client 2 at current task 3: 64.06507873535156
+forgetting loss of task  1 for client 2 at current task 3: 19.450389862060547
+forgetting loss of task  2 for client 2 at current task 3: 110.4350814819336
+[task 3][round 44][client 2] [loss:[19.34107780456543]][val_loss:[18.692689895629883]]
+forgetting loss of task  0 for client 0 at current task 3: 20.362457275390625
+forgetting loss of task  1 for client 0 at current task 3: 111.9172134399414
+forgetting loss of task  2 for client 0 at current task 3: 19.865657806396484
+[task 3][round 45][client 0] [loss:[61.462684631347656]][val_loss:[59.34381866455078]]
+forgetting loss of task  0 for client 1 at current task 3: 19.737199783325195
+forgetting loss of task  1 for client 1 at current task 3: 60.423580169677734
+forgetting loss of task  2 for client 1 at current task 3: 20.18944549560547
+[task 3][round 45][client 1] [loss:[111.67162322998047]][val_loss:[111.94865417480469]]
+forgetting loss of task  0 for client 2 at current task 3: 60.72755432128906
+forgetting loss of task  1 for client 2 at current task 3: 20.932857513427734
+forgetting loss of task  2 for client 2 at current task 3: 111.361572265625
+[task 3][round 45][client 2] [loss:[19.387670516967773]][val_loss:[20.559532165527344]]
+forgetting loss of task  0 for client 0 at current task 3: 20.258390426635742
+forgetting loss of task  1 for client 0 at current task 3: 111.7767562866211
+forgetting loss of task  2 for client 0 at current task 3: 19.731189727783203
+[task 3][round 46][client 0] [loss:[61.55701446533203]][val_loss:[59.478599548339844]]
+forgetting loss of task  0 for client 1 at current task 3: 18.785409927368164
+forgetting loss of task  1 for client 1 at current task 3: 61.290618896484375
+forgetting loss of task  2 for client 1 at current task 3: 19.492055892944336
+[task 3][round 46][client 1] [loss:[111.42718505859375]][val_loss:[111.37899780273438]]
+forgetting loss of task  0 for client 2 at current task 3: 60.13106918334961
+forgetting loss of task  1 for client 2 at current task 3: 20.071395874023438
+forgetting loss of task  2 for client 2 at current task 3: 110.37932586669922
+[task 3][round 46][client 2] [loss:[19.299854278564453]][val_loss:[19.633270263671875]]
+forgetting loss of task  0 for client 0 at current task 3: 18.75018882751465
+forgetting loss of task  1 for client 0 at current task 3: 112.24559020996094
+forgetting loss of task  2 for client 0 at current task 3: 18.156272888183594
+[task 3][round 47][client 0] [loss:[61.172943115234375]][val_loss:[60.01093673706055]]
+forgetting loss of task  0 for client 1 at current task 3: 18.14463996887207
+forgetting loss of task  1 for client 1 at current task 3: 66.61288452148438
+forgetting loss of task  2 for client 1 at current task 3: 18.873458862304688
+[task 3][round 47][client 1] [loss:[111.76374816894531]][val_loss:[113.27330017089844]]
+forgetting loss of task  0 for client 2 at current task 3: 63.386146545410156
+forgetting loss of task  1 for client 2 at current task 3: 18.75898551940918
+forgetting loss of task  2 for client 2 at current task 3: 111.19275665283203
+[task 3][round 47][client 2] [loss:[19.3046817779541]][val_loss:[18.134836196899414]]
+forgetting loss of task  0 for client 0 at current task 3: 20.97110939025879
+forgetting loss of task  1 for client 0 at current task 3: 110.33364868164062
+forgetting loss of task  2 for client 0 at current task 3: 20.35612678527832
+[task 3][round 48][client 0] [loss:[60.9992790222168]][val_loss:[60.33723831176758]]
+forgetting loss of task  0 for client 1 at current task 3: 18.52454376220703
+forgetting loss of task  1 for client 1 at current task 3: 61.912506103515625
+forgetting loss of task  2 for client 1 at current task 3: 19.046855926513672
+[task 3][round 48][client 1] [loss:[111.58538818359375]][val_loss:[112.3860092163086]]
+forgetting loss of task  0 for client 2 at current task 3: 61.577537536621094
+forgetting loss of task  1 for client 2 at current task 3: 19.579504013061523
+forgetting loss of task  2 for client 2 at current task 3: 112.04084777832031
+[task 3][round 48][client 2] [loss:[19.2676944732666]][val_loss:[19.11286163330078]]
+forgetting loss of task  0 for client 0 at current task 3: 19.52480697631836
+forgetting loss of task  1 for client 0 at current task 3: 111.73725891113281
+forgetting loss of task  2 for client 0 at current task 3: 18.878110885620117
+[task 3][round 49][client 0] [loss:[60.926361083984375]][val_loss:[59.50286865234375]]
+forgetting loss of task  0 for client 1 at current task 3: 19.81027603149414
+forgetting loss of task  1 for client 1 at current task 3: 60.593055725097656
+forgetting loss of task  2 for client 1 at current task 3: 20.623491287231445
+[task 3][round 49][client 1] [loss:[111.85550689697266]][val_loss:[111.48045349121094]]
+forgetting loss of task  0 for client 2 at current task 3: 59.801063537597656
+forgetting loss of task  1 for client 2 at current task 3: 19.812047958374023
+forgetting loss of task  2 for client 2 at current task 3: 111.03722381591797
+[task 3][round 49][client 2] [loss:[19.313392639160156]][val_loss:[19.140644073486328]]
