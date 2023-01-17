@@ -12,9 +12,9 @@ Federated learning is deemed to be particularly useful in real-world scenarios w
 
 The main contributions of this work are as follows:
 
-* We introduce a new problem of **Federated Continual Learning (FCL)**, where multiple models continuously learn on distributed clients, which poses new challenges such as prevention of inter-client interference and inter-client knowledge transfer. 
-
-* We propose a novel and communication-efficient framework for federated continual learning, which allows each client to adaptively update the federated parameter and selectively utilize the past knowledge from other clients, by communicating sparse parameters. 
+* We have proposed an **unsupervised Federated Continual Learning approach** with selective knowledge transfer between the clients to reduce catastrophic forgetting. 
+* Through our intelligent masking strategy, we are still successful in achieving desirable performances even after sparsifying the model parameters by 70 \%. 
+* We have extensively evaluated our approach in several Non-IID scenarios and have shown that it doesn't fall victim to catastrophic forgetting.
 
 
 ## Environmental Setup
