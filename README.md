@@ -29,20 +29,15 @@ $ pip install -r requirements.txt
 ## Data Generation
 Please see `config.py` to set your custom path for both `datasets` and `output files`.
 ```python
-args.task_path = '/path/to/task/'  # for dataset
+args.task_path = '/path/to/taskset/'  # for task sets of each client
 args.output_path = '/path/to/outputs/' # for logs, weights, etc.
 ```
 Run below script to generate datasets
-```bash
-$ cd scripts
-$ sh gen-data.sh
-```
-or you may run the following comamnd line directly:
 
 ```bash
-python3 ../main.py --work-type gen_data --task non_iid_50 --seed 777 
+python3 ../main.py --work-type gen_data --task mnist --seed 777 
 ```
-It automatically downloads `8 heterogeneous datasets`, including `CIFAR-10`, `CIFAR-100`, `MNIST`, `Fashion-MNIST`, `Not-MNIST`, `TrafficSigns`, `Facescrub`, and `SVHN`, and finally processes to generate `non_iid_50` dataset.
+The --task parameter has three choices: `mnist`, `bianry`, and `non_miid` to generate the desired type of task sets for the clients.  
 
 ## Run Experiments
 To reproduce experiments, please execute `train-non-iid-50.sh` file in the `scripts` folder, or you may run the following comamnd line directly:
