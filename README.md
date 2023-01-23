@@ -12,9 +12,9 @@ Federated learning is deemed to be particularly useful in real-world scenarios w
 
 The main contributions of this work are as follows:
 
-* We introduce a new problem of **Federated Continual Learning (FCL)**, where multiple models continuously learn on distributed clients, which poses new challenges such as prevention of inter-client interference and inter-client knowledge transfer. 
-
-* We propose a novel and communication-efficient framework for federated continual learning, which allows each client to adaptively update the federated parameter and selectively utilize the past knowledge from other clients, by communicating sparse parameters. 
+* We have proposed an **unsupervised Federated Continual Learning approach** with selective knowledge transfer between the clients to reduce catastrophic forgetting. 
+* Through our intelligent masking strategy, we are still successful in achieving desirable performances even after sparsifying the model parameters by 70 \%. 
+* We have extensively evaluated our approach in several Non-IID scenarios and have shown that it doesn't fall victim to catastrophic forgetting.
 
 
 ## Environmental Setup
@@ -29,20 +29,15 @@ $ pip install -r requirements.txt
 ## Data Generation
 Please see `config.py` to set your custom path for both `datasets` and `output files`.
 ```python
-args.task_path = '/path/to/task/'  # for dataset
+args.task_path = '/path/to/taskset/'  # for task sets of each client
 args.output_path = '/path/to/outputs/' # for logs, weights, etc.
 ```
 Run below script to generate datasets
-```bash
-$ cd scripts
-$ sh gen-data.sh
-```
-or you may run the following comamnd line directly:
 
 ```bash
-python3 ../main.py --work-type gen_data --task non_iid_50 --seed 777 
+python3 ../main.py --work-type gen_data --task mnist --seed 777 
 ```
-It automatically downloads `8 heterogeneous datasets`, including `CIFAR-10`, `CIFAR-100`, `MNIST`, `Fashion-MNIST`, `Not-MNIST`, `TrafficSigns`, `Facescrub`, and `SVHN`, and finally processes to generate `non_iid_50` dataset.
+The --task parameter has three choices: `mnist`, `bianry`, and `non_miid` to generate the desired type of task sets for the clients.  
 
 ## Run Experiments
 To reproduce experiments, please execute `train-non-iid-50.sh` file in the `scripts` folder, or you may run the following comamnd line directly:
