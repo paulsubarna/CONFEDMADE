@@ -45,6 +45,7 @@ class Server(ServerModule):
                 for thrd in self.threads:
                     thrd.join()
             # update
+            
             aggr = self.train.aggregate(self.updates)
             self.set_weights(aggr)
         if self.args.only_federated:
@@ -81,21 +82,6 @@ class Server(ServerModule):
                     from_kb[key] = []
                     for adapt_weight in self.client_adapts:
                         from_kb[key].append(adapt_weight[key])
-                return from_kb
-            else:
-                from_kb = []
-                for lid, shape in enumerate(self.nets.shapes): #Build knowledge base per layer
-                    shape = np.concatenate([self.nets.shapes[lid],[int(round(self.args.num_clients*self.args.frac_clients))]], axis=0) # init shape for knowledge base matrix with defined fraction of adaptives from whole knowledge base
-                    from_kb_l = np.zeros(shape)
-                    for cid, ca in enumerate(self.client_adapts):
-                        try:
-                            if len(shape)==5:
-                                from_kb_l[:,:,:,:,cid] = ca[lid]
-                            else:
-                                from_kb_l[:,:,cid] = ca[lid]
-                        except:
-                            pdb.set_trace()
-                    from_kb.append(from_kb_l)
                 return from_kb
         else:
             return None

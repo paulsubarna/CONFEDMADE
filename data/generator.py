@@ -100,29 +100,7 @@ class DataGenerator:
         if self.args.task == 'non_iid_50':
             self._generate_non_iid_50(dataset_id, x, y)
 
-    def _generate_non_iid_50(self, dataset_id, x, y):
-        labels = np.unique(y)
-        random_shuffle(self.args.seed, labels)
-        labels_per_task = [labels[i:i+self.args.num_classes] for i in range(0, len(labels), self.args.num_classes)]
-        for task_id, _labels in enumerate(labels_per_task):
-            if dataset_id == 5 and task_id == 8:
-                continue
-            elif dataset_id in [1,6] and task_id > 15:
-                continue
-            self.task_cnt += 1
-            idx = np.concatenate([np.where(y[:]==c)[0] for c in _labels], axis=0)
-            random_shuffle(self.args.seed, idx)
-            x_task = x[idx]
-            y_task = y[idx]
 
-            idx_labels = [np.where(y_task[:]==c)[0] for c in _labels]
-            for i, idx_label in enumerate(idx_labels):
-                y_task[idx_label] = i # reset class_id
-            y_task = tf.keras.utils.to_categorical(y_task, len(_labels))
-
-            filename = '{}_{}'.format(self.did_to_dname[dataset_id], task_id)
-            self._save_task(x_task, y_task, _labels, filename, dataset_id)
-    
     def load_data(self,path):
         """ Helper function for loading a MAT-File"""
         data = loadmat(path, verify_compressed_data_integrity=False)
@@ -133,7 +111,7 @@ class DataGenerator:
         """
         return np.expand_dims(np.dot(images, [0.2989, 0.5870, 0.1140]), axis=3)
 
-    def _generate_mnist(self):
+    def _generate_emnist(self):
         images, label = extract_training_samples('letters')
         images= np.where(images> 127, 1,0)
         print(len(images))
@@ -164,12 +142,12 @@ class DataGenerator:
                   #[4, 9], [3, 8], [0, 9]] 
         else:
             tasks_to_build = self.args.num_tasks * self.args.num_clients
-            if tasks_to_build * self.args.num_classes <= len(labels) and len(labels) %self.args.num_classes == 0:
-                labels_per_task = [labels[i:i+self.args.num_classes] for i in range(0, len(labels), _num_classes)] #range syntax: (lower bound, upper bound, step size)
-            else:
+            #if tasks_to_build * self.args.num_classes <= len(labels) and len(labels) %self.args.num_classes == 0:
+                #labels_per_task = [labels[i:i+self.args.num_classes] for i in range(0, len(labels), _num_classes)] #range syntax: (lower bound, upper bound, step size)
+            #else:
                 #there have to be class overlaps
-                for i in range(tasks_to_build):
-                    labels_per_task.append(random_sample(self.args.seed+i*2, labels.tolist(), self.args.num_classes))
+            for i in range(tasks_to_build):
+                labels_per_task.append(random_sample(self.args.seed+i*2, labels.tolist(), self.args.num_classes))
         print(labels_per_task)
         for task_id, _labels in enumerate(labels_per_task): #counter, value
             idx = np.concatenate([np.where(y[:]==c)[0] for c in _labels], axis=0)
@@ -211,8 +189,8 @@ class DataGenerator:
         images= images[idx]
         print(len(images))
         x_emnist = images.reshape(images.shape[0],images.shape[1]*images.shape[2])
-        x_emnist_test = x_emnist[len(x_emnist)-10000:]
-        x_emnist_train= x_emnist[:len(x_emnist)-10000]
+        x_emnist_test = x_emnist[len(x_emnist)-5000:]
+        x_emnist_train= x_emnist[:len(x_emnist)-5000]
 
  
         images, label = extract_training_samples('letters')
@@ -222,19 +200,19 @@ class DataGenerator:
         images= images[idx]
         print(len(images))
         x_fmnist = images.reshape(images.shape[0],images.shape[1]*images.shape[2])
-        x_fmnist_test = x_fmnist[len(x_fmnist)-10000:]
-        x_fmnist_train= x_fmnist[:len(x_fmnist)-10000]
+        x_fmnist_test = x_fmnist[len(x_fmnist)-5000:]
+        x_fmnist_train= x_fmnist[:len(x_fmnist)-5000]
 
 
 
         x_test= np.concatenate((x_mnist_test,x_emnist_test,x_fmnist_test))
-        len_mnist= int(len(x_mnist) * 1.0)
-        len_fmnist= int(len(x_fmnist)* 1.0)
-        len_emnist= int(len(x_emnist)* 1.0)
+        len_mnist= int(len(x_mnist) * 0.6)
+        len_fmnist= int(len(x_fmnist)* 0.6)
+        len_emnist= int(len(x_emnist)* 0.6)
 
         labels_per_task= [[0],[1],[2], 
-                          [0,1],[1,2],[2,0],
-                          [0,1,2],[1,2,0],[2,0,1]] 
+                          [1],[2],[0],
+                          [2],[0],[1]] 
                           #,[2],[2],[0],[1],[0],[1],[2],[1]
                           
                           
@@ -272,8 +250,8 @@ class DataGenerator:
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
                 
                 print(x_task.shape)
-                filename = '{}_{}'.format(self.did_to_dname[5],task_id)
-                self._save_task(x_task, x_task, _labels, filename, 5)
+                filename = '{}_{}'.format(self.did_to_dname[6],task_id)
+                self._save_task(x_task, x_task, _labels, filename, 6)
         else:
             for task_id, labels in enumerate(labels_per_task): #counter, value
             #if task_id != 3:
@@ -303,7 +281,7 @@ class DataGenerator:
             'dataset_id': 6
         })
 
-    def _generate_emnist(self):
+    def _generate_mnist(self):
         (X_train, Y_train), (X_test, Y_test) = mnist.load_data()
         x_temp = np.concatenate((X_train, X_test))
         x = x_temp.reshape(x_temp.shape[0],x_temp.shape[1]*x_temp.shape[2]) #flatten 28x28 pixels to one dimension (784 inputs)
@@ -323,19 +301,19 @@ class DataGenerator:
 
         labels_per_task = []
         if self.args.experiment == "atten_loss":
-            labels_per_task = [[8, 5, 9], [3, 0, 1], [8, 7, 6], [4, 0, 1]]
+            labels_per_task = [[1], [3], [5], [6], [6],[5],[3],[1]]
         elif self.args.experiment == "case4_incremenntal_lowerbound": # Assuming 4 clients and num_tasks == 4
             labels_per_task = [[0],[0,1],  [0,1,2],[0,1,2,3],  [0,1,2,3,4]] #,[5],  [6],[7], [8],[9] ]
         elif self.args.experiment == "incremenntal_lowerbound": # Assuming 4 clients and num_tasks == 4
-            labels_per_task = [[0],[1],     [2],[3],   [4],[5], [6],[7],   [8],[9]] #,[5],[4], [7],[3],[6] ]
+            labels_per_task = [[0],[1],[2],    [3],[4],[5],   [6],[7],[8],   [9],[0],[1],  [2],[3],[4]] #,[5],[4], [7],[3],[6] ]
         elif self.args.experiment == "incremenntal_upperbound": # Assuming 4 clients and num_tasks == 4
             labels_per_task = [[0],[1],  [0,2],[1,3],  [0,2,4],[1,3,5],  [0,2,4,6],[1,3,5,7], [0,2,4,6,8],[1,3,5,7,9]] #, [0,2,4,6,8,1],[1,3,5,7,9,2], [0,2,4,6,8,1,3],[1,3,5,7,9,2,4], [0,2,4,6,8,1,3,5],[1,3,5,7,9,2,4,6] ]
             #labels_per_task = [ [6,8,9], [4,5,6], [3,5,9], [1,4,7], [5,8,9], [0,1,3], [6,7,8], [0,1,4]]
         elif self.args.experiment == "hyperparam":
             labels_per_task = [[5, 8], [1, 4], [3, 6],
-                  [0, 2], [9, 7], [5, 1],
-                  [1, 6], [0, 5], [7, 2],
-                  [3, 7], [2, 6], [4, 8]]
+                  [0, 2], [9, 7], [5, 1]]#,
+                  #[1, 6], [0, 5], [7, 2],
+                  #[3, 7], [2, 6], [4, 8]]
                   #[4, 9], [3, 8], [0, 9]] 
         else:
             tasks_to_build = self.args.num_tasks * self.args.num_clients
@@ -407,25 +385,26 @@ class DataGenerator:
             for i in range(tasks_to_build):
                 labels_per_task.append(random_sample(self.args.seed+i, labels, self.args.num_classes))
         elif self.args.experiment == "continual_lb":
-            labels_per_task=[['adult'], ['connect4'], ['ocr_letters'],
-                          ['tretail'],  ['ocr_letters'], ['rcv1'],
-                             ['connect4'],    ['adult'],   ['tretail'],
-                             ['rcv1'],    ['tretail'],   ['connect4'],
-                             ['ocr_letters'],    ['rcv1'],   ['adult']]
+            labels_per_task=[['tretail'], ['rcv1'],['connect4'],['adult'], 
+                             ['adult'], ['connect4'], ['rcv1'], ['tretail'],
+                             ['connect4'],['tretail'],['adult'],  ['rcv1'],         
+                             ['rcv1'],['adult'], ['tretail'],['connect4']]
+                             
+                       
                             
                         
                     
         elif self.args.experiment == "continual_gr2":
-            labels_per_task=[['adult'], ['connect4'], ['ocr_letters'],
-                          ['adult','tretail'],  ['connect4','ocr_letters'], ['ocr_letters','rcv1'],
-                             ['adult','tretail','connect4'],    ['connect4','ocr_letters','adult'],   ['ocr_letters','rcv1','tretail'],
-                             ['adult','tretail','connect4','rcv1'],    ['connect4','ocr_letters','adult','tretail'],   ['ocr_letters','rcv1','tretail','connect4'],
-                             ['adult','tretail','connect4','rcv1', 'ocr_letters'],    ['connect4','ocr_letters','adult','tretail','rcv1'],   ['ocr_letters','rcv1','tretail','connect4','adult']]   
+            labels_per_task=[['tretail'], ['rcv1'],['connect4'],['adult'],
+                          ['tretail','adult'],  ['rcv1','connect4'], ['connect4','rcv1'], ['adult','tretail'],
+                             ['tretail','adult','connect4'],    ['rcv1','connect4','tretail'],   ['connect4','rcv1','adult'], ['adult','tretail','rcv1'],
+                             ['tretail','adult','connect4','rcv1'],    ['rcv1','connect4','tretail','adult'],   ['connect4','rcv1','adult','tretail'],['adult','tretail','rcv1','connect4']]
+                             
 
         elif self.args.experiment == "incre_lb":
-            labels_per_task= [['adult'], ['connect4'], ['ocr_letters'],['tretail'], ['rcv1']]
+            labels_per_task= [['adult'], ['adult','connect4'],['adult','connect4','tretail'], ['adult','connect4','tretail','rcv1']]
         elif self.args.experiment == "incre_ub":
-            labels_per_task= [['adult','connect4','ocr_letters','tretail','rcv1']]                            
+            labels_per_task= [['adult','connect4','tretail','rcv1']]                            
                                 
         elif self.args.experiment == 'label permutation across clients':
             temp_labels = easydict.EasyDict()

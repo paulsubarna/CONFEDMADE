@@ -38,11 +38,11 @@ class binary_data:
 
 
     def maybe_download_debd(self):
-        if os.path.isdir('/app/src/data/debd'):
+        if os.path.isdir('../data/debd'):
             return
-        subprocess.run(['git', 'clone', 'https://github.com/arranger1044/DEBD', '/app/src/data/debd'])
+        subprocess.run(['git', 'clone', 'https://github.com/arranger1044/DEBD', '../data/debd'])
         wd = os.getcwd()
-        os.chdir('/app/src/data/debd')
+        os.chdir('/app/src/Federated/FEDWIT_Binary/data/debd')
         subprocess.run(['git', 'checkout', '80a4906dcf3b3463370f904efa42c21e8295e85c'])
         subprocess.run(['rm', '-rf', '.git'])
         os.chdir(wd)
@@ -53,7 +53,7 @@ class binary_data:
 
         self.maybe_download_debd()
 
-        data_dir = '/app/src/data/debd'
+        data_dir = '../data/debd'
 
         train_path = os.path.join(data_dir, 'datasets', name, name + '.train.data')
         test_path = os.path.join(data_dir, 'datasets', name, name + '.test.data')

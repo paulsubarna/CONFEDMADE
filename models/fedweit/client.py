@@ -82,7 +82,7 @@ class Client(ClientModule):
     def cross_entropy_loss(self, x, x_decoded_mean):
         x = k.flatten(x)
         x_decoded_mean = k.flatten(x_decoded_mean)
-        xent_loss = self.nets.input_shape * metrics.binary_crossentropy(x, x_decoded_mean) #transform average cross entropy loss to absolute loss
+        xent_loss = 784 * metrics.binary_crossentropy(x, x_decoded_mean) #transform average cross entropy loss to absolute loss
         return xent_loss
 
     def made_fedweit_loss(self, x, x_decoded_mean, extended_log = False):
@@ -114,13 +114,14 @@ class Client(ClientModule):
                 weight_decay += self.args.wd * tf.nn.l2_loss(aws[f"{weight}_all_adapts"][lid][self.state["curr_task"]])
                 weight_decay += self.args.wd * tf.nn.l2_loss(mask[f"{weight}_mask"][lid])
                 made_mask_layer= made_mask[str(self.client)][lid]
+                
                 # task independent Sparsity loss
                 if weight == "D":
                     sparseness += self.args.lambda_l1 * tf.reduce_sum(tf.abs(aws[f"{weight}_all_adapts"][lid][self.state["curr_task"]]))
                     sparseness_log += tf.reduce_sum(tf.abs(aws[f"{weight}_all_adapts"][lid][self.state["curr_task"]]))
                     sparseness += self.args.lambda_mask * tf.reduce_sum(tf.abs(mask[f"{weight}_mask"][lid]))
                 else:
-                    sparseness += self.args.lambda_l1 *  tf.reduce_sum(tf.abs(aws[f"{weight}_all_adapts"][lid][self.state["curr_task"]]* made_mask_layer ))
+                    sparseness += self.args.lambda_l1 *  tf.reduce_sum(tf.abs(aws[f"{weight}_all_adapts"][lid][self.state["curr_task"]] * made_mask_layer))
                     sparseness_log += tf.reduce_sum(tf.abs(aws[f"{weight}_all_adapts"][lid][self.state["curr_task"]]))
                     sparseness += self.args.lambda_mask * tf.reduce_sum(tf.abs(mask[f"{weight}_mask"][lid]))
 
@@ -139,7 +140,7 @@ class Client(ClientModule):
                         if weight == "D":
                             a_l2 = tf.nn.l2_loss(sw_delta  * prev_mask + adapt_delta)
                         else:
-                            a_l2 = tf.nn.l2_loss(sw_delta  * made_mask_layer * prev_mask  + adapt_delta * made_mask_layer )
+                            a_l2 = tf.nn.l2_loss(sw_delta   * prev_mask  + adapt_delta  )
                     
                         #a_l2 = tf.nn.l2_loss(sw_delta * prev_mask + adapt_delta)
                         approx_loss += self.args.lambda_l2 * a_l2
@@ -155,45 +156,11 @@ class Client(ClientModule):
                     
                         sparseness_log += tf.reduce_sum(tf.abs(prev_aw))
 
-        #if extended_log:
-        #    print(f"Client {self.state['client_id']} at task {self.state['curr_task']}")
-        #    print(f"weight_decay: {weight_decay}")
-        #    print(f"sparseness: {sparseness}")
-        #    print(f"sparseness_log: {sparseness_log}")
-        #    print(f"approx_loss: {approx_loss}")
-        #    print(f"loss_prev: {loss}")
-        loss += weight_decay+ sparseness + approx_loss
-        return loss
-
-    def loss(self, y_true, y_pred):
-        weight_decay, sparseness, approx_loss = 0, 0, 0
-        loss = tf.keras.losses.categorical_crossentropy(y_true, y_pred)
-        for lid in range(len(self.nets.shapes)):
-            sw = self.nets.get_variable(var_type='shared', lid=lid)
-            aw = self.nets.get_variable(var_type='adaptive', lid=lid, tid=self.state['curr_task'])
-            mask = self.nets.get_variable(var_type='mask', lid=lid, tid=self.state['curr_task'])
-            g_mask = self.nets.generate_mask(mask)
-            weight_decay += self.args.wd * tf.nn.l2_loss(aw)
-            weight_decay += self.args.wd * tf.nn.l2_loss(mask)
-            sparseness += self.args.lambda_l1 * tf.reduce_sum(tf.abs(aw))
-            sparseness += self.args.lambda_mask * tf.reduce_sum(tf.abs(mask))
-            if self.state['curr_task'] == 0:
-                weight_decay += self.args.wd * tf.nn.l2_loss(sw)
-            else:
-                for tid in range(self.state['curr_task']):
-                    prev_aw = self.nets.get_variable(var_type='adaptive', lid=lid, tid=tid)
-                    prev_mask = self.nets.get_variable(var_type='mask', lid=lid, tid=tid)
-                    g_prev_mask = self.nets.generate_mask(prev_mask)
-                    #################################################
-                    restored = sw * g_prev_mask + prev_aw
-                    a_l2 = tf.nn.l2_loss(restored-self.state['prev_body_weights'][lid][tid])
-                    approx_loss += self.args.lambda_l2 * a_l2
-                    #################################################
-                    sparseness += self.args.lambda_l1 * tf.reduce_sum(tf.abs(prev_aw))
 
         loss += weight_decay + sparseness + approx_loss
         return loss
 
+    
     def get_adaptives(self, client_id = None):
         if self.args.base_network == "made":
             adapts = {}
@@ -210,10 +177,5 @@ class Client(ClientModule):
                     else:
                         hard_threshold = np.greater(np.abs(aw[f"{key}"][lid]), self.args.lambda_l1).astype(np.float32)
                         adapts[f"{key}"].append(aw[f"{key}"][lid] * hard_threshold)
-        else:
-            adapts = []
-            for lid in range(len(self.nets.shapes)):
-                aw = self.nets.get_variable(var_type='adaptive', lid=lid, tid=self.state['curr_task']).numpy()
-                hard_threshold = np.greater(np.abs(aw), self.args.lambda_l1).astype(np.float32)
-                adapts.append(aw*hard_threshold)
+
         return adapts

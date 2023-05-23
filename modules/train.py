@@ -65,7 +65,7 @@ class TrainModule:
         self.init_optimizer(self.state['curr_lr'])
 
     def init_optimizer(self, curr_lr):
-        self.optimizer = tf.keras.optimizers.Adam(learning_rate=curr_lr)
+        self.optimizer = tf.keras.optimizers.Adagrad(learning_rate=curr_lr)
 
     def adaptive_lr_decay(self):
         vlss = self.vlss
@@ -91,6 +91,8 @@ class TrainModule:
         self.state['round_cnt'] = round_cnt
         self.state['curr_task'] = curr_task
         self.curr_model = self.nets.get_model_by_tid(client_id  = client_id)
+        
+        
 
         if self.args.base_network == "made":
             if curr_task > 0 and round_cnt == 0:
@@ -110,26 +112,12 @@ class TrainModule:
                     else:
                         self.curr_model.train_step((x_batch, x_batch), lossf = self.params['loss']) # in made case x_batch = y_batch
                 self.validate(client_id)
+                #self.adaptive_lr_decay()
+                #if self.state['early_stop']:
+                #   continue
             #if self.args.only_federated and curr_round == self.args.num_rounds:
 
-        else:
-            for epoch in range(self.args.num_epochs):
-                self.state['curr_epoch'] = epoch+1
-                for i in range(0, len(self.task['x_train']), self.args.batch_size):
-                    x_batch = self.task['x_train'][i:i+self.args.batch_size]
-                    y_batch = self.task['y_train'][i:i+self.args.batch_size]
-                    with tf.GradientTape() as tape:
-                        y_pred = self.curr_model(x_batch)
-                        loss = self.params['loss'](y_batch, y_pred)
-                    gradients = tape.gradient(loss, self.params['trainables'])
-                    self.optimizer.apply_gradients(zip(gradients, self.params['trainables']))
-                self.validate()
-                self.evaluate()
-                if self.args.model in ['fedweit']:
-                    self.calculate_capacity()
-                self.adaptive_lr_decay()
-                if self.state['early_stop']:
-                    continue
+
 
     def validate(self, client_id):
         tf.keras.backend.set_learning_phase(0)
@@ -148,20 +136,27 @@ class TrainModule:
                 else:
                     loss += float(self.params['loss'](y_batch, y_pred))
                 val_loss += float(self.params['val_loss'](y_batch, y_pred))
+                self.add_performance('valid_lss', val_loss)
+            print()
+            #check_var= self.measure_performance('valid_lss')
             val_loss /= batches
             loss /= batches
-            #self.add_performance('valid_lss', 'valid_acc', loss, y_batch, y_pred)
+            self.vlss= val_loss
+            #print(f"Check_var is {check_var} and actual_var is {val_loss}")
             #print("Client_id is : ", client_id)
             base_path= os.path.join(self.args.task_path, 'mnist')
             #print(base_path)
-            if self.state['curr_task'] >0:
+            if self.state['curr_task'] >2:
                 for j in range(self.state['curr_task'] ):
-                    print(os.path.join(base_path, f'mnist_{j*2+client_id}_valid.npy'))
-                    temporary_data= np.load(os.path.join(base_path, f'mnist_{j*2+client_id}_valid.npy'), allow_pickle=True).item()
-                    valid= temporary_data['x_valid']
+                    #print(os.path.join(base_path, f'NON_IID_{j*3+client_id}_test.npy'))
+                    temporary_data= np.load(os.path.join(base_path, f'mnist_{j*10+client_id}_test.npy'), allow_pickle=True).item()
+                    valid= temporary_data['x_test']
                     batches = 0
                     t_loss = 0
                     t_val_loss = 0
+                    #y_del = self.curr_model(valid)
+                    #delt = float(self.params['val_loss'](y_del, valid))
+                    #print("Temp loss", delt)
                     for i in range(0, len(valid), self.args.batch_size):
                         batches += 1
                         x_batch = valid[i:i+self.args.batch_size]
@@ -178,13 +173,7 @@ class TrainModule:
                         .format(self.state['client_id'], j, self.state['curr_task'], t_loss, t_val_loss)
                         )
             
-        else:
-            for i in range(0, len(self.task['x_valid']), self.args.batch_size):
-                x_batch = self.task['x_valid'][i:i+self.args.batch_size]
-                y_batch = self.task['y_valid'][i:i+self.args.batch_size]
-                y_pred = self.curr_model(x_batch)
-                loss = tf.keras.losses.categorical_crossentropy(y_batch, y_pred)
-                self.vlss, self.vacc = self.measure_performance('valid_lss', 'valid_acc')
+
         if self.args.base_network == 'made':
             if self.state['curr_epoch'] == self.args.num_epochs or self.args.only_federated:
                 if self.state['round_cnt'] == self.args.num_rounds-1:
@@ -200,7 +189,7 @@ class TrainModule:
                     self.logger.print(self.state['client_id'], 'round:{}(cnt:{}),epoch:{},task:{},test_lss:{} ({},#_train:{},#_valid:{},#_test:{})'
                         .format(self.state['curr_round'], self.state['round_cnt'], self.state['curr_epoch'], self.state['curr_task'], round(test_loss,3),
                         self.task['task_names'][self.state['curr_task']], len(self.task['x_train']), len(self.task['x_valid']),len(self.task['x_test_list'][self.state['curr_task']])))
-                    if self.state['curr_task'] > 0 and self.state['round_cnt']==249:
+                    if self.state['curr_task'] > 0 and self.state['round_cnt']==49:
                         atten = self.curr_model.get_weights("atten")["W_atten"][0].numpy()
                         atten += self.curr_model.get_weights("atten")["W_atten"][1].numpy()
                         atten += self.curr_model.get_weights("atten")["D_atten"][0].numpy()
@@ -244,16 +233,16 @@ class TrainModule:
             .format(round(loss, 9), len(x_test)))
 
 
-    def add_performance(self, lss_name, acc_name, loss, y_true, y_pred):
+    def add_performance(self, lss_name, loss):
         self.metrics[lss_name](loss)
-        self.metrics[acc_name](y_true, y_pred)
+        #self.metrics[acc_name](y_true, y_pred)
 
-    def measure_performance(self, lss_name, acc_name):
+    def measure_performance(self, lss_name):
         lss = float(self.metrics[lss_name].result())
-        acc = float(self.metrics[acc_name].result())
+        #acc = float(self.metrics[acc_name].result())
         self.metrics[lss_name].reset_states()
-        self.metrics[acc_name].reset_states()
-        return lss, acc
+        #self.metrics[acc_name].reset_states()
+        return lss
 
     def calculate_capacity(self):
         def l1_pruning(weights, hyp):
@@ -292,7 +281,7 @@ class TrainModule:
         self.state['capacity']['ratio'].append(ratio)
         self.logger.print(self.state['client_id'], 'model capacity: %.3f' %(ratio))
 
-    def calculate_communication_costs(self, params):
+    def calculate_communication_costs(self, prams):
         if self.state['num_total_params'] == 0:
             for dims in self.nets.shapes:
                 params = 1
@@ -301,7 +290,7 @@ class TrainModule:
                 self.state['num_total_params'] += params
 
         num_actives = 0
-        for i, pruned in enumerate(params):
+        for i, pruned in enumerate(prams):
             actives = np.not_equal(pruned, np.zeros_like(pruned)).astype(np.float32)
             actives = np.sum(actives)
             num_actives += actives
@@ -387,6 +376,7 @@ class TrainModule:
                     for c_weights in old_weights: # by client
                         for lidx, l_weights in enumerate(c_weights): # by layer
                             ratio = 1/total_sizes[lidx]
+                            #print(ratio)
                             new_weights[f"{param}_global"][lidx] += tf.math.multiply(l_weights, ratio).numpy()
 
 
@@ -415,29 +405,4 @@ class TrainModule:
 #                    for weight in client_weights:
 #                        for count, layer in enumerate(weight["D_global"]):
 #                            new_weights["D_global"][count] += layer * ratio
-
-        else:
-            if self.args.sparse_comm and self.args.model in ['fedweit']:
-                client_weights = [u[0][0] for u in updates]
-                client_masks = [u[0][1] for u in updates]
-                client_sizes = [u[1] for u in updates]
-                new_weights = [np.zeros_like(w) for w in client_weights[0]]
-                epsi = 1e-15
-                total_sizes = epsi
-                client_masks = tf.ragged.constant(client_masks, dtype=tf.float32)
-                for _cs in client_masks:
-                    total_sizes += _cs
-                for c_idx, c_weights in enumerate(client_weights): # by client
-                    for lidx, l_weights in enumerate(c_weights): # by layer
-                        ratio = 1/total_sizes[lidx]
-                        new_weights[lidx] += tf.math.multiply(l_weights, ratio).numpy()
-            else:
-                client_weights = [u[0] for u in updates]
-                client_sizes = [u[1] for u in updates]
-                new_weights = [np.zeros_like(w) for w in client_weights[0]]
-                total_size = len(client_sizes)
-                for c in range(len(client_weights)): # by client
-                    _client_weights = client_weights[c]
-                    for i in range(len(new_weights)): # by layer
-                        new_weights[i] +=  _client_weights[i] * float(1/total_size)
         return new_weights

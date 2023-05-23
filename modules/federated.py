@@ -83,7 +83,7 @@ class ServerModule:
                 with tf.device('/device:GPU:{}'.format(gpu_id)):
                     self.clients[gpu_id] =self.ClientObj(gpu_id, opt_copied, initial_weights, cid_per_gpu[i])
         else:
-            num_parallel = 2
+            num_parallel = 1
             self.clients = {i:self.ClientObj(i, opt_copied, initial_weights, cid_per_gpu[i]) for i in range(num_parallel)}
 
     def get_weights(self):
@@ -120,9 +120,8 @@ class ClientModule:
 
     def init_model(self, initial_weights):
         decomposed = True if self.args.model in ['fedweit'] else False
-        if self.args.base_network == 'lenet':
-            self.nets.build_lenet(initial_weights, decomposed=decomposed)
-        elif self.args.base_network == 'made':
+
+        if self.args.base_network == 'made':
             self.nets.build_made(initial_weights, self.cid_per_gpu, decomposed=decomposed)
 
     def switch_state(self, client_id):
@@ -136,6 +135,7 @@ class ClientModule:
             self.loader.load_state(client_id)
             self.nets.load_state(client_id)
             self.train.load_state(client_id)
+
     def is_new(self, client_id):
         return not os.path.exists(os.path.join(self.args.state_dir, f'{client_id}_client.npy'))
 
@@ -169,8 +169,8 @@ class ClientModule:
         self.trainable_variables_body = self.nets.get_trainable_variables(tid, client_id, head=False) if self.args.base_network != "made" else None
         if self.args.base_network == "made":
             loss = self.cross_entropy_loss if self.args.only_federated else self.made_fedweit_loss
-        else:
-            loss = self.loss
+
+
         self.train.set_details({
             'loss': loss,
             'val_loss': self.cross_entropy_loss,
@@ -240,31 +240,17 @@ class ClientModule:
                                     m_bianary = tf.cast(tf.greater(tf.abs(mask), thres), tf.float32).numpy().tolist()
                                     hard_threshold[f"{param}_mask"].append(m_bianary)
                                     if param == 'D':
-                                        sw_pruned[f"{param}_global"].append(sw.numpy()* m_bianary)
+                                        sw_pruned[f"{param}_global"].append(sw.numpy() * m_bianary)
                                     else:
-                                        sw_pruned[f"{param}_global"].append(sw.numpy()* made_mask * m_bianary)
-                                    
+                                        sw_pruned[f"{param}_global"].append(sw.numpy() * made_mask * m_bianary )
+                                        #sw_pruned[f"{param}_global"].append(sw.numpy()) #.numpy()) # * m_bianary)
+                                #sw_pruned[f"{param}_global"]=  global_weights[f"{param}_global"]   
                                     #sw_pruned[f"{param}_global"].append(sw.numpy()*m_bianary)
-                                #self.train.calculate_communication_costs(sw_pruned)
+                                self.train.calculate_communication_costs(sw_pruned[f"{param}_global"])
                             return sw_pruned, hard_threshold
                 else:
                     return self.nets.get_weights(client_id, type)
-            else:
-                if self.args.sparse_comm:
-                    hard_threshold = []
-                    sw_pruned = []
-                    masks = self.nets.decomposed_variables['mask'][self.state['curr_task']]
-                    for lid, sw in enumerate(self.nets.decomposed_variables['shared']):
-                        mask = masks[lid]
-                        m_sorted = tf.sort(tf.keras.backend.flatten(tf.abs(mask)))
-                        thres = m_sorted[math.floor(len(m_sorted)*(self.args.client_sparsity))]
-                        m_bianary = tf.cast(tf.greater(tf.abs(mask), thres), tf.float32).numpy().tolist()
-                        hard_threshold.append(m_bianary)
-                        sw_pruned.append(sw.numpy()*m_bianary)
-                    self.train.calculate_communication_costs(sw_pruned)
-                    return sw_pruned, hard_threshold
-                else:
-                    return [sw.numpy() for sw in self.nets.decomposed_variables['shared']]
+
         else:
             return self.nets.get_body_weights()
 

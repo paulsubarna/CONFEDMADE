@@ -46,14 +46,8 @@ class NetModule:
             else:
                 self.input_shape = 784 # input pixels
 
-        if self.args.base_network == 'lenet':
-            self.shapes = [
-                (5,5,3,20),
-                (5,5,20,50),
-                (3200,800),
-                (800,500)]
 
-        elif self.args.base_network == 'made':
+        if self.args.base_network == 'made':
             layers = [self.input_shape]
             [layers.append(hidden_layer) for hidden_layer in self.args.hidden_layers]
             layers.append(self.input_shape)
@@ -164,10 +158,7 @@ class NetModule:
             global_weights = []
             for i in range(len(self.shapes)):
                 global_weights.append(self.initializer(self.shapes[i]).numpy())
-        else:
-            if self.args.base_network == 'lenet':
-                body = self.build_lenet_body(decomposed=False)
-            global_weights = body.get_weights()
+
         return global_weights
 
     def set_weights(self, weights, client_id=None, type = "global"):
@@ -231,8 +222,7 @@ class NetModule:
         if self.args.model in ['fedweit']:
             if self.args.base_network == 'made':
                 return self.models[f"{client_id}"][curr_task].get_weights()
-            else:
-                return self.get_decomposed_trainaible_variables(curr_task, retroactive=False, head=head)
+
         else:
             if head:
                 return self.models[curr_task].trainable_variables
@@ -258,10 +248,7 @@ class NetModule:
                     if pvar == 'atten' and curr_task == 0:
                         continue
                     trainable_variables.append(self.get_variable(pvar, lid, curr_task))
-        if head:
-            head = self.heads[curr_task]
-            trainable_variables.append(head.trainable_weights[0])
-            trainable_variables.append(head.trainable_weights[1])
+
         return trainable_variables
 
     def get_body_weights(self, task_id=None):
@@ -314,98 +301,9 @@ class NetModule:
             #model.add_loss(self.made_fedweit_loss(x, x_decoded_mean))
             self.models[f"{client_ids[c]}"] = model
             self.made_masks[f"{client_ids[c]}"] = madem
-            model.compile(optimizer=Adagrad(0.01, epsilon = 1e-6),run_eagerly=True)
-            #model.compile(optimizer=Adam(self.args.lr),run_eagerly=True)
+            #model.compile(optimizer=Adagrad(0.01, epsilon = 1e-6),run_eagerly=True)
+            model.compile(optimizer=Adam(self.args.lr),run_eagerly=True)
             if  c == 0:  model.summary()
 
     def get_MADE_mask(self):
         return self.made_masks
-
-    def build_lenet(self, initial_weights, decomposed=False):
-        self.lock.acquire()
-        self.models = []
-        self.model_body = self.build_lenet_body(initial_weights, decomposed=decomposed)
-        self.set_body_weights(initial_weights)
-        self.initial_body_weights = initial_weights
-        for i in range(self.args.num_tasks):
-            self.models.append(self.add_head(self.model_body))
-        self.lock.release()
-
-    def build_lenet_body(self, initial_weights=None, decomposed=False):
-        if decomposed:
-            self.init_decomposed_variables(initial_weights)
-            tid = 0
-            model = tf.keras.models.Sequential()
-            model.add(tf_keras.Input(shape=self.input_shape))
-            for lid in [0, 1]:
-                self.decomposed_layers[self.lid] = self.conv_decomposed(lid, tid,
-                    filters = self.shapes[lid][-1],
-                    kernel_size = (self.shapes[lid][0], self.shapes[lid][1]),
-                    strides = (1,1),
-                    padding = 'same',
-                    acti = 'relu')
-                model.add(self.decomposed_layers[self.lid])
-                self.lid += 1
-                model.add(tf_layers.Lambda(lambda x: tf.nn.lrn(x, 4, bias=1.0, alpha=0.001/9.0, beta=0.75) ))
-                model.add(tf_layers.MaxPooling2D(pool_size=(3, 3), strides=(2,2), padding='same'))
-            model.add(tf_layers.Flatten())
-            for lid in [2, 3]:
-                self.decomposed_layers[self.lid] = self.dense_decomposed(lid, tid,
-                    units = self.shapes[lid][-1],
-                    acti = 'relu')
-                model.add(self.decomposed_layers[self.lid])
-                self.lid += 1
-        else:
-            model = tf_models.Sequential()
-            model.add(tf_layers.Conv2D(20, kernel_size=(5,5), use_bias=True, activation='relu', padding='same', kernel_regularizer=tf_regularizers.l2(self.args.wd), input_shape=self.input_shape))
-            model.add(tf_layers.Lambda(lambda x: tf.nn.lrn(x, 4, bias=1.0, alpha=0.001/9.0, beta=0.75)))
-            model.add(tf_layers.MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='same'))
-            model.add(tf_layers.Conv2D(50, kernel_size=(5,5), use_bias=True, activation='relu', padding='same', kernel_regularizer=tf_regularizers.l2(self.args.wd)))
-            model.add(tf_layers.Lambda(lambda x: tf.nn.lrn(x, 4, bias=1.0, alpha=0.001/9.0, beta=0.75)))
-            model.add(tf_layers.MaxPooling2D(pool_size=(3,3), strides=(2,2), padding='same'))
-            model.add(tf_layers.Flatten())
-            model.add(tf_layers.Dense(800, activation='relu', kernel_regularizer=tf_regularizers.l2(self.args.wd)))
-            model.add(tf_layers.Dense(500, activation='relu', kernel_regularizer=tf_regularizers.l2(self.args.wd)))
-        return model
-
-    def add_head(self, body):
-        head = tf_layers.Dense(self.args.num_classes, activation='softmax')
-        body_out = body.output
-        head_out = head(body_out)
-        model = tf.keras.Model(inputs=body.input, outputs=head_out)
-        self.heads.append(head)
-        self.initial_heads_weights.append(head.get_weights())
-        return model # multiheaded model
-
-    def conv_decomposed(self, lid, tid, filters, kernel_size, strides, padding, acti):
-        return  DecomposedConv(
-            name        = 'layer_{}'.format(lid),
-            filters     = filters,
-            kernel_size = kernel_size,
-            strides     = strides,
-            padding     = padding,
-            activation  = acti,
-            lambda_l1   = self.args.lambda_l1,
-            lambda_mask = self.args.lambda_mask,
-            shared      = self.get_variable('shared', lid),
-            adaptive    = self.get_variable('adaptive', lid, tid),
-            from_kb     = self.get_variable('from_kb', lid, tid),
-            atten       = self.get_variable('atten', lid, tid),
-            bias        = self.get_variable('bias', lid, tid), use_bias=True,
-            mask        = self.generate_mask(self.get_variable('mask', lid, tid)),
-            kernel_regularizer = tf_regularizers.l2(self.args.wd))
-
-    def dense_decomposed(self, lid, tid, units, acti):
-        return DecomposedDense(
-            name        = 'layer_{}'.format(lid),
-            activation  = acti,
-            units       = units,
-            lambda_l1   = self.args.lambda_l1,
-            lambda_mask = self.args.lambda_mask,
-            shared      = self.get_variable('shared', lid),
-            adaptive    = self.get_variable('adaptive', lid, tid),
-            from_kb     = self.get_variable('from_kb', lid, tid),
-            atten       = self.get_variable('atten', lid, tid),
-            bias        = self.get_variable('bias', lid, tid), use_bias=True,
-            mask        = self.generate_mask(self.get_variable('mask', lid, tid)),
-            kernel_regularizer = tf_regularizers.l2(self.args.wd))
