@@ -1,8 +1,7 @@
-# FCLR
-# Learning Representations from Indirect Experience through Unsupervised Continual Federated Learning
 
-This repository is an official Tensorflow 2 implementation of [Learning Representations from Indirect Experience through Unsupervised
-Continual Federated Learning ] (**ICML 2023**)
+# Masked Autoencoders are Efficient Continual Federated Learners
+
+This repository is an official Tensorflow 2 implementation of [Masked Autoencoders are Efficient Continual Federated Learners] (**NeurIps 2023**)
 
 
 
