@@ -11,8 +11,7 @@ Federated learning is deemed to be particularly useful in real-world scenarios w
 
 The main contributions of this work are as follows:
 
-* We have proposed an **unsupervised Federated Continual Learning approach** with selective knowledge transfer between the clients to reduce catastrophic forgetting. 
-* Through our intelligent masking strategy, we are still successful in achieving desirable performances even after sparsifying the model parameters by 70 \%. 
+*We draw inspiration from the supervised FedWeIT and extend it to our unsupervised \textbf{Con}tinual \textbf{Fed}erated \textbf{MA}sked autoencoders for \textbf{D}ensity \textbf{E}stimation (CONFEDMADE); an unsupervised continual federated learner based on masking to enable selective knowledge transfer between clients and reduce forgetting.* Through our intelligent masking strategy, we are still successful in achieving desirable performances even after sparsifying the model parameters by 70 \%. 
 * We have extensively evaluated our approach in several Non-IID scenarios and have shown that it doesn't fall victim to catastrophic forgetting.
 
 
