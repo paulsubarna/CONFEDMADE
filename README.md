@@ -36,13 +36,13 @@ Run below script to generate datasets
 ```bash
 python3 ../main.py --work-type gen_data --task mnist --seed 777 
 ```
-The --task parameter has three choices: `mnist`, `bianry`, and `non_miid` to generate the desired type of task sets for the clients.  
+The --task parameter has three choices: `mnist`, `bianry`, and `non_miid (Mnist+ Emnist)` to generate the desired type of task sets for the clients.  
 
 ## Run Experiments
-To reproduce experiments, please execute `train-non-iid-50.sh` file in the `scripts` folder, or you may run the following comamnd line directly:
+To reproduce experiments, please execute `train_mnist.sh` file in the `scripts` folder, or you may run the following comamnd line directly:
 
 ```bash
-python3 ../main.py --gpu 0,1,2,3,4 \
+python3 ../main.py --gpu 0,1,2 \
 		--work-type train \
 		--model fedweit \
 		--task non_iid_50 \
