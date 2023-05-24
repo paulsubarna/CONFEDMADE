@@ -11,9 +11,9 @@ Federated learning is deemed to be particularly useful in real-world scenarios w
 
 The main contributions of this work are as follows:
 
-*We draw inspiration from the supervised FedWeIT and extend it to our unsupervised \textbf{Con}tinual \textbf{Fed}erated \textbf{MA}sked autoencoders for \textbf{D}ensity \textbf{E}stimation (CONFEDMADE); an unsupervised continual federated learner based on masking to enable selective knowledge transfer between clients and reduce forgetting.* Through our intelligent masking strategy, we are still successful in achieving desirable performances even after sparsifying the model parameters by 70 \%. 
-* We have extensively evaluated our approach in several Non-IID scenarios and have shown that it doesn't fall victim to catastrophic forgetting.
-
+* We draw inspiration from the supervised FedWeIT and extend it to our unsupervised **Con**tinual **Fed**erated **MA**sked autoencoders for **D**ensity **E**stimation (**CONFEDMADE**); an unsupervised continual federated learner based on masking to enable selective knowledge transfer between clients and reduce forgetting.* Through our intelligent masking strategy, we are still successful in achieving desirable performances even after sparsifying the model parameters by 70 %. 
+* We highlight that MADE is a model particularly amenable to CFL and investigate several non-trivial considerations, such as connectivity and masking strategy, beyond a trivial application of federated averaging and FedWeIT to the unsupervised setting.
+* We extensively evaluate our approach on several CFL scenarios on both image and numerical data. Overall, CONFEDMADE consistently reduces forgetting while sparsifying parameters and reducing communication costs with respect to a naive unsupervised CFL approach.
 
 ## Environmental Setup
 
