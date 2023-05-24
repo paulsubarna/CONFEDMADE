@@ -12,7 +12,7 @@ The main contributions of this work are as follows:
 * We extensively evaluate our approach on several CFL scenarios on both image and numerical data. Overall, CONFEDMADE consistently reduces forgetting while sparsifying parameters and reducing communication costs with respect to a naive unsupervised CFL approach.
 
 ## Credits 
-* We have implemented some segments of our continual federated framework using the [FedWeIT repository]. 
+* We have implemented some segments of our continual federated framework using the [FedWeIT repository] (https://github.com/wyjeong/FedWeIT/tree/main). 
 * We 
 ## Environmental Setup
 
