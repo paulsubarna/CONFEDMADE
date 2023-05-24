@@ -238,7 +238,10 @@ class ClientModule:
                                     if param == 'D':
                                         sw_pruned[f"{param}_global"].append(sw.numpy() * m_bianary)
                                     else:
-                                        sw_pruned[f"{param}_global"].append(sw.numpy() * made_mask * m_bianary )
+                                        if self.args.task == 'mnist' or self.args.task == 'non_miid':
+                                            sw_pruned[f"{param}_global"].append(sw.numpy() * made_mask * m_bianary )
+                                        else:
+                                            sw_pruned[f"{param}_global"].append(sw.numpy() * m_bianary )
                                         #sw_pruned[f"{param}_global"].append(sw.numpy()) #.numpy()) # * m_bianary)
                                 #sw_pruned[f"{param}_global"]=  global_weights[f"{param}_global"]   
                                     #sw_pruned[f"{param}_global"].append(sw.numpy()*m_bianary)

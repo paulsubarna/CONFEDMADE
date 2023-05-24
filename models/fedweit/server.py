@@ -10,8 +10,8 @@ from .client import Client
 from modules.federated import ServerModule
 
 class Server(ServerModule):
-    """ CONFEDMADE Server
-    """
+    """ CONFEDMADE Server """
+    
     def __init__(self, args):
         super(Server, self).__init__(args, Client)
         self.client_adapts = [] #always only save client adaptives from last round

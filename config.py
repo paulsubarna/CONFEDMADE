@@ -1,6 +1,6 @@
 def set_config(args):
 
-    args.output_path = '/home/subarna/Pictures/LARS/FedWeIT-MADE/output'
+    args.output_path = '$path/to/outputfolder$'
 
     args.sparse_comm = True
     args.client_sparsity = 0.2
@@ -39,7 +39,7 @@ def set_config(args):
 
 def set_data_config(args):
 
-    args.task_path =  '/home/subarna/Pictures/LARS/FedWeIT-MADE/output'
+    args.task_path = '$path/to/outputfolder$'
 
     args.ip_shape={
     
@@ -114,10 +114,11 @@ def set_data_config(args):
         args.same_masks = True #Should clients use the same masks?
         args.same_input_order = False #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is a ctive
         args.datasets = [2]
+        args.input_size= 784
         args.hidden_layers = [400] #hidden layer shapes
         args.mnist_path = '/content/drive/MyDrive/binarized_mnist.npz'
         args.natural_input_order = False
-        args.num_clients = 10
+        args.num_clients = 3
         args.num_tasks   = 5
         args.num_classes = 1
         args.frac_clients = 1.0
@@ -134,6 +135,7 @@ def set_data_config(args):
         args.same_masks = True #Should clients use the same masks?
         args.same_input_order = True #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
         args.datasets = [6]
+        args.input_size = 784
         args.hidden_layers = [500] #hidden layer shapes
         args.mnist_path = '/content/drive/MyDrive/binarized_mnist.npz'
         args.natural_input_order = True

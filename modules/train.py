@@ -9,7 +9,7 @@ from misc.utils import *
 
 class TrainModule:
     """ Class module used for train CONFEDMADE clients
-    Also serves the purpose of initializing, loading and saving states for individual client in FL.
+        Also serves the purpose of initializing, loading and saving states for individual client in FL.
     """
     def __init__(self, args, logger, nets):
         self.args = args
@@ -145,12 +145,24 @@ class TrainModule:
             self.vlss= val_loss
             #print(f"Check_var is {check_var} and actual_var is {val_loss}")
             #print("Client_id is : ", client_id)
-            base_path= os.path.join(self.args.task_path, 'mnist')
+            if self.args.task == 'mnist':
+                base_path= os.path.join(self.args.task_path, 'mnist')
+            elif self.args.task == 'binary':
+                base_path= os.path.join(self.args.task_path, 'binary')
+            else:
+                base_path= os.path.join(self.args.task_path, 'non_miid')
             #print(base_path)
-            if self.state['curr_task'] >2:
+            if self.state['curr_task'] >0:
                 for j in range(self.state['curr_task'] ):
                     #print(os.path.join(base_path, f'NON_IID_{j*3+client_id}_test.npy'))
-                    temporary_data= np.load(os.path.join(base_path, f'mnist_{j*10+client_id}_test.npy'), allow_pickle=True).item()
+                    if self.args.task == 'mnist':
+                        temporary_data= np.load(os.path.join(base_path, f'mnist_{j*self.args.num_clients +client_id}_test.npy'), allow_pickle=True).item()
+                    elif self.args.task == 'binary':
+                        temporary_data= np.load(os.path.join(base_path, f'binary_{j*self.args.num_clients +client_id}_test.npy'), allow_pickle=True).item()
+                    else:
+                        temporary_data= np.load(os.path.join(base_path, f'NON_IID_{j*self.args.num_clients +client_id}_test.npy'), allow_pickle=True).item()
+                    
+                    
                     valid= temporary_data['x_test']
                     batches = 0
                     t_loss = 0
@@ -170,8 +182,8 @@ class TrainModule:
                         t_val_loss += float(self.params['val_loss'](y_batch, y_pred))
                     t_val_loss /= batches
                     t_loss /= batches
-                    self.logger.print(self.state['client_id'], 'forgetting for client: {} at task {} during curr_task {}: T_loss is {} and val_loss: {} '
-                        .format(self.state['client_id'], j, self.state['curr_task'], t_loss, t_val_loss)
+                    self.logger.print(self.state['client_id'], 'forgetting for client: {} at task {} during curr_task {}: val_loss: {} '
+                        .format(self.state['client_id'], j, self.state['curr_task'], t_val_loss)
                         )
             
 

@@ -17,7 +17,7 @@ from modules.layers import *
 
 class NetModule:
     """ This Class module helps to initialize the model parameters, perform additive parameter decomposition
-    and ultimately defining the MADE model.
+        and ultimately defining the MADE model.
     """
     def __init__(self, args):
         self.args = args

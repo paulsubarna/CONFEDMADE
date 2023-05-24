@@ -8,9 +8,9 @@ from misc.utils import *
 from modules.federated import ClientModule
 
 class Client(ClientModule):
-    """ CONFEDMADE Client
-    Performing cleint training, saving them 
-    """
+    
+    """ CONFEDMADE Client: Performing cleint training, saving them """
+
     def __init__(self, gid, args, initial_weights, cid_per_gpu):
         self.cid_per_gpu = cid_per_gpu
         super(Client, self).__init__(gid, args, initial_weights)
@@ -80,7 +80,7 @@ class Client(ClientModule):
     def cross_entropy_loss(self, x, x_decoded_mean):
         x = k.flatten(x)
         x_decoded_mean = k.flatten(x_decoded_mean)
-        xent_loss = 784 * metrics.binary_crossentropy(x, x_decoded_mean) #transform average cross entropy loss to absolute loss
+        xent_loss = self.args.input_size * metrics.binary_crossentropy(x, x_decoded_mean) #transform average cross entropy loss to absolute loss
         return xent_loss
 
     def made_fedweit_loss(self, x, x_decoded_mean, extended_log = False):

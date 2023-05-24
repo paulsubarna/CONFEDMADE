@@ -3,10 +3,8 @@ from datetime import datetime
 from misc.utils import *
 
 class Logger:
-    """ Logging Module
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
-    """
+    """ Logging Module """
+
     def __init__(self, args, client_id=None):
         self.args = args
         self.options = vars(self.args)
@@ -18,8 +16,7 @@ class Logger:
                 f'[{self.args.task}]'+
                 f'[{name}] '+
                 f'{message}')
-        #f = open("/home/subarna/Pictures/LARS/FedWeIT-MADE/Exp_order_agn_true_wo.txt", "a")
-        f= open('/app/src/FedWit/test_ilup.txt', "a")
+        f = open("output/Exp_order_agn_true_wo.txt", "a")   ### specify your path here to log the outputs"""
         f.write('\n'+f'[{datetime.now().strftime("%Y/%m/%d-%H:%M:%S")}]'+
                 f'[{self.args.model}]'+
                 f'[{self.args.task}]'+
