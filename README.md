@@ -13,7 +13,7 @@ The main contributions of this work are as follows:
 
 ## Credits 
 * We have implemented some segments of our continual federated framework using the () [FEDWIT]. 
-* We <a name="Head"></a>  [https://github.com/wyjeong/FedWeIT/tree/main](Head)
+* We <a name="Head"></a>  [(https://github.com/wyjeong/FedWeIT/tree/main)](Head)
 ## Environmental Setup
 
 Please install packages from `requirements.txt` after creating your own environment with `python 3.8.x`.
