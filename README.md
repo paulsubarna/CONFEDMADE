@@ -59,14 +59,4 @@ Please replace arguments as you wish, and for the other options (i.e. hyper-para
 ## Results
 All clients and server create their own log files in `\path\to\output\logs\`, which include evaluation results, such as local & global performance and communication costs, and the experimental setups, such as learning rate, batch-size, etc. The log files will be updated for every comunication rounds. 
 
-## Citations
-```
-@inproceedings{
-    yoon2021federated,
-    title={Federated Continual Learning with Weighted Inter-client Transfer},
-    author={Jaehong Yoon and Wonyong Jeong and Giwoong Lee and Eunho Yang and Sung Ju Hwang},
-    booktitle={International Conference on Machine Learning},
-    year={2021},
-    url={https://arxiv.org/abs/2003.03196}
-}
-```
+
