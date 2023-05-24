@@ -48,7 +48,7 @@ python3 ../main.py --gpu 0,1,2 \
 		--model fedweit \
 		--task mnist \
 	 	--gpu-mem-multiplier 9 \
-		--num-rounds 20 \
+		--num-rounds 50 \
 		--num-epochs 1 \
 		--batch-size 100 \
 		--seed 777 
