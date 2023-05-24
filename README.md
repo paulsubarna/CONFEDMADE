@@ -45,7 +45,7 @@ To reproduce experiments, please execute `train_mnist.sh` file in the `scripts` 
 python3 ../main.py --gpu 0,1,2 \
 		--work-type train \
 		--model fedweit \
-		--task non_iid_50 \
+		--task mnist \
 	 	--gpu-mem-multiplier 9 \
 		--num-rounds 20 \
 		--num-epochs 1 \
