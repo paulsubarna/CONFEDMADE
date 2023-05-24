@@ -40,7 +40,7 @@ python3 ../main.py --work-type gen_data --task mnist --seed 777
 ```  
 
 ## Run Experiments
-To reproduce experiments, please execute `train_mnist.sh` file in the `scripts` folder, or you may run the following comamnd line directly:
+To reproduce experiments, please execute `train_mnist.sh` file, or you may run the following comamnd line directly:
 
 ```bash
 python3 ../main.py --gpu 0,1,2 \
@@ -57,6 +57,6 @@ Please refer to the config.py file to explore the other possible options (i.e hy
 
 
 ## Results
-All clients and server save their evaluation metrics such as training and validation loss at the $path$ in the logger.py. Additionally, they create their own log files in `\path\to\output\logs\`, which include the experimental setups, such as learning rate, batch-size, etc. The log files will be updated for every comunication rounds. 
+All clients and server save their evaluation metrics such as training and validation loss at the $\path\to\log_file$ in the logger.py. Additionally, they create their own log files in `\path\to\output\logs\`, which include the experimental setups, such as learning rate, batch-size, etc. The log files will be updated for every comunication rounds. 
 
 
