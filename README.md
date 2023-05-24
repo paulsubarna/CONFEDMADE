@@ -52,11 +52,10 @@ python3 ../main.py --gpu 0,1,2 \
 		--batch-size 100 \
 		--seed 777 
 ```
-Please replace arguments as you wish, and for the other options (i.e. hyper-parameters, etc.), please refer to `config.py` file at the project root folder.
+Please refer to the config.py file to explore the other possible options (i.e hyperparameters, etc ). You can define any number of gpus with the following --gpu argument. Depending on the number of available gpus, the participating clients are logically switches across them
 
-> Note: while training, all participating clients are logically swiched across the physical gpus given by `--gpu` options (5 gpus in the above example). 
 
 ## Results
-All clients and server create their own log files in `\path\to\output\logs\`, which include evaluation results, such as local & global performance and communication costs, and the experimental setups, such as learning rate, batch-size, etc. The log files will be updated for every comunication rounds. 
+All clients and server create their own log files in `\path\to\output\logs\`, which include the experimental setups, such as learning rate, batch-size, etc. The log files will be updated for every comunication rounds. 
 
 
