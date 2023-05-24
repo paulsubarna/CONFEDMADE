@@ -1,7 +1,7 @@
 
 # Masked Autoencoders are Efficient Continual Federated Learners
 
-This repository is an official Tensorflow 2 implementation of [Masked Autoencoders are Efficient Continual Federated Learners] (**NeurIps 2023**) 
+This repository is an official Tensorflow 2 implementation of [Masked Autoencoders are Efficient Continual Federated Learners]
 
 
 
@@ -28,6 +28,7 @@ Please specify your custom path to store the generated task sets for all the cli
 args.task_path = '/path/to/taskset/'  # for task sets of each client
 args.output_path = '/path/to/outputs/' # for logs, weights, etc.
 ```
+Also, Please specify the path to log your file in the misc/logger.py. 
 
 ## Data Generation
 
