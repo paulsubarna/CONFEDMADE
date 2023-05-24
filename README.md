@@ -23,12 +23,14 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
-## Data Generation
-Please see `config.py` to set your custom path for both `datasets` and `output files`.
+Please specify your custom path to store the generated task sets for all the clients in FL and also output files.
 ```python
 args.task_path = '/path/to/taskset/'  # for task sets of each client
 args.output_path = '/path/to/outputs/' # for logs, weights, etc.
 ```
+
+## Data Generation
+
 Run below script to generate datasets. 
 The --task parameter has three choices: `mnist`, `bianry`, and `non_miid (Mnist+ Emnist)` to generate the desired type of task sets for the clients.
 
