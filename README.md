@@ -12,7 +12,7 @@ The main contributions of this work are as follows:
 * We extensively evaluate our approach on several CFL scenarios on both image and numerical data. Overall, CONFEDMADE consistently reduces forgetting while sparsifying parameters and reducing communication costs with respect to a naive unsupervised CFL approach.
 
 ## Credits 
-* We have implemented some segments of our continual federated framework using the official [FedWeIT](https://github.com/wyjeong/FedWeIT/tree/main) repository. 
+* We have implemented some segments of our continual federated framework using the official repository of [FedWeIT](https://github.com/wyjeong/FedWeIT/tree/main). 
 * Our tensorflow implentation of MADE is inspired from the Official Theano implementation of [MADE](https://github.com/mgermain/MADE/tree/master). 
 ## Environmental Setup
 
