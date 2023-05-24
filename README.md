@@ -31,12 +31,12 @@ Please see `config.py` to set your custom path for both `datasets` and `output f
 args.task_path = '/path/to/taskset/'  # for task sets of each client
 args.output_path = '/path/to/outputs/' # for logs, weights, etc.
 ```
-Run below script to generate datasets
+Run below script to generate datasets. 
+The --task parameter has three choices: `mnist`, `bianry`, and `non_miid (Mnist+ Emnist)` to generate the desired type of task sets for the clients.
 
 ```bash
 python3 ../main.py --work-type gen_data --task mnist --seed 777 
-```
-The --task parameter has three choices: `mnist`, `bianry`, and `non_miid (Mnist+ Emnist)` to generate the desired type of task sets for the clients.  
+```  
 
 ## Run Experiments
 To reproduce experiments, please execute `train_mnist.sh` file in the `scripts` folder, or you may run the following comamnd line directly:
