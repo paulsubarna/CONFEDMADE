@@ -10,10 +10,7 @@ from .client import Client
 from modules.federated import ServerModule
 
 class Server(ServerModule):
-    """ FedWeIT Server
-    Performing fedweit server algorithms
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
+    """ CONFEDMADE Server
     """
     def __init__(self, args):
         super(Server, self).__init__(args, Client)

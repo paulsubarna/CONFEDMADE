@@ -16,11 +16,8 @@ from modules.nets import NetModule
 from modules.train import TrainModule
 
 class ServerModule:
-    """ Superclass for Server Module
-    This module contains common server functions,
-    such as laoding data, training global model, handling clients, etc.
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
+    """ Serves as a Superclass for Server Module
+    Handles the main run function, initializing global weights, assigning gpu memory, saving and loading weights.
     """
     def __init__(self, args, ClientObj):
         self.args = args
@@ -99,11 +96,10 @@ class ServerModule:
 
 
 class ClientModule:
-    """ Superclass for Client Module
-    This module contains common client functions,
-    such as loading data, training local model, switching states, etc.
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
+    """ Serves as a Superclass for Client Module
+    Handles functionalities such as initializing a new client, switching between clients,
+    setting the weights before being communicated to the Server.
+
     """
     def __init__(self, gid, args, initial_weights):
         self.args = args

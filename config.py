@@ -30,8 +30,8 @@ def set_config(args):
         args.wd = 1e-4
 
     if 'fedweit' in args.model:
-        #args.wd = 1e-4
-        args.lambda_l1 = 1e-3
+        args.wd = 0
+        args.lambda_l1 = 1e-4
         args.lambda_l2 = 100.
         args.lambda_mask = 0
 
@@ -86,39 +86,39 @@ def set_data_config(args):
     elif args.task == 'binary':
         args.only_federated = False
         args.same_masks = True #Should clients use the same masks?
-        args.same_input_order = True #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
+        args.same_input_order = True#for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
         args.datasets = [5]
-        args.t_name=  ['adult', 'connect4', 'ocr_letters', 'tretail', 'rcv1']#[ 'tretail','pumsb_star', 'dna', 'kosarek' ] #['baudio', 'jester', 'bnetflix', 'accidents', 'mushrooms', 'connect4'] ##['cwebkb','c20ng','cr52','moviereview','bbc']#['tmovie', 'nips', 'book'] ##
+        args.t_name=  ['adult', 'connect4', 'tretail', 'rcv1']#[ 'tretail','pumsb_star', 'dna', 'kosarek' ] #['baudio', 'jester', 'bnetflix', 'accidents', 'mushrooms', 'connect4'] ##['cwebkb','c20ng','cr52','moviereview','bbc']#['tmovie', 'nips', 'book'] ##
         args.input_size =  args.ip_shape[args.t_name[len(args.t_name)-1]]
-        args.hidden_layers = [100] #[args.input_size//2] #hidden layer shapes
+        args.hidden_layers = [110] #[args.input_size//2] #hidden layer shapes
         args.task_name = "offline"
         args.natural_input_order = True
-        args.num_clients = 3
-        args.num_tasks   = 5
-        args.num_classes = 1
+        args.num_clients = 1
+        args.num_tasks   = 4
+        args.num_classes = 4 
         args.frac_clients = 1.0
-        args.num_masks = 1
+        args.num_masks = 2
         
-        args.order_agn = False
+        args.order_agn = True
         args.order_agn_step_size = 1
         args.conn_agn_step_size = 1
-        args.connectivity_weights = False
+        args.connectivity_weights = True
         args.apply_madeloss= True
         args.apply_mademask= True
         args.direct_input = True
-        args.experiment =  "incre_ub" #"label permutation across clients" #no_overlap_distinct_domain_task" #"No_Overlap_with_Mixed_label_task"#"else"    #"other"  
+        args.experiment =  "incre_lb" #"label permutation across clients" #no_overlap_distinct_domain_task" #"No_Overlap_with_Mixed_label_task"#"else"    #"other"  
 
 
     elif args.task == 'mnist':
         args.only_federated = False
         args.same_masks = True #Should clients use the same masks?
-        args.same_input_order = False #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is active
+        args.same_input_order = False #for FedWeITMADE: should clients use same input ordering? DOnt use when order agnostic training is a ctive
         args.datasets = [2]
         args.hidden_layers = [400] #hidden layer shapes
         args.mnist_path = '/content/drive/MyDrive/binarized_mnist.npz'
         args.natural_input_order = False
         args.num_clients = 10
-        args.num_tasks   = 3
+        args.num_tasks   = 5
         args.num_classes = 1
         args.frac_clients = 1.0
         args.num_masks = 1
@@ -127,7 +127,7 @@ def set_data_config(args):
         args.conn_agn_step_size = 1
         args.connectivity_weights = False
         args.direct_input = True
-        args.experiment = "other"
+        args.experiment = "incremenntal_lowerbound"
 
     elif args.task == 'non_miid':
         args.only_federated = False
@@ -146,7 +146,7 @@ def set_data_config(args):
         args.order_agn = False
         args.order_agn_step_size = 1
         args.conn_agn_step_size = 1
-        args.connectivity_weights = False
+        args.connectivity_weights = True
         args.apply_madeloss= True
         args.apply_mademask= True
         args.direct_input = True

@@ -8,10 +8,8 @@ from misc.utils import *
 from modules.federated import ClientModule
 
 class Client(ClientModule):
-    """ FedWeIT Client
-    Performing fedweit cleint algorithms
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
+    """ CONFEDMADE Client
+    Performing cleint training, saving them 
     """
     def __init__(self, gid, args, initial_weights, cid_per_gpu):
         self.cid_per_gpu = cid_per_gpu

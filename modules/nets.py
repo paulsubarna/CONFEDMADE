@@ -16,10 +16,8 @@ from misc.utils import *
 from modules.layers import *
 
 class NetModule:
-    """ This module manages model networks and parameters
-    Saves and loads all states whenever client is switched.
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
+    """ This Class module helps to initialize the model parameters, perform additive parameter decomposition
+    and ultimately defining the MADE model.
     """
     def __init__(self, args):
         self.args = args

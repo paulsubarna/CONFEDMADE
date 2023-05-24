@@ -8,11 +8,8 @@ import tensorflow.keras.metrics as tf_metrics
 from misc.utils import *
 
 class TrainModule:
-    """ Common module for model training
-    This module manages training procedures for both server and client
-    Saves and loads all states whenever client is switched.
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
+    """ Class module used for train CONFEDMADE clients
+    Also serves the purpose of initializing, loading and saving states for individual client in FL.
     """
     def __init__(self, args, logger, nets):
         self.args = args
@@ -86,6 +83,10 @@ class TrainModule:
                 self.optimizer.lr.assign(self.state['curr_lr'])
 
     def train_one_round(self, curr_round, round_cnt, curr_task, client_id = None):
+
+        """
+        Handles a single round of training
+        """
         tf.keras.backend.set_learning_phase(1)
         self.state['curr_round'] = curr_round
         self.state['round_cnt'] = round_cnt
@@ -115,7 +116,7 @@ class TrainModule:
                 #self.adaptive_lr_decay()
                 #if self.state['early_stop']:
                 #   continue
-            #if self.args.only_federated and curr_round == self.args.num_rounds:
+            
 
 
 

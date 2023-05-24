@@ -21,9 +21,6 @@ from third_party.mixture_loader.mixture import *
 class DataGenerator:
     """ Data Generator
     Generating non_iid_50 task
-
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
     """
     def __init__(self, args):
         self.args = args

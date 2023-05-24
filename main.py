@@ -1,19 +1,18 @@
 import os
-import tensorflow as tf  #from rtpt import RTPT
+#from rtpt import RTPT
 from prser import Parser
 from datetime import datetime
 #physical_devices = tf.config.list_physical_devices('GPU')
-#print(physical_devices)
 #tf.config.experimental.set_memory_growth(physical_devices[0], True)
 #tf.config.experimental.set_memory_growth(physical_devices[1], True)
-#tf.config.experimental.set_memory_growth(physical_devices[0], True)
+#tf.config.experimental.set_memory_growth(physical_devices[2], True)
 #tf.config.experimental.set_memory_growth(physical_devices[3], True)
 #tf.config.experimental.set_memory_growth(physical_devices[4], True)
 #tf.config.experimental.set_memory_growth(physical_devices[5], True)
 #tf.config.experimental.set_memory_growth(physical_devices[6], True)
 #tf.config.experimental.set_memory_growth(physical_devices[7], True)
 import os 
-os.environ['CUDA_VISIBLE_DEVICES']="9,11"
+#os.environ['CUDA_VISIBLE_DEVICES']="0,1,2"
 from config import *
 from misc.utils import *
 from data.generator import DataGenerator

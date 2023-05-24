@@ -10,8 +10,6 @@ class DataLoader:
 
     Loading data for the corresponding clients
 
-    Created by:
-        Wonyong Jeong (wyjeong@kaist.ac.kr)
     """
     def __init__(self, args):
         self.args = args
