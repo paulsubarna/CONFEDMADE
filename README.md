@@ -1,13 +1,9 @@
 
 # Masked Autoencoders are Efficient Continual Federated Learners
 
-This repository is an official Tensorflow 2 implementation of [Masked Autoencoders are Efficient Continual Federated Learners] (**NeurIps 2023**)
+This repository is an official Tensorflow 2 implementation of [Masked Autoencoders are Efficient Continual Federated Learners] (**NeurIps 2023**) 
 
 
-
-## Abstract
-
-Federated learning is deemed to be particularly useful in real-world scenarios where we collaboratively learn a global model while ensuring data-privacy between the clients. Continual learning can add an extra paradigm to FL as previous works heavily suffer from catastrophic forgetting under different data distributions. With little to no research directed towards combining both concepts, FL frameworks also focused heavily towards classification tasks. Foreseeing the ever-growing problem of data annotation, this work proposes an approach that aims to learn representations both from direct and indirect experiences through unsupervised Federated  Continual Learning. Inspired from a recent work, this work follows up on the idea of bridging the gap between FL and CL methods even further through selective representational knowledge transfer between clients. The novelty of this work lies in the introduction of an intelligent masking technique that can combat the communication overheads in FL while learning representations from indirect experiences. We have empirically evaluated our framework under several Non-IID scenarios using images and binary datasets. We have shown that our proposed approach is successful in achieving desirable results under a highly sparsified network.
 
 The main contributions of this work are as follows:
 
