@@ -11,6 +11,9 @@ The main contributions of this work are as follows:
 * We highlight that MADE is a model particularly amenable to CFL and investigate several non-trivial considerations, such as connectivity and masking strategy, beyond a trivial application of federated averaging and FedWeIT to the unsupervised setting.
 * We extensively evaluate our approach on several CFL scenarios on both image and numerical data. Overall, CONFEDMADE consistently reduces forgetting while sparsifying parameters and reducing communication costs with respect to a naive unsupervised CFL approach.
 
+## Credits 
+* We have implemented some segments of our continual federated framework using the [FedWeIT repository]. 
+* We 
 ## Environmental Setup
 
 Please install packages from `requirements.txt` after creating your own environment with `python 3.8.x`.
