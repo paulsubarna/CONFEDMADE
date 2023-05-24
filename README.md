@@ -56,6 +56,6 @@ Please refer to the config.py file to explore the other possible options (i.e hy
 
 
 ## Results
-All clients and server create their own log files in `\path\to\output\logs\`, which include the experimental setups, such as learning rate, batch-size, etc. The log files will be updated for every comunication rounds. 
+All clients and server save their evaluation metrics such as training and validation loss at the $path$ in the logger.py. Additionally, they create their own log files in `\path\to\output\logs\`, which include the experimental setups, such as learning rate, batch-size, etc. The log files will be updated for every comunication rounds. 
 
 
